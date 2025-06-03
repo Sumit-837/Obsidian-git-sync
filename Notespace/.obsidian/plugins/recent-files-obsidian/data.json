@@ -2,7 +2,19 @@
   "recentFiles": [
     {
       "basename": "HTML & CSS Notes",
-      "path": "Academic Notes/CS50W/HTML & CSS Notes.md"
+      "path": "Academic Notes/CS/HTML & CSS Notes.md"
+    },
+    {
+      "basename": "CS50W-Lec 0-HTML and CSS",
+      "path": "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md"
+    },
+    {
+      "basename": "CS50X-Lec 8-HTML-CSS-Javascript",
+      "path": "Source Materials/CS50/CS50X 2025/CS50X-Lec 8-HTML-CSS-Javascript.md"
+    },
+    {
+      "basename": "Obsidian Markdown Cheat Sheet",
+      "path": "Non Academic Notes/Obsidian Markdown Cheat Sheet.md"
     },
     {
       "basename": "Linux Terminal basics",
@@ -11,10 +23,6 @@
     {
       "basename": "Useful termux things",
       "path": "Non Academic Notes/Linux Terminal/Useful termux things.md"
-    },
-    {
-      "basename": "Obsidian Markdown Cheat Sheet",
-      "path": "Non Academic Notes/Obsidian Markdown Cheat Sheet.md"
     },
     {
       "basename": "Running VNC Server",
