@@ -231,16 +231,31 @@ This tells which selector will get priority in case of collision
 	}
 	```
 ### Flexbox
-Adjusts and arranges the elements of webpage according to screen size
+- Adjusts and arranges the elements of webpage according to screen size
+- Example: give an id to an html element containing multiple divs then , inside style tag...
+	```css
+	#idname {
+		display: flex; /*makes it a flexbox tag*/
+		flex-wrap: wrap; /*this wraps around those divs if there's not enough space*/
+	}
+	```
 ### Grids
-
-
+- For flexibly  arranging things in a table/ grid.
+- Example: give an id to a parent div containing child divs and then...
+	```css
+	#idname {
+		display: grid; /*enables grid*/
+		grid-column-gap: 20px; /*grid props...*/
+		grid-row-gap: 10px;
+		grid-template-columns: 200px 200px auto;
+	```
 
 ---
 ## CSS Frameworks: Bootstrap
 
 * Bootstrap is an open-source CSS framework/ library.
-* To use it, link the Bootstrap CSS file inside the `<head>` section using the `<link>` tag.
+* To use it, link the Bootstrap CSS link inside the `<head>` section using the `<link>` tag.
+* The link is `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">`
 * Values of attributes (like `class`) can be multiple, separated by spaces.
 
 ### Example: Styling a Table with Bootstrap
