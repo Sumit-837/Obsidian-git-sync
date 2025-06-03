@@ -1,0 +1,32 @@
+{
+  "recentFiles": [
+    {
+      "basename": "HTML & CSS Notes",
+      "path": "Academic Notes/CS50W/HTML & CSS Notes.md"
+    },
+    {
+      "basename": "Linux Terminal basics",
+      "path": "Non Academic Notes/Linux Terminal/Linux Terminal basics.md"
+    },
+    {
+      "basename": "Useful termux things",
+      "path": "Non Academic Notes/Linux Terminal/Useful termux things.md"
+    },
+    {
+      "basename": "Obsidian Markdown Cheat Sheet",
+      "path": "Non Academic Notes/Obsidian Markdown Cheat Sheet.md"
+    },
+    {
+      "basename": "Running VNC Server",
+      "path": "Non Academic Notes/Linux Terminal/Running VNC Server.md"
+    },
+    {
+      "basename": "Opening GUI Apps with X11",
+      "path": "Non Academic Notes/Linux Terminal/Opening GUI Apps with X11.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}
