@@ -1,7 +1,10 @@
 ---
 title: Obsidian Markdown Cheat Sheet
-tags: [markdown, obsidian, reference]
+tags:
+  - markdown
+  - obsidian
 created: 2025-05-31
+source: ChatGPT
 ---
 
 # ✨ Basic Formatting

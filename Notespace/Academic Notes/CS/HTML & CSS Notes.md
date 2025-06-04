@@ -9,8 +9,8 @@ tags:
   - sass
 created: 2025-06-01
 Proffessor: David J Malan, Brian Yu
-source1: "[[CS50W-Lec 0-HTML and CSS]]"
-source2: "[[CS50X-Lec 8-HTML-CSS-Javascript]]"
+source1: "[[CS50X 2025#Lec 8-HTML-CSS-Javascript]]"
+source2: "[[CS50W 2020#Lecture 0 - HTML & CSS]]"
 ---
 ## Setting up a server
 
@@ -84,8 +84,8 @@ Below, we show the document object model (DOM)
             * Example: `<a href="https://www.example.com">text-to-link</a>`
         * **`<form>`**: Creates an HTML form for user input.
             * Attributes:
-                * `action="URL"` (where to send form data)
-                * `method="get"` (default method)
+                * `action=`"URL" (where to send form data)
+                * `method="get"` (default method is get)
             * **`<input>`** (ncs): Creates an input field.
                 * Attributes:
                     * `name=`"q" (name of the input field)
@@ -115,6 +115,7 @@ Below, we show the document object model (DOM)
 * URLs can have one or more key-value pairs.
     * Example: `https://www.example.com/path?key=value`
     * Google search example: `https://www.google.com/search?q=text_to_search`
+		> Those additional pieces of information in the URL followed by `?` are known as a query string. The query string consists of a sequence of GET parameters, where each parameter has a name and a value. These are generally formatted as `field1=value1&field2=value2&field3=value3...`
 
 ### HTML Validation & Entities
 * Validate your HTML files for flaws at [validator.w3.org](https://validator.w3.org).

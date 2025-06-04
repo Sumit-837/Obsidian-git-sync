@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "CS50W 2020",
+      "path": "Source Materials/CS50/CS50W 2020.md"
+    },
+    {
+      "basename": "Bash Scripting by Learn Linux TV",
+      "path": "Source Materials/Bash Scripting by Learn Linux TV.md"
+    },
+    {
       "basename": "HTML & CSS Notes",
       "path": "Academic Notes/CS/HTML & CSS Notes.md"
     },
     {
-      "basename": "CS50W-Lec 0-HTML and CSS",
-      "path": "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md"
+      "basename": "CS50X 2025",
+      "path": "Source Materials/CS50/CS50X 2025.md"
     },
     {
-      "basename": "CS50X-Lec 8-HTML-CSS-Javascript",
-      "path": "Source Materials/CS50/CS50X 2025/CS50X-Lec 8-HTML-CSS-Javascript.md"
-    },
-    {
-      "basename": "Obsidian Markdown Cheat Sheet",
-      "path": "Non Academic Notes/Obsidian Markdown Cheat Sheet.md"
+      "basename": "Useful termux things",
+      "path": "Non Academic Notes/Linux Terminal/Useful termux things.md"
     },
     {
       "basename": "Linux Terminal basics",
       "path": "Non Academic Notes/Linux Terminal/Linux Terminal basics.md"
     },
     {
-      "basename": "Useful termux things",
-      "path": "Non Academic Notes/Linux Terminal/Useful termux things.md"
+      "basename": "Obsidian Markdown Cheatsheet",
+      "path": "Non Academic Notes/Obsidian Markdown Cheatsheet.md"
+    },
+    {
+      "basename": "Git Cheatsheet",
+      "path": "Non Academic Notes/Git Cheatsheet.md"
     },
     {
       "basename": "Running VNC Server",

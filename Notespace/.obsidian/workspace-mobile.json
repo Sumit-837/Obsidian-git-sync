@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "48df526489078f0a",
+        "id": "2d6b104a03468cf6",
         "type": "tabs",
         "children": [
           {
-            "id": "90233e1c8b1af6ff",
+            "id": "af92ddb768adfe5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic Notes/CS/HTML & CSS Notes.md",
-                "mode": "preview",
+                "file": "Source Materials/CS50/CS50W 2020.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML & CSS Notes"
+              "title": "CS50W 2020"
             }
           }
         ]
@@ -188,18 +188,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "90233e1c8b1af6ff",
+  "active": "af92ddb768adfe5b",
   "lastOpenFiles": [
+    "Source Materials/Bash Scripting by Learn Linux TV.md",
+    "Source Materials/CS50/CS50W 2020.md",
     "Academic Notes/CS/HTML & CSS Notes.md",
+    "2025-06-01.md",
+    "Source Materials/CS50/CS50X 2025.md",
+    "Non Academic Notes/Linux Terminal/Useful termux things.md",
+    "Untitled",
+    "Source Materials/CS50/CS50W 2020/CS50W-Lec 1-Git.md",
     "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md",
-    "Source Materials/CS50/CS50X 2025/CS50X-Lec 8-HTML-CSS-Javascript.md",
+    "Non Academic Notes/Linux Terminal/Linux Terminal basics.md",
+    "Bash Scripting by Learn Linux TV",
+    "Non Academic Notes/Linux Terminal/Bash Scripting",
+    "Non Academic Notes/Obsidian Markdown Cheatsheet.md",
+    "Non Academic Notes/Git Cheatsheet.md",
+    "Academic Notes/CS/Git & Github.md",
     "Source Materials/CS50/CS50X 2025",
     "Source Materials/CS50/CS50W 2020",
     "Source Materials/CS50",
-    "Non Academic Notes/Obsidian Markdown Cheat Sheet.md",
-    "Non Academic Notes/Linux Terminal/Linux Terminal basics.md",
     "Academic Notes/CS",
-    "Non Academic Notes/Linux Terminal/Useful termux things.md",
     "pass and sensitive info/Github auths.md",
     "pass and sensitive info",
     "Academic Notes/Html & CSS notes 2 CS50W.md",
@@ -214,14 +223,9 @@
     "Non Academic Notes/Untitled.md",
     "Non Academic Notes/Linux Terminal",
     "Non Academic Notes",
-    "Academic Notes",
     "Untitled 1.md",
     "Untitled 3.md",
     "Untitled 2.md",
-    "HTML.md",
-    "Templates",
-    "Source Materials",
-    "2025-05-29.md",
-    "2025-05-25.md"
+    "HTML.md"
   ]
 }
