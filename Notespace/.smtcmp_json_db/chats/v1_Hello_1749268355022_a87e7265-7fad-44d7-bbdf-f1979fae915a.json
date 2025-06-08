@@ -1,0 +1,150 @@
+{
+  "id": "a87e7265-7fad-44d7-bbdf-f1979fae915a",
+  "title": "Hello",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hello",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHello\n\n"
+        }
+      ],
+      "id": "e3381e87-6921-410c-a534-41acc4248f7f",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Academic Notes/CS/HTML & CSS Notes.md"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hi",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHi\n\n"
+        }
+      ],
+      "id": "f5c1abc3-590a-4848-9aa3-3e04d0a0188b",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Academic Notes/CS/HTML & CSS Notes.md"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "Hii",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\nHii\n\n"
+        }
+      ],
+      "id": "76cdbded-6732-4b68-97da-89dd6f1c2dd2",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "Untitled.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1749268205226,
+  "updatedAt": 1749268355022,
+  "schemaVersion": 1
+}

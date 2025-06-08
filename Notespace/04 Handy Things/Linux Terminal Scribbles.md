@@ -32,7 +32,7 @@ lsd is beautified version of ls that shows list of contents of the folder with p
 ```shell
 apt install lsd
 ```
-And then make an alias of it in the `.bashrc` [[Linux Terminal basics#^a8eabc|like here]]
+And then make an alias of it in the `.bashrc` [[Linux Terminal Scribbles#^a8eabc|like here]]
 ##### Starship
 This is best when it comes to styling the shell. Initialise it in the `.bashrc` or `.zshrc` with
 ```shell

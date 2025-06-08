@@ -1,16 +1,16 @@
 ---
+title: HTML and CSS Basics
 tags:
   - html
   - css
-  - webdev
   - cs
   - cs50w
-  - cs50x
-  - sass
+  - cs50
+  - lit
 created: 2025-06-01
+source 1: "[[Vid-CS50X-2025#Lec 8-HTML-CSS-Javascript]]"
+source 2: "[[Vid-CS50W-2020#Lecture 0 - HTML & CSS]]"
 Proffessor: David J Malan, Brian Yu
-source1: "[[CS50X 2025#Lec 8-HTML-CSS-Javascript]]"
-source2: "[[CS50W 2020#Lecture 0 - HTML & CSS]]"
 ---
 ## Setting up a server
 
@@ -28,7 +28,8 @@ This serves your current directory as a local server:
     ```bash
     http-server
     ```
-    This will provide a link to paste into your browser to view your codespace/current directory as a server.
+- This will provide a link to paste into your browser to view your codespace/current directory as a server .
+- While opening on same device: use `localhost:8080` for better updating.
 
 ---
 
@@ -105,7 +106,7 @@ Below, we show the document object model (DOM)
 	            * Attributes: `id=`"text-content"
 	            * **`<option>`**(ncs): contains option of the list
 		            * Attributes: `value=`"option 1"
-            * **`<button>`**: Creates a button (works similarly to `<input type="submit">`).
+            * **`<butto>`**: Creates a button (works similarly to `<input type="submit">`).
         * **`<div>`**: A generic container for flow content, often used for styling with CSS; creates rectangular regions. Can be used instead of `<p>` for grouping content. Divs can be nested.
         * **`<header>`**: Represents introductory content, typically a group of introductory or navigational aids.
         * **`<main>`**: Represents the dominant content of the `<body>` of a document.
@@ -184,7 +185,7 @@ Selectors define which HTML elements the styles should be applied to. _These are
 3.  **ID Selector** (targets a single element with a specific `id` attribute)
     * Set an ID to an HTML tag using attribute `id="idname"`.
     * write the ID in CSS using a hash `#idname` {properties}.
-    * IDs **must be unique** within an HTML document unlike [[HTML & CSS Notes#^3febee|class]]; do not use the same ID in multiple places.
+    * IDs **must be unique** within an HTML document unlike [[HTML & CSS - CS50 - vid#^3febee|class]]; do not use the same ID in multiple places.
     * Example (e.g., to colorize a specific link):
         ```css
         #idname {
@@ -217,7 +218,7 @@ This tells which selector will get priority in case of collision
 ## Responsive Design
 ### Viewport 
 - It's the entire area of webpage that displays content. It is different for different devices. So, we need to make webpage adapt the device width.
-- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+- place this inside head `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
 ### Media Queries
 - How our page look based on how it's rendered.
 - Example. setting different style of the page for different screen sizes.
@@ -288,7 +289,7 @@ This tells which selector will get priority in case of collision
 - it helps us to remove repetition in css by introducing variables.
 - sass file extention is `.scss`
 ### Installation
-- In linux terminal (if node.js is already [[HTML & CSS Notes#^01e493| installed]]):
+- In linux terminal (if node.js is already [[HTML & CSS - CS50 - vid#^01e493| installed]]):
 	```bash
 	npm install -g sass
 	```
@@ -344,7 +345,7 @@ This tells which selector will get priority in case of collision
 ---
 [^1]: Submitting the form adds `?name=user_input` (or `?email=user_input` etc.) after the URL.
 
-[^2]:  single correct by default if multiple created
+[^2]:  single correct if they share same `name=""`.
 
 [^3]: Font sizes can be `pt` (points) e.g., `18pt`, `24pt`, etc., instead of `large`, `medium`, `small`.
 

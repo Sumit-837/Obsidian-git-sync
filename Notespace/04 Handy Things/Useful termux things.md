@@ -13,7 +13,7 @@ Or in short
 Typing only cd will take you to this home directory.
 
 ### Setting Up Default Working Directory
-If i tell [[Linux Terminal basics#.bashrc |.bashrc]] where to go, then it'll take me to the desired working directory at the very launch of termux.  So, open `.bashrc` on any editor (eg. nvim) and change directory to desired.  
+If i tell [[Linux Terminal Scribbles#.bashrc|.bashrc]] where to go, then it'll take me to the desired working directory at the very launch of termux.  So, open `.bashrc` on any editor (eg. nvim) and change directory to desired.  
 ```bash
 cd
 nvim .bashrc

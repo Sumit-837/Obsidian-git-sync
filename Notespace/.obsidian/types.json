@@ -5,6 +5,7 @@
     "tags": "tags",
     "title": "text",
     "source1": "text",
-    "sources": "text"
+    "sources": "text",
+    "subject": "text"
   }
 }

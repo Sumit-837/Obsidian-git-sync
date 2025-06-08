@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2d6b104a03468cf6",
+        "id": "307d676c63986211",
         "type": "tabs",
         "children": [
           {
-            "id": "af92ddb768adfe5b",
+            "id": "d8d577a5c3c5df5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Source Materials/CS50/CS50W 2020.md",
+                "file": "01 Literature Notes/HTML & CSS - CS50 - vid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS50W 2020"
+              "title": "HTML & CSS - CS50 - vid"
             }
           }
         ]
@@ -169,9 +169,19 @@
           "icon": "wand-sparkles",
           "title": "Smart composer chat"
         }
+      },
+      {
+        "id": "cb44cc12bc0d956a",
+        "type": "leaf",
+        "state": {
+          "type": "advanced-tables-toolbar",
+          "state": {},
+          "icon": "spreadsheet",
+          "title": "Advanced Tables"
+        }
       }
     ],
-    "currentTab": 4
+    "currentTab": 5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,44 +198,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "af92ddb768adfe5b",
+  "active": "d8d577a5c3c5df5e",
   "lastOpenFiles": [
-    "Source Materials/Bash Scripting by Learn Linux TV.md",
-    "Source Materials/CS50/CS50W 2020.md",
-    "Academic Notes/CS/HTML & CSS Notes.md",
+    "Untitled.canvas",
+    "01 Literature Notes/HTML & CSS - CS50 - vid.md",
+    "03 Resources/Vid-CS50X-2025.md",
+    "03 Resources/Vid-CS50W-2020.md",
+    "03 Resources/Vid-Bash Scripting-Learn Linux TV.md",
+    "01 Literature Notes/Vid-CS50X-2025.md",
+    "Vid-CS50X-2025",
+    "04 Handy Things/Obsidian Markdown Cheatsheet.md",
+    "01 Literature Notes/Direct Reference Notes",
+    "Untitled.md",
+    "04 Handy Things/Linux Terminal Scribbles.md",
+    "04 Handy Things",
+    "02 Permanent Notes",
     "2025-06-01.md",
-    "Source Materials/CS50/CS50X 2025.md",
-    "Non Academic Notes/Linux Terminal/Useful termux things.md",
-    "Untitled",
+    "04 Handy Things/Useful termux things.md",
     "Source Materials/CS50/CS50W 2020/CS50W-Lec 1-Git.md",
     "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md",
-    "Non Academic Notes/Linux Terminal/Linux Terminal basics.md",
     "Bash Scripting by Learn Linux TV",
     "Non Academic Notes/Linux Terminal/Bash Scripting",
-    "Non Academic Notes/Obsidian Markdown Cheatsheet.md",
-    "Non Academic Notes/Git Cheatsheet.md",
+    "04 Handy Things/Git Cheatsheet.md",
     "Academic Notes/CS/Git & Github.md",
     "Source Materials/CS50/CS50X 2025",
     "Source Materials/CS50/CS50W 2020",
-    "Source Materials/CS50",
-    "Academic Notes/CS",
+    "03 Resources/CS50",
+    "Literature Notes/CS",
     "pass and sensitive info/Github auths.md",
-    "pass and sensitive info",
     "Academic Notes/Html & CSS notes 2 CS50W.md",
     "Academic Notes/HTML_CSS_Lecture_8_Notes.md",
     "Academic Notes/html_css_bootstrap_tree.md",
-    "Non Academic Notes/Linux Terminal/Running VNC Server.md",
-    "Non Academic Notes/Linux Terminal/Opening GUI Apps with X11.md",
+    "04 Handy Things/Running VNC Server.md",
+    "04 Handy Things/Opening GUI Apps with X11.md",
     "Running VNC server.md",
     "Non Academic Notes/Linux Terminal/Running_VNC_Server.md",
     "Non Academic Notes/Running_VNC_Server.md",
-    "Untitled.canvas",
     "Non Academic Notes/Untitled.md",
-    "Non Academic Notes/Linux Terminal",
-    "Non Academic Notes",
-    "Untitled 1.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "HTML.md"
+    "Untitled 1.md"
   ]
 }

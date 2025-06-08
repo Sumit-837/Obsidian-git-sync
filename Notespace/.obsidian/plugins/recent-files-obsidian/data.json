@@ -1,44 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "CS50W 2020",
-      "path": "Source Materials/CS50/CS50W 2020.md"
+      "basename": "HTML & CSS - CS50 - vid",
+      "path": "01 Literature Notes/HTML & CSS - CS50 - vid.md"
     },
     {
-      "basename": "Bash Scripting by Learn Linux TV",
-      "path": "Source Materials/Bash Scripting by Learn Linux TV.md"
+      "basename": "Vid-CS50X-2025",
+      "path": "03 Resources/Vid-CS50X-2025.md"
     },
     {
-      "basename": "HTML & CSS Notes",
-      "path": "Academic Notes/CS/HTML & CSS Notes.md"
+      "basename": "Vid-CS50W-2020",
+      "path": "03 Resources/Vid-CS50W-2020.md"
     },
     {
-      "basename": "CS50X 2025",
-      "path": "Source Materials/CS50/CS50X 2025.md"
-    },
-    {
-      "basename": "Useful termux things",
-      "path": "Non Academic Notes/Linux Terminal/Useful termux things.md"
-    },
-    {
-      "basename": "Linux Terminal basics",
-      "path": "Non Academic Notes/Linux Terminal/Linux Terminal basics.md"
+      "basename": "Vid-Bash Scripting-Learn Linux TV",
+      "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
     },
     {
       "basename": "Obsidian Markdown Cheatsheet",
-      "path": "Non Academic Notes/Obsidian Markdown Cheatsheet.md"
+      "path": "04 Handy Things/Obsidian Markdown Cheatsheet.md"
+    },
+    {
+      "basename": "Linux Terminal Scribbles",
+      "path": "04 Handy Things/Linux Terminal Scribbles.md"
+    },
+    {
+      "basename": "Useful termux things",
+      "path": "04 Handy Things/Useful termux things.md"
     },
     {
       "basename": "Git Cheatsheet",
-      "path": "Non Academic Notes/Git Cheatsheet.md"
+      "path": "04 Handy Things/Git Cheatsheet.md"
     },
     {
       "basename": "Running VNC Server",
-      "path": "Non Academic Notes/Linux Terminal/Running VNC Server.md"
+      "path": "04 Handy Things/Running VNC Server.md"
     },
     {
       "basename": "Opening GUI Apps with X11",
-      "path": "Non Academic Notes/Linux Terminal/Opening GUI Apps with X11.md"
+      "path": "04 Handy Things/Opening GUI Apps with X11.md"
     }
   ],
   "omittedPaths": [],

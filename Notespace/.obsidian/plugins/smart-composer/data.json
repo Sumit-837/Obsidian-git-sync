@@ -15,7 +15,9 @@
     },
     {
       "type": "deepseek",
-      "id": "deepseek"
+      "id": "deepseek",
+      "baseUrl": "https://api.deepseek.com",
+      "apiKey": "sk-95828d9ea5894d9abbedbd5efb7a2678"
     },
     {
       "type": "perplexity",
@@ -262,7 +264,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "claude-3.7-sonnet",
+  "chatModelId": "deepseek-reasoner",
   "applyModelId": "gpt-4o-mini",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
