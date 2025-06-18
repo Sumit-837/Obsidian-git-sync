@@ -13,7 +13,7 @@ Your go-to list for all essential and advanced Git commands — with clear expla
 
 ## ⚙️ Basic Configuration
 
-```bash
+```shell
 git config --global user.name "Your Name"       # Set your name globally
 git config --global user.email "you@email.com"  # Set your email globally
 git config --list                               # Show all Git settings
@@ -23,7 +23,7 @@ git config --list                               # Show all Git settings
 
 ## 🌱 Repository Setup
 
-```bash
+```shell
 git init                     # Initialize a new Git repo in current folder
 git clone <url>              # Download (clone) a repo from remote to local
 ```
@@ -32,7 +32,7 @@ git clone <url>              # Download (clone) a repo from remote to local
 
 ## 📋 Staging & Committing
 
-```bash
+```shell
 git status                   # Check which files are staged/unstaged/untracked
 git add <file>               # Stage a specific file
 git add .                    # Stage new/modified files (not deletions)
@@ -46,7 +46,7 @@ git commit -am "msg"         # Add + commit only modified tracked files
 
 ## 🔀 Branching & Merging
 
-```bash
+```Shell
 git branch                   # List all local branches
 git branch <name>            # Create a new branch
 git checkout <name>          # Switch to the specified branch
@@ -59,7 +59,7 @@ git branch -d <name>         # Delete a local branch
 
 ## 🌐 Working with Remotes
 
-```bash
+```Shell
 git remote -v                       # Show remote repo URLs
 git remote add origin <url>         # Link local repo to a remote
 git push -u origin <branch>         # Push branch and set upstream
@@ -72,7 +72,7 @@ git fetch                           # Fetch changes but don't merge yet
 
 ## 🕰️ Viewing History
 
-```bash
+```Shell
 git log                             # View commit history
 git log --oneline --graph           # Compact log with branching visual
 git show <commit>                   # See details of a specific commit
@@ -82,7 +82,7 @@ git show <commit>                   # See details of a specific commit
 
 ## 🧽 Undoing & Cleaning
 
-```bash
+```Shell
 git restore <file>                  # Undo changes to a file in working dir
 git checkout -- <file>              # (Old) undo changes in working dir
 
@@ -97,7 +97,7 @@ git clean -fd                       # Remove untracked files and folders
 
 ## 💾 Stashing Changes
 
-```bash
+```Shell
 git stash                           # Save unfinished changes temporarily
 git stash pop                       # Reapply stashed changes and delete stash
 git stash list                      # View all stashed changes
@@ -108,7 +108,7 @@ git stash drop                      # Delete the last stash
 
 ## 🔍 Comparing & Searching
 
-```bash
+```Shell
 git diff                            # Show unstaged changes
 git diff --staged                   # Show staged vs last commit
 git grep "pattern"                  # Search for a string in the repo
@@ -118,7 +118,7 @@ git grep "pattern"                  # Search for a string in the repo
 
 ## 🏷️ Tags (Releases)
 
-```bash
+```Shell
 git tag                             # List all tags
 git tag <name>                      # Create a lightweight tag
 git tag -a <name> -m "message"      # Create an annotated tag
@@ -130,7 +130,7 @@ git push origin --tags              # Push all tags to remote
 
 ## ✨ Aliases (Shortcuts)
 
-```bash
+```Shell
 git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.ci commit
@@ -143,7 +143,7 @@ You can now run `git st` instead of `git status`, and so on.
 
 ## 🚫 Fix Dubious Ownership (Android/Termux issue)
 
-```bash
+```Shell
 git config --global --add safe.directory /your/full/path
 ```
 

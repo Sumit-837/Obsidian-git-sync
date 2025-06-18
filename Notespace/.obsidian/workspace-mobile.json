@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "307d676c63986211",
+        "id": "78c39ceededff68f",
         "type": "tabs",
         "children": [
           {
-            "id": "d8d577a5c3c5df5e",
+            "id": "2f407752658d5d33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Literature Notes/HTML & CSS - CS50 - vid.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HTML & CSS - CS50 - vid"
+              "title": "New tab"
             }
           }
         ]
@@ -49,7 +45,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#termux",
+            "query": "proffessor",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -91,8 +87,8 @@
         "state": {
           "type": "recent-files",
           "state": {},
-          "icon": "lucide-file",
-          "title": "Plugin no longer active"
+          "icon": "clock",
+          "title": "Recent Files"
         }
       }
     ],
@@ -198,18 +194,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d8d577a5c3c5df5e",
+  "active": "d6ba845bd7aea6dc",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "01 Literature Notes/HTML & CSS - CS50 - vid.md",
-    "03 Resources/Vid-CS50X-2025.md",
+    "Untitled.md",
+    "03 Resources/Notes-CS50W-Lec3-Django.md",
+    "Notes-CS50W-Lec2-Python.md",
+    "04 Handy Things/Create markdown note from any website.md",
+    "04 Handy Things/Obsidian Markdown Cheatsheet.md",
     "03 Resources/Vid-CS50W-2020.md",
+    "04 Handy Things/Git Cheatsheet.md",
+    "04 Handy Things/Trading Roadmap.md",
+    "00 Rough Notes/Django-CS50W-vid.md",
+    "Gpt Django.md",
+    "Qwen Django.md",
+    "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
+    "Pasted image 20250617222220.png",
+    "Pasted image 20250617222205.png",
+    "Pasted image 20250617222049.png",
+    "Grok.md",
+    "00 Rough Notes/Python-CS50W-vid.md",
+    "01 Literature Notes/HTML & CSS-CS50-vid.md",
+    "03 Resources/().md",
+    "Untitled.canvas",
+    "03 Resources/Vid-CS50X-2025.md",
     "03 Resources/Vid-Bash Scripting-Learn Linux TV.md",
     "01 Literature Notes/Vid-CS50X-2025.md",
     "Vid-CS50X-2025",
-    "04 Handy Things/Obsidian Markdown Cheatsheet.md",
     "01 Literature Notes/Direct Reference Notes",
-    "Untitled.md",
     "04 Handy Things/Linux Terminal Scribbles.md",
     "04 Handy Things",
     "02 Permanent Notes",
@@ -219,22 +230,11 @@
     "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md",
     "Bash Scripting by Learn Linux TV",
     "Non Academic Notes/Linux Terminal/Bash Scripting",
-    "04 Handy Things/Git Cheatsheet.md",
     "Academic Notes/CS/Git & Github.md",
     "Source Materials/CS50/CS50X 2025",
     "Source Materials/CS50/CS50W 2020",
     "03 Resources/CS50",
     "Literature Notes/CS",
-    "pass and sensitive info/Github auths.md",
-    "Academic Notes/Html & CSS notes 2 CS50W.md",
-    "Academic Notes/HTML_CSS_Lecture_8_Notes.md",
-    "Academic Notes/html_css_bootstrap_tree.md",
-    "04 Handy Things/Running VNC Server.md",
-    "04 Handy Things/Opening GUI Apps with X11.md",
-    "Running VNC server.md",
-    "Non Academic Notes/Linux Terminal/Running_VNC_Server.md",
-    "Non Academic Notes/Running_VNC_Server.md",
-    "Non Academic Notes/Untitled.md",
-    "Untitled 1.md"
+    "pass and sensitive info/Github auths.md"
   ]
 }

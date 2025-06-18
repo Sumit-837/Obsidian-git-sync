@@ -21,7 +21,7 @@ source: ChatGPT
 
 # 📋 Headings
 
-```
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -84,7 +84,8 @@ def hello():
 ```markdown
 ![Alt Text](image.png)
 ```
-
+>[!note] you can resize the image using pipe
+> `![Alt Text|300](image.png)`
 # 🔁 Internal Links & Embeds
 
 ## Internal link (note):
@@ -140,7 +141,7 @@ Here's a fact[^1].
 Inline: ``$E = mc^2$`` →  $E = mc^2$ 
 
 Block:
-```
+```markdown
 $$
 \int_a^b f(x) dx
 $$

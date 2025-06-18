@@ -10,29 +10,30 @@ tags:
 created: 2025-06-01
 source 1: "[[Vid-CS50X-2025#Lec 8-HTML-CSS-Javascript]]"
 source 2: "[[Vid-CS50W-2020#Lecture 0 - HTML & CSS]]"
-Proffessor: David J Malan, Brian Yu
+Professor: David J Malan, Brian Yu
 ---
 ## Setting up a server
 
 This serves your current directory as a local server:
 1.  Install NodeJS (if not already installed):
-    ```bash
+    ```shell
     pkg install nodejs
     ```
 ^01e493
 2.  Install `http-server` globally:
-    ```bash
+    ```shell
     npm install -g http-server
     ```
 3.  Run `http-server` in your project directory:
-    ```bash
+    ```shell
     http-server
     ```
 - This will provide a link to paste into your browser to view your codespace/current directory as a server .
-- While opening on same device: use `localhost:8080` for better updating.
+- While opening on same device: `localhost:8080` can be used .
+
+>[!note] Better alternative to  http-server : live-server
 
 ---
-
 ## HTML (HyperText Markup Language)
 
 **Key Notes:**
@@ -185,7 +186,7 @@ Selectors define which HTML elements the styles should be applied to. _These are
 3.  **ID Selector** (targets a single element with a specific `id` attribute)
     * Set an ID to an HTML tag using attribute `id="idname"`.
     * write the ID in CSS using a hash `#idname` {properties}.
-    * IDs **must be unique** within an HTML document unlike [[HTML & CSS - CS50 - vid#^3febee|class]]; do not use the same ID in multiple places.
+    * IDs **must be unique** within an HTML document unlike [[HTML & CSS-CS50-vid#^3febee|class]]; do not use the same ID in multiple places.
     * Example (e.g., to colorize a specific link):
         ```css
         #idname {
@@ -205,7 +206,7 @@ Selectors define which HTML elements the styles should be applied to. _These are
 - . **Pseudo Class** (Shows its css properties when said action is being done)
 	- It's used like `tag:action` {properties}
 	- Example: this changes the button color when hovering over it
-	``` CSS
+	```CSS
 	button:hover {
 		background-color: orange;
 	}
@@ -289,8 +290,8 @@ This tells which selector will get priority in case of collision
 - it helps us to remove repetition in css by introducing variables.
 - sass file extention is `.scss`
 ### Installation
-- In linux terminal (if node.js is already [[HTML & CSS - CS50 - vid#^01e493| installed]]):
-	```bash
+- In linux terminal (if node.js is already [[HTML & CSS-CS50-vid#^01e493| installed]]):
+	```shell
 	npm install -g sass
 	```
 ### Application

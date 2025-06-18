@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "HTML & CSS - CS50 - vid",
-      "path": "01 Literature Notes/HTML & CSS - CS50 - vid.md"
+      "basename": "Notes-CS50W-Lec3-Django",
+      "path": "03 Resources/Notes-CS50W-Lec3-Django.md"
     },
     {
-      "basename": "Vid-CS50X-2025",
-      "path": "03 Resources/Vid-CS50X-2025.md"
+      "basename": "Notes-CS50W-Lec2-Python",
+      "path": "Notes-CS50W-Lec2-Python.md"
+    },
+    {
+      "basename": "Create markdown note from any website",
+      "path": "04 Handy Things/Create markdown note from any website.md"
+    },
+    {
+      "basename": "Obsidian Markdown Cheatsheet",
+      "path": "04 Handy Things/Obsidian Markdown Cheatsheet.md"
     },
     {
       "basename": "Vid-CS50W-2020",
       "path": "03 Resources/Vid-CS50W-2020.md"
     },
     {
-      "basename": "Vid-Bash Scripting-Learn Linux TV",
-      "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
+      "basename": "Git Cheatsheet",
+      "path": "04 Handy Things/Git Cheatsheet.md"
     },
     {
-      "basename": "Obsidian Markdown Cheatsheet",
-      "path": "04 Handy Things/Obsidian Markdown Cheatsheet.md"
+      "basename": "Trading Roadmap",
+      "path": "04 Handy Things/Trading Roadmap.md"
+    },
+    {
+      "basename": "Django-CS50W-vid",
+      "path": "00 Rough Notes/Django-CS50W-vid.md"
+    },
+    {
+      "basename": "OOP-Python-Indently.yt-vid",
+      "path": "00 Rough Notes/OOP-Python-Indently.yt-vid.md"
+    },
+    {
+      "basename": "Python-CS50W-vid",
+      "path": "00 Rough Notes/Python-CS50W-vid.md"
+    },
+    {
+      "basename": "HTML & CSS-CS50-vid",
+      "path": "01 Literature Notes/HTML & CSS-CS50-vid.md"
+    },
+    {
+      "basename": "Vid-CS50X-2025",
+      "path": "03 Resources/Vid-CS50X-2025.md"
+    },
+    {
+      "basename": "Vid-Bash Scripting-Learn Linux TV",
+      "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
     },
     {
       "basename": "Linux Terminal Scribbles",
@@ -27,10 +59,6 @@
     {
       "basename": "Useful termux things",
       "path": "04 Handy Things/Useful termux things.md"
-    },
-    {
-      "basename": "Git Cheatsheet",
-      "path": "04 Handy Things/Git Cheatsheet.md"
     },
     {
       "basename": "Running VNC Server",
