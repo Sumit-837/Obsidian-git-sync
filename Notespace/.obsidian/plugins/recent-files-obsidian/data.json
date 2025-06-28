@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Notes-CS50W-Lec3-Django",
-      "path": "03 Resources/Notes-CS50W-Lec3-Django.md"
+      "basename": "Linux Terminal Scribbles",
+      "path": "04 Handy Things/Linux Terminal Scribbles.md"
     },
     {
-      "basename": "Notes-CS50W-Lec2-Python",
-      "path": "Notes-CS50W-Lec2-Python.md"
+      "basename": "Useful termux things",
+      "path": "04 Handy Things/Useful termux things.md"
+    },
+    {
+      "basename": "Opening GUI Apps with X11",
+      "path": "04 Handy Things/Opening GUI Apps with X11.md"
+    },
+    {
+      "basename": "Obsidian Markdown Cheatsheet",
+      "path": "04 Handy Things/Obsidian Markdown Cheatsheet.md"
     },
     {
       "basename": "Create markdown note from any website",
       "path": "04 Handy Things/Create markdown note from any website.md"
     },
     {
-      "basename": "Obsidian Markdown Cheatsheet",
-      "path": "04 Handy Things/Obsidian Markdown Cheatsheet.md"
+      "basename": "Running VNC Server",
+      "path": "04 Handy Things/Running VNC Server.md"
+    },
+    {
+      "basename": "Django-CS50W-vid",
+      "path": "00 Rough Notes/Django-CS50W-vid.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
+      "basename": "HTML & CSS-CS50-vid",
+      "path": "01 Literature Notes/HTML & CSS-CS50-vid.md"
+    },
+    {
+      "basename": "Notes-CS50W-Lec3-Django",
+      "path": "03 Resources/Notes-CS50W-Lec3-Django.md"
+    },
+    {
+      "basename": "Python-CS50W-vid",
+      "path": "00 Rough Notes/Python-CS50W-vid.md"
+    },
+    {
+      "basename": "Notes-CS50W-Lec2-Python",
+      "path": "03 Resources/Notes-CS50W-Lec2-Python.md"
     },
     {
       "basename": "Vid-CS50W-2020",
@@ -29,20 +61,8 @@
       "path": "04 Handy Things/Trading Roadmap.md"
     },
     {
-      "basename": "Django-CS50W-vid",
-      "path": "00 Rough Notes/Django-CS50W-vid.md"
-    },
-    {
       "basename": "OOP-Python-Indently.yt-vid",
       "path": "00 Rough Notes/OOP-Python-Indently.yt-vid.md"
-    },
-    {
-      "basename": "Python-CS50W-vid",
-      "path": "00 Rough Notes/Python-CS50W-vid.md"
-    },
-    {
-      "basename": "HTML & CSS-CS50-vid",
-      "path": "01 Literature Notes/HTML & CSS-CS50-vid.md"
     },
     {
       "basename": "Vid-CS50X-2025",
@@ -51,22 +71,6 @@
     {
       "basename": "Vid-Bash Scripting-Learn Linux TV",
       "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
-    },
-    {
-      "basename": "Linux Terminal Scribbles",
-      "path": "04 Handy Things/Linux Terminal Scribbles.md"
-    },
-    {
-      "basename": "Useful termux things",
-      "path": "04 Handy Things/Useful termux things.md"
-    },
-    {
-      "basename": "Running VNC Server",
-      "path": "04 Handy Things/Running VNC Server.md"
-    },
-    {
-      "basename": "Opening GUI Apps with X11",
-      "path": "04 Handy Things/Opening GUI Apps with X11.md"
     }
   ],
   "omittedPaths": [],

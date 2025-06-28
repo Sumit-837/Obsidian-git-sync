@@ -99,7 +99,8 @@ def hello():
 	print("hello, world")
 ```
 
->[!note]  Thus if you want certain functions to run if user is logged in. you can write a decorator that checks if user is logged in and then let the function run.
+>[!note] Note
+>Thus if you want certain functions to run if user is logged in. you can write a decorator that checks if user is logged in and then let the function run.
 ## Lambda expression
 We can use this in place of a very short function. It fits in a single line.
 It looks like: `function = lambda input: output`

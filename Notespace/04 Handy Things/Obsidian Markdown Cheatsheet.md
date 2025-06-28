@@ -175,3 +175,20 @@ tags: [markdown, obsidian]
 created: 2025-05-31
 ---
 ```
+# Mermaid Diagrams
+Input:
+```
+	```mermaid
+	graph TD
+	    A[Start] --> B{Is IP reachable?}
+	    B -->|Yes| C[Access server]
+	    B -->|No| D[Check firewall]
+	```
+```
+Output:
+```mermaid
+graph TD
+    A[Start] --> B{Is IP reachable?}
+    B -->|Yes| C[Access server]
+    B -->|No| D[Check firewall]
+```

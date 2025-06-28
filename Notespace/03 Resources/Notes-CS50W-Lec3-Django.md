@@ -74,7 +74,10 @@ def index(request):
 - Inside our new `urls.py`, we’ll create a list of url patterns that a user might visit while using our website. In order to do this:
     - We have to make some imports: `from django.urls import path` will give us the ability to reroute URLs, and `from . import views` will import any functions we’ve created in `views.py`.
     - Create a list called `urlpatterns`
-    - For each desired URL, add an item to the `urlpatterns` list that contains a call to the `path` function with two or three arguments: A string representing the URL path, a function from `views.py` that we wish to call when that URL is visited, and (optionally) a name for that path, in the format `name="something"`. For example, here’s what our simple app looks like now:
+    - For each desired URL, add an item to the `urlpatterns` list that contains a call to the `path` function with two or three arguments: ^149722
+	    1. A string representing the URL path
+	    2. A function from `views.py` that we wish to call when that URL is visited
+	    3. And (optionally) a name for that path, in the format `name="something"`. For example, here’s what our simple app looks like now: ^086ef2
 
 ```python
 from django.urls import path
@@ -99,7 +102,7 @@ urlpatterns = [
 ]
 ```
 
-- By doing this, we’ve specified that when a user visits our site, and then in the search bar adds `/hello` to the URL, they’ll be redirected to the paths inside of our new application.
+- By doing this, we’ve specified that when a user visits our site, and then in the search bar adds `/hello` or `/appname`to the URL, they’ll be redirected to the paths inside of our new application. ^2c9225
 
 Now, when I start my application using `python manage.py runserver` and visit the url provided, I’m met with this screen:
 
@@ -158,18 +161,22 @@ Now, our site remains unchanged when we visit `localhost:8000/hello`, but we get
 
 Many sites are parameterized by items included in the URL. For example, going to www.twitter.com/cs50 will show you all of CS50’s tweets, and going to www.github.com/cs50 will bring you to CS50’s GitHub page. You can even find your own public GitHub repositories by navigating to `www.github.com/YOUR_USERNAME`!
 
-In thinking about how this is implemented, it seems impossible that sites like GitHub and Twitter would have an individual URL path for each of its users, so let’s look into how we could make a path that’s a bit more flexible. We’ll start by adding a more general function, called `greet`, to `views.py`:
+In thinking about how this is implemented, it seems impossible that sites like GitHub and Twitter would have an individual URL path for each of its users, so let’s look into how we could make a path that’s a bit more flexible. We’ll start by adding a more general function, called `greet`, to `views.py`: ^944337
 
 ```python
 def greet(request, name):
     return HttpResponse(f"Hello, {name}!")
 ```
 
-This function takes in not only a request, but also an additional argument of a user’s name, and then returns a custom HTTP Response based on that name. Next, we have to create a more flexible path in `urls.py`, which could look something like this:
+^4e322f
+
+This function takes in not only a request, but also an additional argument of a user’s name, and then returns a custom HTTP Response based on that name. Next, we have to create a more flexible path in `urls.py`, which could look something like this: ^b365ed
 
 ```python
 path("<str:name>", views.greet, name="greet")
 ```
+
+^6a1557
 
 This is some new syntax, but essentially what’s going on here is we’re no longer looking for a specific word or name in the URL, but any string that a user might enter. Now, we can try the site out with a few other URLs:
 
@@ -196,6 +203,8 @@ So far, our HTTP Responses have been only text, but we can include any HTML elem
 def index(request):
     return HttpResponse("<h1 style=\"color:blue\">Hello, world!</h1>")
 ```
+
+^586d3b
 
 ![Blue](https://cs50.harvard.edu/web/2020/notes/3/images/bluehello.png)
 
@@ -300,7 +309,7 @@ Now that we’re set up with our new app, let’s figure out how to check whethe
 - We can use this knowledge to construct a boolean expression that will evaluate to True if and only if today is New Year’s Day: `now.day == 1 and now.month == 1`
 - Now that we have an expression we can use to evaluate whether or not it’s New Year’s Day, we can update our index function in `views.py`:
 
-```python
+```python title:project/newyear/views.py
 def index(request):
     now = datetime.datetime.now()
     return render(request, "newyear/index.html", {
@@ -308,23 +317,27 @@ def index(request):
     })
 ```
 
-Now, let’s create our `index.html` template. We’ll have to again create a new folder called `templates`, a folder within that called `newyear`, and a file within that called `index.html`. Inside that file, we’ll write something like this:
+^42427a
 
-```html
+Now, let’s create our `index.html` template. We’ll have to again create a new folder called `templates`, a folder within that called `newyear`, and a file within that called `index.html`. Inside that file, we’ll write something like this: ^9f6861
+
+```html title:project/newyear/templates/newyear/index.html
 <!DOCTYPE html>
-<html lang="en">
-    <head>
+​<html lang="en">
+	<head>
         <title>Is it New Year's?</title>
     </head>
-    <body>
-        {% if newyear %}
-            <h1>YES</h1>
-        {% else %}
-            <h1>NO</h1>
-        {% endif %}
-    </body>
+	<body>
+	    {% if newyear %}
+	        <h1>YES</h1>
+	    {% else %}
+	        <h1>NO</h1>
+	    {% endif %}
+	</body>
 </html>
-```
+``` 
+
+^9302f1
 
 In the code above, notice that when we wish to include logic in our HTML files, we use `{%` and `%}` as opening and closing tags around logical statements. Also note that Django’s formatting language requires you to include an ending tag indicating that we are done with our `if-else` block. Now, we can open up to our page to see:
 
@@ -351,7 +364,7 @@ def index(request):
 
 If we want to add a CSS file, which is a *static* file because it doesn’t change, we’ll first create a folder called `static`, then create a `newyear` folder within that, and then a `styles.css` file within that. In this file, we can add any styling we wish just as we did in the first lecture:
 
-```css
+```css title:project/newyear/static/newyear/styles.css
 h1 {
     font-family: sans-serif;
     font-size: 90px;
@@ -367,7 +380,7 @@ Now, to include this styling in our HTML file, we add the line `{% load static %
 
 Now, if we restart the server, we can see that the styling changes were in fact applied:
 
-![Big No](https://cs50.harvard.edu/web/2020/notes/3/images/bigno.png)
+![Big No|300](https://cs50.harvard.edu/web/2020/notes/3/images/bigno.png)
 
 ## Tasks
 
@@ -461,7 +474,7 @@ Now, we’ll create our `add.html` file, which is fairly similar to `index.html`
 
 However, what we’ve just done isn’t necessarily the best design, as we’ve just repeated the bulk of that HTML in two different files. Django’s templating language gives us a way to eliminate this poor design: template inheritance. This allows us to create a `layout.html` file that will contain the general structure of our page:
 
-```html
+```html title:project/tasks/templates/tasks/layout.html
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -474,11 +487,13 @@ However, what we’ve just done isn’t necessarily the best design, as we’ve 
 </html>
 ```
 
+^aa41ef
+
 Notice that we’ve again used `{%...%}` to denote some sort of non-HTML logic, and in this case, we’re telling Django to fill this “block” with some text from another file. Now, we can alter our other two HTML files to look like:
 
 `index.html`:
 
-```html
+```html title:project/tasks/templates/tasks/index.html
 {% extends "tasks/layout.html" %}
 {% block body %}
     <h1>Tasks:</h1>
@@ -490,9 +505,11 @@ Notice that we’ve again used `{%...%}` to denote some sort of non-HTML logic, 
 {% endblock %}
 ```
 
+^7a718f
+
 `add.html`:
 
-```html
+```html title:project/tasks/templates/tasks/add.html
 {% extends "tasks/layout.html" %}
 {% block body %}
     <h1>Add Task:</h1>
@@ -507,21 +524,21 @@ Notice how we can now get rid of much of the repeated code by *extending* our la
 
 ![Add](https://cs50.harvard.edu/web/2020/notes/3/images/add.png)
 
-Next, it’s not ideal to have to type “/add” in the URL any time we want to add a new task, so we’ll probably want to add some links between pages. Instead of hard-coding links though, we can now use the `name` variable we assigned to each path in `urls.py`, and create a link that looks like this:
+Next, it’s not ideal to have to type “/add” in the URL any time we want to add a new task. So we’ll probably want to add some links between pages. Instead of hard-coding links though, we can now use the `name` variable we assigned to each path in `urls.py`, and create a link that looks like this: ^40b593
 
-```html
+```html title:project/tasks/templates/tasks/index.html
 <a href="{% url 'add' %}">Add a New Task</a>
 ```
 
 where ‘add’ is the name of that path. We can do a similar thing in our `add.html`:
 
-```html
+```html title:project/tasks/templates/tasks/add.html
 <a href="{% url 'index' %}">View Tasks</a>
 ```
 
 This could potentially create a problem though, as we have a few routes named `index` throughout our different apps. We can solve this by going into each of our app’s `urls.py` file, and adding an `app_name` variable, so that the files now look something like this:
 
-```python
+```python title:project/tasks/urls.py
 from django.urls import path
 from . import views
 
@@ -533,12 +550,16 @@ urlpatterns = [
 ]
 ```
 
+^49e79e
+
 We can then change our links from simply `index` and `add` to `tasks:index` and `tasks:add`:
 
 ```html
 <a href="{% url 'tasks:index' %}">View Tasks</a>
 <a href="{% url 'tasks:add' %}">Add a New Task</a>
 ```
+
+^549490
 
 Now, let’s work on making sure the form actually does something when the user submits it. We can do this by adding an `action` to the form we have created in `add.html`:
 
@@ -548,9 +569,9 @@ Now, let’s work on making sure the form actually does something when the user 
 
 This means that once the form is submitted, we will be routed back to the `add` URL. Here we’ve specified that we’ll be using a *post* method rather than a *get* method, which is typically what we’ll use any time a form could alter the state of that web page.
 
-We need to add a bit more to this form now, because Django requires a token to prevent Cross-Site Request Forgery (CSRF) Attack. This is an attack where a malicious user attempts to send a request to your server from somewhere other than your site. This could be a really big problem for some websites. Say, for example, that a banking website has a form for one user to transfer money to another one. It would be catastrophic if someone could submit a transfer from outside of the bank’s website!
+We need to add a bit more to this form now, because Django requires a token to prevent Cross-Site Request Forgery (CSRF) Attack. This is an attack where a malicious user attempts to send a request to your server from somewhere other than your site. This could be a really big problem for some websites. Say, for example, that a banking website has a form for one user to transfer money to another one. It would be catastrophic if someone could submit a transfer from outside of the bank’s website! ^484782
 
-To solve this problem, when Django sends a response rendering a template, it also provides a **CSRF token** that is unique with each new session on the site. Then, when a request is submitted, Django checks to make sure the CSRF token associated with the request matches one that it has recently provided. Therefore, if a malicious user on another site attempted to submit a request, they would be blocked due to an invalid CSRF token. This CSRF validation is built into the Django Middleware framework, which can intervene in the request-response processing of a Django app. We won’t go into any more detail about Middleware in this course, but do look at the documentation if interested!
+To solve this problem, when Django sends a response rendering a template, it also provides a **CSRF token** that is unique with each new session on the site. Then, when a request is submitted, Django checks to make sure the CSRF token associated with the request matches one that it has recently provided. Therefore, if a malicious user on another site attempted to submit a request, they would be blocked due to an invalid CSRF token. This CSRF validation is built into the Django Middleware framework, which can intervene in the request-response processing of a Django app. We won’t go into any more detail about Middleware in this course, but do look at the documentation if interested! ^bedf53
 
 To incorporate this technology into our code, we must add a line to our form in `add.html`.
 

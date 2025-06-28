@@ -341,7 +341,7 @@
         "style": true,
         "fontWeight": 4,
         "curvature": 6,
-        "paddingVertical": 5,
+        "paddingVertical": 2,
         "paddingHorizontal": 5,
         "marginHorizontal": 0,
         "titleFontWeight": 8

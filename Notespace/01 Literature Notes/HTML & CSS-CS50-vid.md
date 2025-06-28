@@ -86,7 +86,7 @@ Below, we show the document object model (DOM)
             * Example: `<a href="https://www.example.com">text-to-link</a>`
         * **`<form>`**: Creates an HTML form for user input.
             * Attributes:
-                * `action=`"URL" (where to send form data)
+                * `action=`"URL/ path" (where to send the form data) ^4911dd
                 * `method="get"` (default method is get)
             * **`<input>`** (ncs): Creates an input field.
                 * Attributes:
