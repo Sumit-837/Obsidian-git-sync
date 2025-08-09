@@ -7,10 +7,11 @@
   "templater-obsidian",
   "obsidian-book-search-plugin",
   "smart-composer",
-  "tars",
   "better-word-count",
   "table-editor-obsidian",
-  "obsidian-style-settings",
   "code-styler",
-  "ninja-cursor"
+  "ninja-cursor",
+  "obsidian-advanced-uri",
+  "handwritten-notes",
+  "chem"
 ]

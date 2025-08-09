@@ -4,21 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "c790a51022c5354f",
+        "id": "f3a16a539882ff1e",
         "type": "tabs",
         "children": [
           {
-            "id": "c95ac0afce8e3e61",
+            "id": "deb835e0584cc9a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 Handy Things/Linux Terminal Scribbles.md",
-                "mode": "preview",
+                "file": "04 Handbook/Git Cheatsheet.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux Terminal Scribbles"
+              "title": "Git Cheatsheet"
+            }
+          },
+          {
+            "id": "08ad4d38dab75cbc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Introduction to Quantum Mech 3rd ed"
             }
           }
         ]
@@ -49,7 +61,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "cour",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -189,56 +201,55 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "smart-composer:Open smart composer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "c95ac0afce8e3e61",
+  "active": "deb835e0584cc9a3",
   "lastOpenFiles": [
-    "04 Handy Things/Useful termux things.md",
-    "04 Handy Things/Linux Terminal Scribbles.md",
-    "04 Handy Things/Opening GUI Apps with X11.md",
-    "04 Handy Things/Obsidian Markdown Cheatsheet.md",
-    "04 Handy Things/Create markdown note from any website.md",
-    "04 Handy Things/Running VNC Server.md",
-    "00 Rough Notes/Django-CS50W-vid.md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "01 Literature Notes/IISER-K-lit/Untitled.md",
+    "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf",
     "Untitled.md",
-    "01 Literature Notes/HTML & CSS-CS50-vid.md",
+    "03 Resources/Books/Organic Chemistry (Jonathan_ (Z-Library).pdf",
     "03 Resources/Notes-CS50W-Lec3-Django.md",
-    "00 Rough Notes/Python-CS50W-vid.md",
-    "03 Resources/Notes-CS50W-Lec2-Python.md",
+    "03 Resources/Fragments/Physical Chemistry",
+    "03 Resources/Fragments/Electronics",
+    "03 Resources/Fragments/Inorganic Chemistry",
+    "03 Resources/Fragments/Quantum Mechanics",
+    "03 Resources/Fragments/Organic Chemistry",
+    "03 Resources/Fragments",
+    "05 Templates/College Lectures sem-5.md",
+    "03 Resources/Notes-CS50-Lec1-C.md",
+    "01 Literature Notes/IISER-K-lit",
+    "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
+    "03 Resources/Vid-CS50X-2025.md",
+    "Zettelkasten/Atomic Note on Concept X.md",
+    "Zettelkasten",
+    "04 Handbook/Julia vs Python.md",
     "03 Resources/Vid-CS50W-2020.md",
-    "04 Handy Things/Git Cheatsheet.md",
-    "04 Handy Things/Trading Roadmap.md",
+    "03 Resources/Notes-CS50W-Lec2-Python.md",
+    "04 Handbook/Linux Terminal Scribbles.md",
+    "04 Handbook/Useful termux things.md",
+    "04 Handbook/Opening GUI Apps with X11.md",
+    "04 Handbook/Create markdown note from any website.md",
+    "04 Handbook/Running VNC Server.md",
+    "00 Rough Notes/Django-CS50W-vid.md",
+    "01 Literature Notes/HTML & CSS-CS50-vid.md",
+    "00 Rough Notes/Python-CS50W-vid.md",
+    "04 Handbook/Git Cheatsheet.md",
+    "04 Handbook/Trading Roadmap.md",
     "Gpt Django.md",
     "Qwen Django.md",
-    "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",
     "Grok.md",
-    "03 Resources/().md",
-    "Untitled.canvas",
-    "03 Resources/Vid-CS50X-2025.md",
-    "03 Resources/Vid-Bash Scripting-Learn Linux TV.md",
-    "01 Literature Notes/Vid-CS50X-2025.md",
-    "Vid-CS50X-2025",
-    "01 Literature Notes/Direct Reference Notes",
-    "04 Handy Things",
-    "02 Permanent Notes",
-    "2025-06-01.md",
-    "Source Materials/CS50/CS50W 2020/CS50W-Lec 1-Git.md",
-    "Source Materials/CS50/CS50W 2020/CS50W-Lec 0-HTML and CSS.md",
-    "Bash Scripting by Learn Linux TV",
-    "Non Academic Notes/Linux Terminal/Bash Scripting",
-    "Source Materials/CS50/CS50X 2025",
-    "Source Materials/CS50/CS50W 2020",
-    "03 Resources/CS50",
-    "Literature Notes/CS"
+    "Untitled.canvas"
   ]
 }

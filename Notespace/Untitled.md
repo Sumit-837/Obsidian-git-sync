@@ -1,4 +1,4 @@
-```mermaid
+```mermai
 graph LR
     A["&lt;!DOCTYPE html&gt;"] --> B["&lt;html lang='en'&gt;"];
     B --> C["&lt;head&gt;"];
@@ -65,4 +65,6 @@ graph LR
         M2 --> M2A["&lt;option value='...'&gt;"];
         M --> M3["&lt;button&gt;"];
     end
-```    
+```  
+[[Introduction to Quantum Mech 3rd ed.pdf#page=53]]
+[Go to Page 5](file:///storage/emulated/0/Documents/sr23ms090_P09.pdf#page=1)

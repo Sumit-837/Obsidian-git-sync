@@ -6,6 +6,9 @@
     "title": "text",
     "source1": "text",
     "sources": "text",
-    "subject": "text"
+    "subject": "text",
+    "date": "text",
+    "course": "text",
+    "class date": "datetime"
   }
 }
