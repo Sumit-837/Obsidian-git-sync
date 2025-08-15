@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "03 Resources/IISER-K/PH3105/Untitled.md"
+    },
+    {
+      "basename": "Introduction to Quantum Mech 3rd ed",
+      "path": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
+    },
+    {
+      "basename": "L_1",
+      "path": "03 Resources/IISER-K/PH3104/L_1.pdf"
+    },
+    {
+      "basename": "Untitled",
+      "path": "03 Resources/IISER-K/PH3102/Untitled.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "03 Resources/IISER-K/PH3101/Untitled.md"
+    },
+    {
+      "basename": "College Lectures sem-5",
+      "path": "05 Templates/College Lectures sem-5.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "02 Permanent Notes/Untitled.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "01 Literature Notes/IISER-K-lit/Untitled.md"
+    },
+    {
+      "basename": "CH3105 Laboroatory Manual-2025",
+      "path": "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf"
+    },
+    {
+      "basename": "Vid-CS50W-2020",
+      "path": "03 Resources/Vid-CS50W-2020.md"
+    },
+    {
       "basename": "Git Cheatsheet",
       "path": "04 Handbook/Git Cheatsheet.md"
     },
@@ -9,28 +49,12 @@
       "path": "04 Handbook/Obsidian Markdown Cheatsheet.md"
     },
     {
-      "basename": "Untitled",
-      "path": "01 Literature Notes/IISER-K-lit/Untitled.md"
-    },
-    {
-      "basename": "Introduction to Quantum Mech 3rd ed",
-      "path": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
       "basename": "Organic Chemistry (Jonathan_ (Z-Library)",
       "path": "03 Resources/Books/Organic Chemistry (Jonathan_ (Z-Library).pdf"
     },
     {
       "basename": "Notes-CS50W-Lec3-Django",
       "path": "03 Resources/Notes-CS50W-Lec3-Django.md"
-    },
-    {
-      "basename": "College Lectures sem-5",
-      "path": "05 Templates/College Lectures sem-5.md"
     },
     {
       "basename": "Notes-CS50-Lec1-C",
@@ -47,10 +71,6 @@
     {
       "basename": "Julia vs Python",
       "path": "04 Handbook/Julia vs Python.md"
-    },
-    {
-      "basename": "Vid-CS50W-2020",
-      "path": "03 Resources/Vid-CS50W-2020.md"
     },
     {
       "basename": "Notes-CS50W-Lec2-Python",

@@ -25,15 +25,18 @@
             "id": "08ad4d38dab75cbc",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
+                "file": "03 Resources/IISER-K/PH3105/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Introduction to Quantum Mech 3rd ed"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -210,12 +213,22 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "deb835e0584cc9a3",
+  "active": "08ad4d38dab75cbc",
   "lastOpenFiles": [
-    "04 Handbook/Obsidian Markdown Cheatsheet.md",
-    "01 Literature Notes/IISER-K-lit/Untitled.md",
     "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf",
+    "03 Resources/IISER-K/PH3105/Untitled.md",
+    "03 Resources/IISER-K/PH3104/L_1.pdf",
+    "03 Resources/IISER-K/PH3102/Untitled 1.md",
+    "03 Resources/IISER-K/PH3102/Untitled.md",
+    "03 Resources/IISER-K/PH3101/Untitled.md",
+    "05 Templates/College Lectures sem-5.md",
     "Untitled.md",
+    "02 Permanent Notes/Untitled.md",
+    "01 Literature Notes/IISER-K-lit/Untitled.md",
+    "03 Resources/Vid-CS50W-2020.md",
+    "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf",
+    "04 Handbook/Git Cheatsheet.md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
     "03 Resources/Books/Organic Chemistry (Jonathan_ (Z-Library).pdf",
     "03 Resources/Notes-CS50W-Lec3-Django.md",
     "03 Resources/Fragments/Physical Chemistry",
@@ -224,15 +237,11 @@
     "03 Resources/Fragments/Quantum Mechanics",
     "03 Resources/Fragments/Organic Chemistry",
     "03 Resources/Fragments",
-    "05 Templates/College Lectures sem-5.md",
     "03 Resources/Notes-CS50-Lec1-C.md",
-    "01 Literature Notes/IISER-K-lit",
     "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
     "03 Resources/Vid-CS50X-2025.md",
     "Zettelkasten/Atomic Note on Concept X.md",
-    "Zettelkasten",
     "04 Handbook/Julia vs Python.md",
-    "03 Resources/Vid-CS50W-2020.md",
     "03 Resources/Notes-CS50W-Lec2-Python.md",
     "04 Handbook/Linux Terminal Scribbles.md",
     "04 Handbook/Useful termux things.md",
@@ -241,15 +250,9 @@
     "04 Handbook/Running VNC Server.md",
     "00 Rough Notes/Django-CS50W-vid.md",
     "01 Literature Notes/HTML & CSS-CS50-vid.md",
-    "00 Rough Notes/Python-CS50W-vid.md",
-    "04 Handbook/Git Cheatsheet.md",
-    "04 Handbook/Trading Roadmap.md",
-    "Gpt Django.md",
-    "Qwen Django.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",
-    "Grok.md",
     "Untitled.canvas"
   ]
 }
