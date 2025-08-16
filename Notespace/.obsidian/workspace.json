@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "d732cb813bdee0af",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fd0d4e6f9bab572",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f67e62e706f48cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04 Handbook/Obsidian Markdown Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Markdown Cheatsheet"
+            }
+          },
+          {
+            "id": "9499478650a4f3aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 Resources/IISER-K/PH3104/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "61e2fcc628249e6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4a05732ad10c617",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e48f105891c59cf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "73bc5bd41aceecd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8501b77fa46237d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3e9c52b2ddef3287",
+    "type": "split",
+    "children": [
+      {
+        "id": "840f1715d5d342b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8f4ee02fc08810f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Note-PH3102-Lec2"
+            }
+          },
+          {
+            "id": "88474f3c8cd0b0d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "03 Resources/IISER-K/PH3102/book-PH3102-QM-S.Lal.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from book-PH3102-QM-S.Lal"
+            }
+          },
+          {
+            "id": "346add683f8297c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8a8d3662e20d4edb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "03 Resources/IISER-K/PH3102/book-PH3102-QM-S.Lal.pdf",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of book-PH3102-QM-S.Lal"
+            }
+          },
+          {
+            "id": "613d6dac265134e5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "smart-composer:Open smart composer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5e48f105891c59cf",
+  "lastOpenFiles": [
+    "03 Resources/IISER-K/PH3105/Expt3-PH3105-Example.pdf",
+    "03 Resources/IISER-K/PH3105/Expt-PH3105-Exp3-Example.pdf",
+    "03 Resources/IISER-K/PH3105/Expt_3.pdf",
+    "03 Resources/IISER-K/PH3105/placeholder.md",
+    "03 Resources/IISER-K/PH3104/Untitled.md",
+    "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
+    "03 Resources/IISER-K/PH3104/L_1.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec6.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec5.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec4.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec3.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec2.pdf",
+    "03 Resources/IISER-K/PH3101/Note-PH3101-Lec1.pdf",
+    "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
+    "03 Resources/Note-CS50W-Lec2-Python.md",
+    "03 Resources/Note-CS50W-Lec3-Django.md",
+    "03 Resources/Vid-CS50W-2020.md",
+    "05 Templates/College Lectures sem-5.md",
+    "03 Resources/Vid-Bash Scripting-Learn Linux TV.md",
+    "03 Resources/Note-CS50-Lec1-C.md"
+  ]
+}

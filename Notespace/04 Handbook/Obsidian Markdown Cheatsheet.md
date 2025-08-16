@@ -9,15 +9,15 @@ source: ChatGPT
 
 # ✨ Basic Formatting
 
-| Markdown            | Output                      |
-|---------------------|-----------------------------|
-| `**bold**`          | **bold**                    |
-| `*italic*` or `_`   | *italic*                    |
-| `**_bold italic_**` | ***bold italic***           |
-| `~~strikethrough~~` | ~~strikethrough~~           |
-| `` `inline code` `` | `inline code`               |
-| `^^highlight^^`     | <mark>highlight</mark>      |
-| `==highlight==`     | <mark>highlight</mark> *(same as above)*
+| Markdown            | Output                                   |
+| ------------------- | ---------------------------------------- |
+| `**bold**`          | **bold**                                 |
+| `*italic*` or `_`   | *italic*                                 |
+| `**_bold italic_**` | ***bold italic***                        |
+| `~~strikethrough~~` | ~~strikethrough~~                        |
+| `` `inline code` `` | `inline code`                            |
+| `^^highlight^^`     | <mark>highlight</mark>                   |
+| `==highlight==`     | <mark>highlight</mark> *(same as above)* |
 
 # 📋 Headings
 

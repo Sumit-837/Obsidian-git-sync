@@ -6,7 +6,7 @@ tags:
   - lit
 created: 2025-06-15
 source: "[[Vid-CS50W-2020#Lecture 3 - Django]]"
-source 2: "[[Notes-CS50W-Lec3-Django]]"
+source 2: "[[Note-CS50W-Lec3-Django]]"
 Professor: Brian Yu
 ---
 
@@ -60,7 +60,7 @@ INSTALLED_APPS = [
 [^1]
 #### Associating URL (adding routes)
 - then create a new file named `urls.py` __inside the app directory__ and we need to make a variable (list) named `urlpatterns` which will contain all urls that can be accessed from the app.
-- the element of this lists will be a *path* function with some [[Notes-CS50W-Lec3-Django#^149722|arguments]] `path("", views-to-render, name="optional")`
+- the element of this lists will be a *path* function with some [[Note-CS50W-Lec3-Django#^149722|arguments]] `path("", views-to-render, name="optional")`
 - in the place of views-to-render we can place views (functions from views.py)
 ```python title:project/app/urls.py
 from django.urls import path
@@ -90,12 +90,12 @@ urlpatterns = [
 ```
 Now the routing is complete.
 
-![[Notes-CS50W-Lec3-Django#^2c9225]]
+![[Note-CS50W-Lec3-Django#^2c9225]]
 - And after `/appname` if they type in the [[Django-CS50W-vid#^ef22fc|specific path]] to a view of that app, they'll be routed to that view. Else they'll se the default view.
 >[!note] 
->We can use a [[Notes-CS50W-Lec3-Django#^6a1557|placeholder]] in the place of the path string
+>We can use a [[Note-CS50W-Lec3-Django#^6a1557|placeholder]] in the place of the path string
 #### Adding Templates
-- Instead of returning a text responce to a request, we can show entire html file. But [[Notes-CS50W-Lec3-Django#^586d3b|inserting an entire html file]] inside HttpResponse in `views.py` will be bad design. Thats why we keep HTML and CSS  files seperate as **templates** and render them with Django.
+- Instead of returning a text responce to a request, we can show entire html file. But [[Note-CS50W-Lec3-Django#^586d3b|inserting an entire html file]] inside HttpResponse in `views.py` will be bad design. Thats why we keep HTML and CSS  files seperate as **templates** and render them with Django.
 ##### Render function
 - We have to import and use `render` function for that. It takes the _request_ as an argument , and takes the _template file / its location inside the template directory_ as another argument.
 ```python title:project/app/views.py
@@ -111,7 +111,7 @@ def index(request):
 >>This is to make sure that in case of multiple apps, templates don't conflict with each other.
 - So now create said folder and files.
 ##### Using as Template
-- But now we can no more use a [[Notes-CS50W-Lec3-Django#^4e322f|placeholder]] like before as html doesn't support f-strings like python (as HTML ain't a programming language).
+- But now we can no more use a [[Note-CS50W-Lec3-Django#^4e322f|placeholder]] like before as html doesn't support f-strings like python (as HTML ain't a programming language).
 - But we can🤨😏, thats why in Django we call them templates. Django can take an html page and use its own templating language to put variables, conditions, loops inside it.
 - Here comes the optional _third argument_ of the render function called **Context** which is  a _dictionary_ . It will contain all the info (variables) that I wanna provide the template. Where the key will be variable name and value can be anything, like an input of the function.
 ###### **Inserting variables :**
@@ -137,35 +137,35 @@ def greet(request, name):
 ###### **inserting logic :**
 -  We'll use `{% %}` for any logical sentence like conditions and loops.
 - Example: New year verifier 
-	![[Notes-CS50W-Lec3-Django#^42427a]]
-	![[Notes-CS50W-Lec3-Django#^9f6861]]
-	![[Notes-CS50W-Lec3-Django#^9302f1]]
+	![[Note-CS50W-Lec3-Django#^42427a]]
+	![[Note-CS50W-Lec3-Django#^9f6861]]
+	![[Note-CS50W-Lec3-Django#^9302f1]]
 - unlike python, we don't have indentation in django, so we have to add `{% endif %}` at the end of condition. Same way we have to end 'for loop' with `{% endfor %}`.
 #### Styling
-![[Notes-CS50W-Lec3-Django#Styling|Adding styles]]
+![[Note-CS50W-Lec3-Django#Styling|Adding styles]]
 ### Template inheritance (Layout)
 When we have to use same things in multiple HTML file,with Django we can use one as a template or layout for others to inherit from.
 - Make the general HTML file from (which to copy from) in the app with a name eg. `layout.html`. Write the common html structure.Then in the changable part add `{% block body %}` and `{% endblock %}`
-	Example: for a task app ![[Notes-CS50W-Lec3-Django#^aa41ef]]
+	Example: for a task app ![[Note-CS50W-Lec3-Django#^aa41ef]]
 - in the file you wanna paste the layout, write `{% extends "appname/layout.html" %}` at the beginning. Then add `{% block body %}`, write the changes, end with `{% endblock %}`.
-	![[Notes-CS50W-Lec3-Django#^7a718f]]
+	![[Note-CS50W-Lec3-Django#^7a718f]]
 ### Flexible Linking in HTML
 - Now, if we want to link a file to the html with `a` tag, we dont wanna hardcode it into the file as it kills Django's flexibility. 
-- Instead, we'll use Django's feature `{% url "name" %}` which uses the [[Notes-CS50W-Lec3-Django#^086ef2|name]] we assigned to a path earlier while writing views.
+- Instead, we'll use Django's feature `{% url "name" %}` which uses the [[Note-CS50W-Lec3-Django#^086ef2|name]] we assigned to a path earlier while writing views.
 - This will link that path.
 ##### Namespace collision
 - When two things have a same name, there will be a collision when we try to go to the link.
 - we avoid this by specifying the app-name with a string called `app_name`.
-	![[Notes-CS50W-Lec3-Django#^49e79e]]
+	![[Note-CS50W-Lec3-Django#^49e79e]]
 - Now in that html file use that string like `{% url "app_name:name" %}` to specify the link to that app.
-	![[Notes-CS50W-Lec3-Django#^549490]]
+	![[Note-CS50W-Lec3-Django#^549490]]
 
 ### Forms
 We use [[HTML & CSS-CS50-vid#^4911dd|action]] attribute in form tag to mention the url or path where to submit the form data. Here we can use above flexible linking for the path.
 #### Post
 For submitting form data, we generally use `post` method instead of `get` .As it doesnt include parameters to the end of the url. But while submitting the form, you'll stumble upon this error: _CSRF varification failed._
-###### [[Notes-CS50W-Lec3-Django#^484782|CSRF (Cross-Site Request Forgery)]]
-![[Notes-CS50W-Lec3-Django#^bedf53]]
+###### [[Note-CS50W-Lec3-Django#^484782|CSRF (Cross-Site Request Forgery)]]
+![[Note-CS50W-Lec3-Django#^bedf53]]
 - Add `{% csrf_token %}` into that html file, under the `form` tag.
 ### Django Forms
 To make creating forms easier, Django has its own thing.

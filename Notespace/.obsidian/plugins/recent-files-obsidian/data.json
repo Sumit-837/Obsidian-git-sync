@@ -2,63 +2,67 @@
   "recentFiles": [
     {
       "basename": "Untitled",
-      "path": "03 Resources/IISER-K/PH3105/Untitled.md"
+      "path": "03 Resources/IISER-K/PH3104/Untitled.md"
     },
     {
-      "basename": "Introduction to Quantum Mech 3rd ed",
-      "path": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
+      "basename": "Book-PH3102-QM-S.Lal",
+      "path": "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
     },
     {
-      "basename": "L_1",
-      "path": "03 Resources/IISER-K/PH3104/L_1.pdf"
-    },
-    {
-      "basename": "Untitled",
-      "path": "03 Resources/IISER-K/PH3102/Untitled.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "03 Resources/IISER-K/PH3101/Untitled.md"
-    },
-    {
-      "basename": "College Lectures sem-5",
-      "path": "05 Templates/College Lectures sem-5.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "02 Permanent Notes/Untitled.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "01 Literature Notes/IISER-K-lit/Untitled.md"
-    },
-    {
-      "basename": "CH3105 Laboroatory Manual-2025",
-      "path": "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf"
-    },
-    {
-      "basename": "Vid-CS50W-2020",
-      "path": "03 Resources/Vid-CS50W-2020.md"
-    },
-    {
-      "basename": "Git Cheatsheet",
-      "path": "04 Handbook/Git Cheatsheet.md"
+      "basename": "Note-PH3102-Lec2",
+      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md"
     },
     {
       "basename": "Obsidian Markdown Cheatsheet",
       "path": "04 Handbook/Obsidian Markdown Cheatsheet.md"
     },
     {
+      "basename": "Note-PH3102-Lec1",
+      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md"
+    },
+    {
+      "basename": "Note-CS50W-Lec2-Python",
+      "path": "03 Resources/Note-CS50W-Lec2-Python.md"
+    },
+    {
+      "basename": "Note-CS50W-Lec3-Django",
+      "path": "03 Resources/Note-CS50W-Lec3-Django.md"
+    },
+    {
+      "basename": "Vid-CS50W-2020",
+      "path": "03 Resources/Vid-CS50W-2020.md"
+    },
+    {
+      "basename": "College Lectures sem-5",
+      "path": "05 Templates/College Lectures sem-5.md"
+    },
+    {
+      "basename": "Vid-Bash Scripting-Learn Linux TV",
+      "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
+    },
+    {
+      "basename": "Note-CS50-Lec1-C",
+      "path": "03 Resources/Note-CS50-Lec1-C.md"
+    },
+    {
+      "basename": "Introduction to Quantum Mech 3rd ed",
+      "path": "03 Resources/Books/Introduction to Quantum Mech 3rd ed.pdf"
+    },
+    {
+      "basename": "Untitled",
+      "path": "02 Permanent Notes/Untitled.md"
+    },
+    {
+      "basename": "CH3105 Laboroatory Manual-2025",
+      "path": "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf"
+    },
+    {
+      "basename": "Git Cheatsheet",
+      "path": "04 Handbook/Git Cheatsheet.md"
+    },
+    {
       "basename": "Organic Chemistry (Jonathan_ (Z-Library)",
       "path": "03 Resources/Books/Organic Chemistry (Jonathan_ (Z-Library).pdf"
-    },
-    {
-      "basename": "Notes-CS50W-Lec3-Django",
-      "path": "03 Resources/Notes-CS50W-Lec3-Django.md"
-    },
-    {
-      "basename": "Notes-CS50-Lec1-C",
-      "path": "03 Resources/Notes-CS50-Lec1-C.md"
     },
     {
       "basename": "OOP-Python-Indently.yt-vid",
@@ -71,10 +75,6 @@
     {
       "basename": "Julia vs Python",
       "path": "04 Handbook/Julia vs Python.md"
-    },
-    {
-      "basename": "Notes-CS50W-Lec2-Python",
-      "path": "03 Resources/Notes-CS50W-Lec2-Python.md"
     },
     {
       "basename": "Linux Terminal Scribbles",
@@ -111,10 +111,6 @@
     {
       "basename": "Trading Roadmap",
       "path": "04 Handbook/Trading Roadmap.md"
-    },
-    {
-      "basename": "Vid-Bash Scripting-Learn Linux TV",
-      "path": "03 Resources/Vid-Bash Scripting-Learn Linux TV.md"
     }
   ],
   "omittedPaths": [],
