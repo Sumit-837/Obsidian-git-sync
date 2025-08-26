@@ -8,6 +8,9 @@ tags:
   - iiser-k
   - sem-5
   - DPS
+  - incomplete
+source video: https://youtu.be/QVnNU6pZ0iY?si=Ueuq9_StGG_tJo8N
+source material: "[[Book-PH3102-QM-S.Lal.pdf#page=48]]"
 ---
 ## Linear Operators
 Main rules:

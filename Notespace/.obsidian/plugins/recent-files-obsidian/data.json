@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Note-PH3102-Lec3",
+      "path": "Note-PH3102-Lec3.md"
+    },
+    {
+      "basename": "College Lectures sem-5",
+      "path": "05 Templates/College Lectures sem-5.md"
+    },
+    {
+      "basename": "Note-PH3102-Lec2",
+      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md"
+    },
+    {
+      "basename": "Book-PH3102-QM-S.Lal",
+      "path": "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
+    },
+    {
+      "basename": "Mathematical Methods for Ph_ (Z-Library)",
+      "path": "03 Resources/Books/Mathematical Methods for Ph_ (Z-Library).pdf"
+    },
+    {
+      "basename": "PH3103-HW-1",
+      "path": "00 Rough Things/Prob-Sol/PH3103/PH3103-HW-1.pdf"
+    },
+    {
+      "basename": "Git Cheatsheet",
+      "path": "04 Handbook/Git Cheatsheet.md"
+    },
+    {
+      "basename": "Note-CS50W-Lec2-Python",
+      "path": "03 Resources/Note-CS50W-Lec2-Python.md"
+    },
+    {
+      "basename": "Note-PH3102-Lec1",
+      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md"
+    },
+    {
       "basename": "CS3101 2025_ Ungraded",
       "path": "00 Rough Notes/CS3101/CS3101 2025_ Ungraded.md"
     },
@@ -25,32 +61,12 @@
       "path": "03 Resources/IISER-K/PH3104/Untitled.md"
     },
     {
-      "basename": "Book-PH3102-QM-S.Lal",
-      "path": "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
-    },
-    {
-      "basename": "Note-PH3102-Lec2",
-      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md"
-    },
-    {
-      "basename": "Note-PH3102-Lec1",
-      "path": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md"
-    },
-    {
-      "basename": "Note-CS50W-Lec2-Python",
-      "path": "03 Resources/Note-CS50W-Lec2-Python.md"
-    },
-    {
       "basename": "Note-CS50W-Lec3-Django",
       "path": "03 Resources/Note-CS50W-Lec3-Django.md"
     },
     {
       "basename": "Vid-CS50W-2020",
       "path": "03 Resources/Vid-CS50W-2020.md"
-    },
-    {
-      "basename": "College Lectures sem-5",
-      "path": "05 Templates/College Lectures sem-5.md"
     },
     {
       "basename": "Vid-Bash Scripting-Learn Linux TV",
@@ -71,10 +87,6 @@
     {
       "basename": "CH3105 Laboroatory Manual-2025",
       "path": "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf"
-    },
-    {
-      "basename": "Git Cheatsheet",
-      "path": "04 Handbook/Git Cheatsheet.md"
     },
     {
       "basename": "Organic Chemistry (Jonathan_ (Z-Library)",
