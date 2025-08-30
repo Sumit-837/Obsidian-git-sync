@@ -1,0 +1,168 @@
+### 1. Newtonian Mechanics (Lec1.pdf, Lec2.pdf)  
+  
+- **Time in Newtonian Mechanics**  
+    - Treated as an **absolute and universal parameter**.  
+    - A "background quantity that flows uniformly and independently of any physical processes or observers".  
+    - Rooted in Isaac Newton’s _Philosophiæ Naturalis Principia Mathematica_ (1687).  
+    - Postulated to exist independently of space and matter.  
+    - Enables **determinism**: given initial conditions, the system's state can be predicted at any later or earlier time.  
+    - Time is the same for all observers.  
+    - Provides a global parameter for comparing events at different locations.  
+    - Appears as an independent variable in equations of motion.  
+    - Fundamentally challenged by Einstein’s theory of relativity.  
+- **Space in Newtonian Mechanics**  
+    - Conceived as **absolute, fixed, and independent**.  
+    - Newton posited that space exists independently of the objects within it, with its own reality and structure.  
+    - Is three-dimensional and **Euclidean**.  
+    - Is **independent of matter**: objects move through space but do not affect it.  
+- **Reference Frames**  
+    - A system (comprising spatial geometry and time) within which physical laws can be formulated and applied.  
+- **Inertial Frames in Newtonian Mechanics**  
+    - **Definition**: A frame in which **Newton’s first law (the law of inertia or Galilean Principle) holds true**.  
+        - A body remains at rest or moves in a straight line at constant speed unless acted upon by a net external force.  
+        - Implies that if no force acts, velocity remains constant.  
+    - **How to Identify an Inertial Frame**:  
+        - Choose a reference frame (e.g., lab, spacecraft).  
+        - Examine a test particle free from external forces.  
+        - If the particle remains at rest or moves in a straight line at constant velocity, the frame is considered inertial.  
+        - This behaviour must hold at every location in space and for all initial velocities.  
+        - If a free particle accelerates or changes direction without applied force, the frame is non-inertial.  
+    - **Examples of Reference Frames**:  
+        - **The Laboratory Frame on Earth (Not Strictly Inertial)**: Approximately inertial, but gravity causes acceleration, violating Newton’s first law unless explicitly treated as an external force.  
+        - **A Smooth Horizontal Table (2D Approximately Inertial)**: Gravity is balanced by normal force, allowing for 2D inertial motion in the horizontal plane.  
+        - **A Rocket in Free Fall (Ideal Inertial Frame)**: Objects appear to float, neglecting air resistance and tidal forces.  
+        - **Rotating Merry-Go-Round (Non-Inertial)**: Requires inclusion of fictitious forces (centrifugal, Coriolis).  
+- **Coordinate System**  
+    - **What it is**: A **mathematical framework** that assigns numerical labels (coordinates) to points in space and time.  
+    - It does not have any physical content; it is a tool to describe position, motion, and fields.  
+    - Used once an inertial frame is chosen.  
+    - Can be used in both inertial and non-inertial frames.  
+- **Inertial Frame vs Coordinate System**  
+    - **Inertial Frame**: A physical reference frame where Newton’s laws hold; its motion defines it; affects physics.  
+    - **Coordinate System**: A mathematical tool for labeling positions and directions; its geometric grid defines it; does not affect physics.  
+- **Classical Mechanics**  
+    - **Aim**: To predict the motion of an object or physical systems by applying the laws of force or laws of motion.  
+- **Point Particle**  
+    - The simplest mechanical system, represented by its mass `m` and position `⃗X` at any given time.  
+- **Cartesian Coordinate System**  
+    - Used as basic geometry for measurement, where position is represented by a three-vector `⃗X(t)`.  
+    - Basis vectors `(̂i, ̂j, ̂k)` are constants and orthonormal.  
+- **Trajectory**  
+    - A three-dimensional curve `γ = ⃗X(t)` that a particle covers as it moves.  
+- **Characterising Curves**:  
+    - **Velocity (⃗v)**: The rate of change of position with respect to time `t`: `⃗v = d⃗X/dt`.  
+    - **Acceleration (⃗a)**: The rate of change of velocity with respect to time `t`: `⃗a = d⃗v/dt`.  
+- **Newton’s First Law of Motion (Galilean Principle)**  
+    - In an inertial frame, if `⃗F = 0`, then the trajectory `γ` will have constant velocity.  
+- **Newton’s Second Law of Motion**  
+    - In an inertial frame, the motion of a particle under the influence of a force is such that the rate of change of momentum equals the applied force: `d⃗P/dt = ⃗F`.  
+    - **Momentum (⃗P)**: For a particle, `⃗P = m⃗v`, where `m` is mass and `⃗v` is velocity.  
+    - If mass is not changing with time, `d⃗P/dt = m⃗a = ⃗F`.  
+- **Role of Coordinate System (in problem solving)**  
+    - For a given force field, EOM can be reduced to coupled differential equations, which are often difficult to solve analytically.  
+  
+### 2. Solving EOMs and Conservation Laws (Lec3.pdf, Lec4.pdf)  
+  
+- **Role of Coordinate System (Continued)**  
+    - If forces are separable in coordinate variables, EOMs can be integrated.  
+    - Changing the coordinate system can make a problem separable or reveal constants of motion.  
+    - **Principle of Invariance**: In an inertial frame, laws of physics remain unchanged across different coordinate systems.  
+    - **Principle of General Covariance**: Allows changing the "frame" and making suitable changes to EOMs.  
+- **Conservation of Linear Momentum**  
+    - If a particular component of force is zero, the corresponding component of linear momentum is conserved.  
+    - Generalised: If the projection of the force vanishes along a constant vector field `⃗ξ` (`⃗F ⋅ ⃗ξ = 0`), then the projection of linear momentum along that vector field (`⃗P ⋅ ⃗ξ`) is conserved.  
+- **Coordinate Transformation to Plane Polar Coordinates**  
+    - Often necessary for problems like the 2-D central force problem, where Cartesian EOMs are not separable.  
+    - **Transformation**: `x = r cos θ`, `y = r sin θ`.  
+    - **Inverse Transformation**: `r = (x² + y²)½`, `θ = tan⁻¹(y/x)`.  
+    - **Basis Vectors**: Relations between Cartesian `(̂x, ̂y)` and polar `(̂r, ̂θ)` basis vectors are provided.  
+    - **Rate of Change of Polar Basis Vectors**: `d̂r/dt = ·θ ̂θ` and `d̂θ/dt = -·θ ̂r`.  
+    - **Position Vector**: `⃗X = r ̂r`.  
+    - **Velocity Components**: `vr = ·r` and `vθ = r·θ`.  
+    - **Equations of Motion in Polar Coordinates**:  
+        - `m(··r - r·θ²) = Fr(r, θ)` (Radial part).  
+        - `m(r··θ + 2·r·θ) = Fθ(r, θ)` (Angular part).  
+- **Conservation Laws in Polar Coordinates (Without Force)**  
+    - If `Fr = Fθ = 0`:  
+        - `m(··r - r·θ²) = 0`.  
+        - `m(r··θ + 2·r·θ) = 0` leads to `d/dt(r²·θ) = 0`, implying **`mr²·θ = Lz` (constant angular momentum)**.  
+        - This also leads to **`½m(·r² + r²·θ²) = E` (constant total energy)**.  
+- **Angular Momentum**  
+    - **Definition**: `⃗L = ⃗r × ⃗P`.  
+    - **Torque**: `⃗N = ⃗r × ⃗F`.  
+    - **Relation to Torque**: `⃗N = d⃗L/dt`.  
+    - **Conservation Principle**: In the absence of torque, angular momentum is conserved.  
+- **Work Done by the Force**  
+    - **Definition**: `dW = ⃗F ⋅ ⃗dl` for a small displacement.  
+    - For a finite path A to B: `W = ∫_A^B ⃗F ⋅ ⃗dl`.  
+    - **Work-Energy Theorem**: The work done by a force moving a particle from A to B equals the **change in its kinetic energy (T)**: `W = TB - TA`, where `T = ½mv²`. This work is independent of the path followed.  
+- **Conservative Systems**  
+    - **Definition**: A vector field `⃗F` that can be written as the **gradient of a scalar potential `V`**: `⃗F = -∇V`.  
+    - For conservative forces, work done `W = V(A) - V(B)` depends solely on the potential difference between the initial and final points.  
+- **Conservation of Total Energy**  
+    - For a particle moving under a conservative force (`⃗F = -∇V`), the **total energy `E = T + V` remains constant** along its path.  
+    - This principle can be used to derive equations of motion, but it is valid only for conservative systems.  
+- **Application to 2-D Central Force Problem**  
+    - For a central force `⃗F = -κx/(x²+y²)^3/2 ̂x - κy/(x²+y²)^3/2 ̂y`, the potential is `V = -κ/r`.  
+    - The conservation of `Lz` and `E` (derived in polar coordinates) provides new EOMs.  
+  
+### 3. Constraints and Generalised Coordinates (Lec5.pdf, Lec6.pdf)  
+  
+- **System of Particles**  
+    - An object can be modelled as a system of mutually interacting particles.  
+    - **Internal forces**: Forces between particles within a system.  
+    - **External force**: A vector field on a given inertial frame.  
+    - Configuration space: A single entity in a 3N-dimensional space for `N` particles.  
+- **Constraints**  
+    - **What are Constraints?**: Any **restrictions imposed on the motion of a particle or system**, which limit its freedom.  
+    - Imply **forces** that lead to geometric restrictions, even if these forces are unknown.  
+    - If constraint forces are not included, the motion may appear to violate Newton's first law.  
+- **Classification of Constraints**:  
+    - **Holonomic Constraints**:  
+        - **Definition**: Can be expressed as **equations involving only coordinates (and possibly time)**: `f(xi, t) = 0`.  
+        - **Effect**: **Reduce the number of degrees of freedom** of the system.  
+        - Example: A bead on a fixed circular wire (`x² + y² - R² = 0`). These are the primary focus of the lectures.  
+    - **Non-Holonomic Constraints**:  
+        - **Definition**: Cannot be expressed solely in terms of coordinates; usually involve **velocities or inequalities**: `g(xi, ·xi, t) = 0`.  
+        - Example: Rolling without slipping (`v = a·θ` or `dx - v sin θ dt = 0`).  
+- **Generalised Coordinate System**  
+    - A suitable coordinate system can simplify the effect of holonomic constraints and reduce the number of equations of motion.  
+    - **One easy way to handle holonomic constraints is to perform a coordinate transformation to reduce the degrees of freedom**.  
+    - These transformations are performed in **configuration space**, not real 3D space.  
+    - Example: A bead on a circular wire can be described by a **single generalised coordinate `θ`** (`x = a cos θ, y = a sin θ, z = 0`), automatically satisfying the constraints and reducing degrees of freedom from 3 to 1.  
+    - For `N` particles with `M` holonomic constraints:  
+        - **Degrees of Freedom (n)**: `n = 3N - M`.  
+        - **Transformation**: New independent generalised coordinates `(q1, ..., qn)` are introduced, such that Cartesian coordinates `xk = xk(q1, ..., qn, t)`.  
+        - The functional form is chosen so that all constraints are **automatically satisfied**, resulting in a system with `n` degrees of freedom and **no explicit constraints**.  
+  
+### 4. Principle of Virtual Work and D’Alembert’s Principle; Lagrange’s Equation (Lec7(1).pdf, Lec7(2).pdf)  
+  
+- **Lagrange Equation of Motion (Introduction)**  
+    - Generalised coordinate systems are best suited for applying laws of motion as they are free from constraints.  
+    - The process involves relating Cartesian and generalised coordinates, and their basis vectors, to transform forces and momentum.  
+    - Dealing with non-constant basis vectors (`d̂qj/dt ≠ 0`) can be complex using Newtonian mechanics directly.  
+- **Work Done and its Role**  
+    - Work done is a scalar, making it easily transformable between coordinate systems while retaining information about the EOM.  
+- **Principle of Virtual Work**  
+    - Starts from Newton's Second Law: `⃗F = d⃗p/dt`.  
+    - The system is under **dynamical equilibrium** between applied forces and the reaction/restoring forces offered by the system.  
+    - The condition is given by `Σ (⃗Fi - d⃗pi/dt) ⋅ ⃗dri = 0` for N particles.  
+- **D’Alembert’s Principle**  
+    - Realised that **virtual displacements (δ⃗ri)** are sufficient, not actual displacements (⃗dri).  
+    - **Definition**: For a dynamical system subject to constraints, the **difference between the applied forces and the inertial forces on each particle, projected onto any virtual displacement consistent with the constraints, is zero**.  
+    - Mathematically: `Σ (⃗Fi - d⃗pi/dt) ⋅ δ⃗ri = 0`.  
+    - This principle is the **starting point for transforming EOM from inertial frames to generalised coordinates**.  
+    - For virtual displacement, **time is frozen**, so there is no differentiation with respect to time for the displacement itself.  
+    - Virtual displacement in generalised coordinates: `δ⃗ri = Σ_k (∂⃗ri/∂qk) δqk`.  
+- **Generalised Forces (Qj)**  
+    - The component of generalised force `Qj` is defined as `Qj = Σ_i ⃗Fi ⋅ (∂⃗ri/∂qj)`.  
+- **Lagrange’s Equation (Derivation)**  
+    - Involves a series of algebraic steps starting from D'Alembert's principle, transforming the inertial term `Σ (d⃗pi/dt) ⋅ δ⃗ri`.  
+    - A key relation used is `∂·⃗ri/∂·qj = ∂⃗ri/∂qj`.  
+    - The kinetic energy `T` (sum of `½mivi²`) is introduced, and the inertial term is shown to be equivalent to `d/dt(∂T/∂·qj) - ∂T/∂qj` summed over `δqj`.  
+- **Lagrange’s Equation (General Form)**  
+    - `d/dt(∂T/∂·qj) - ∂T/∂qj = Qj`.  
+- **Lagrange’s Equation for Potential Forces (Conservative Systems)**  
+    - When forces are derivable from a scalar potential function `V` (`⃗Fi = -∇iV`), the generalised force `Qj` can be written as `Qj = -∂V/∂qj`.  
+    - **Lagrangian (ℒ)**: Defined as `ℒ = T - V` (kinetic energy minus potential energy).  
+    - The equation of motion then takes the form: **`d/dt(∂ℒ/∂·qj) - ∂ℒ/∂qj = 0`**.

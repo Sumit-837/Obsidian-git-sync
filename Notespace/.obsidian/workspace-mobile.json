@@ -4,51 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "1c1bfd7cabcb1d4d",
+        "id": "42595737ba0da6ee",
         "type": "tabs",
         "children": [
           {
-            "id": "f9d7cb5a2a2bcb7f",
+            "id": "f1bf716bfde638d9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Book-PH3102-QM-S.Lal"
-            }
-          },
-          {
-            "id": "fba9a67c963394dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Note-PH3102-Lec2"
-            }
-          },
-          {
-            "id": "1fbbf8c98bc58e15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Note-PH3102-Lec3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Note-PH3102-Lec3"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,16 +79,6 @@
           "state": {},
           "icon": "lucide-bookmark",
           "title": "Bookmarks"
-        }
-      },
-      {
-        "id": "0153f19675378019",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
-          "state": {},
-          "icon": "clock",
-          "title": "Recent Files"
         }
       }
     ],
@@ -226,13 +185,21 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "1fbbf8c98bc58e15",
+  "active": "f1bf716bfde638d9",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/PH3102/Untitled.base",
+    "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
+    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
+    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
+    "00 Resources/Vid-CS50W-2020.md",
+    "02 Literature Notes/HTML & CSS-CS50-vid.md",
+    "00 Resources/Vid-CS50X-2025.md",
+    "00 Rough Things/Ph3101-topics-covered-till 7.md",
+    "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
     "Note-PH3102-Lec3.md",
     "05 Templates/College Lectures sem-5.md",
     "[[.md",
     "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
-    "03 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
     "03 Resources/Books/Mathematical Methods for Ph_ (Z-Library).pdf",
     "00 Rough Things/Prob-Sol/PH3103/PH3103-HW-1.pdf",
     "04 Handbook/Git Cheatsheet.md",
@@ -253,17 +220,9 @@
     "03 Resources/Notes-CS50W-Lec3-Django.md",
     "03 Resources/Fragments/Physical Chemistry",
     "03 Resources/Fragments/Electronics",
-    "03 Resources/Fragments/Inorganic Chemistry",
     "03 Resources/Notes-CS50-Lec1-C.md",
     "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
     "03 Resources/Vid-CS50X-2025.md",
-    "Zettelkasten/Atomic Note on Concept X.md",
-    "04 Handbook/Julia vs Python.md",
-    "03 Resources/Notes-CS50W-Lec2-Python.md",
-    "04 Handbook/Linux Terminal Scribbles.md",
-    "04 Handbook/Useful termux things.md",
-    "04 Handbook/Opening GUI Apps with X11.md",
-    "04 Handbook/Create markdown note from any website.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",
