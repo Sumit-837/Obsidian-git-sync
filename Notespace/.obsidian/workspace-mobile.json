@@ -11,10 +11,12 @@
             "id": "f1bf716bfde638d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "05 Problems/PH3103/PH3103-HW-5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "PH3103-HW-5"
             }
           }
         ]
@@ -171,6 +173,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -187,6 +191,9 @@
   },
   "active": "f1bf716bfde638d9",
   "lastOpenFiles": [
+    "05 Problems/PH3103/PH3103-HW-5.pdf",
+    "05 Problems/PH3103/PH3103-HW-4.pdf",
+    "05 Problems/PH3103/HW_4.pdf",
     "00 Resources/IISER-K/PH3102/Untitled.base",
     "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
@@ -216,10 +223,7 @@
     "03 Resources/Vid-CS50W-2020.md",
     "03 Resources/IISER-K-Lecture-Notes/CH3105 - Lab (Physical Chemistry)/CH3105 Laboroatory Manual-2025.pdf",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
-    "03 Resources/Books/Organic Chemistry (Jonathan_ (Z-Library).pdf",
     "03 Resources/Notes-CS50W-Lec3-Django.md",
-    "03 Resources/Fragments/Physical Chemistry",
-    "03 Resources/Fragments/Electronics",
     "03 Resources/Notes-CS50-Lec1-C.md",
     "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
     "03 Resources/Vid-CS50X-2025.md",
