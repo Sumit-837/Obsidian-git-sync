@@ -4,65 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "42595737ba0da6ee",
+        "id": "55a3daa6f0b6fe08",
         "type": "tabs",
         "children": [
           {
-            "id": "4e2387131849e349",
+            "id": "bdd1096a6d1add8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Rough Things/PH3104-Syllabus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PH3104-Syllabus"
-            }
-          },
-          {
-            "id": "88cbdc1fc6ad3623",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b3fdb1ce0d4cbe4e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8ba6cacb01da4cb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Rough Things/PH3104-Syllabus.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PH3104-Syllabus"
-            }
-          },
-          {
-            "id": "864f196c408bed35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Rough Things/PH3102 Solve Plan.md",
+                "file": "01 Rough Things/PH3104 Note planner.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PH3102 Solve Plan"
+              "title": "PH3104 Note planner"
+            }
+          },
+          {
+            "id": "d69fc1a2bbf2a423",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "H.Note-PH3104-Somedeep"
             }
           }
         ],
@@ -236,21 +204,22 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "864f196c408bed35",
+  "active": "d69fc1a2bbf2a423",
   "lastOpenFiles": [
+    "01 Rough Things/PH3104 Note planner.md",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
+    "01 Rough Things/PH3104 study plan.md",
+    "05 Workbook/PH3104/PH3104-Problem Set-1.pdf",
+    "05 Workbook/PH3104/PH3104-Solution Set-1.pdf",
+    "00 Resources/Books/zettili.pdf",
+    "01 Rough Things/PH3102 Solve Plan.md",
     "00 Resources/IISER-K/PH3104/Handwritten Note- PH3104-Somedeep.pdf",
     "00 Resources/IISER-K/PH3104/Pic-PH3104-Star, Delta.pdf",
     "00 Resources/IISER-K/PH3101/Handwritten Note-Ph3101-Somdeep-fromLec8.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
     "05 Workbook/PH3101/Exam/PH3101-Suppi-Midsem-2024.pdf",
     "05 Workbook/PH3101/Exam/PH3101-Midsem-2024.pdf",
-    "05 Workbook/PH3101/Exam",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec2.pdf",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec1.pdf",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec6.pdf",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec7(a).pdf",
     "01 Rough Things/PH3104-Syllabus.md",
-    "01 Rough Things/PH3102 Solve Plan.md",
     "01 Rough Things/Study plan PH3101.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
@@ -272,8 +241,6 @@
     "02 Permanent Notes/Untitled.md",
     "01 Literature Notes/IISER-K-lit/Untitled.md",
     "03 Resources/Vid-CS50W-2020.md",
-    "04 Handbook/Obsidian Markdown Cheatsheet.md",
-    "03 Resources/Notes-CS50W-Lec3-Django.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",
