@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/PH3103/Untitled.md",
-                "mode": "source",
+                "file": "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Note-CS50X-2025-Lec1-C"
             }
           }
         ]
@@ -191,8 +191,13 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "202e61a8fe969bd8",
+  "active": "d6ba845bd7aea6dc",
   "lastOpenFiles": [
+    "02 Literature Notes/CS50W-HTML-CSS.md",
+    "00 Resources/CS50",
+    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
+    "00 Resources/CS50/Vid-CS50X-2025.md",
+    "00 Resources/CS50/Note-CS50W-Lec3-Django.md",
     "00 Resources/IISER-K/PH3103/Untitled.md",
     "01 Rough Things/PH3104 Note planner.md",
     "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
@@ -206,14 +211,11 @@
     "00 Resources/IISER-K/PH3101/Handwritten Note-Ph3101-Somdeep-fromLec8.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
     "05 Workbook/PH3101/Exam/PH3101-Suppi-Midsem-2024.pdf",
-    "05 Workbook/PH3101/Exam/PH3101-Midsem-2024.pdf",
     "01 Rough Things/PH3104-Syllabus.md",
     "01 Rough Things/Study plan PH3101.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
-    "00 Resources/Vid-CS50W-2020.md",
-    "02 Literature Notes/HTML & CSS-CS50-vid.md",
-    "00 Resources/Vid-CS50X-2025.md",
+    "00 Resources/CS50/Vid-CS50W-2020.md",
     "00 Rough Things/Ph3101-topics-covered-till 7.md",
     "Note-PH3102-Lec3.md",
     "05 Templates/College Lectures sem-5.md",
@@ -226,9 +228,6 @@
     "03 Resources/IISER-K/PH3102/Untitled 1.md",
     "03 Resources/IISER-K/PH3102/Untitled.md",
     "03 Resources/IISER-K/PH3101/Untitled.md",
-    "02 Permanent Notes/Untitled.md",
-    "01 Literature Notes/IISER-K-lit/Untitled.md",
-    "03 Resources/Vid-CS50W-2020.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",

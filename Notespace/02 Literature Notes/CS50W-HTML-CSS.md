@@ -186,7 +186,7 @@ Selectors define which HTML elements the styles should be applied to. _These are
 3.  **ID Selector** (targets a single element with a specific `id` attribute)
     * Set an ID to an HTML tag using attribute `id="idname"`.
     * write the ID in CSS using a hash `#idname` {properties}.
-    * IDs **must be unique** within an HTML document unlike [[HTML & CSS-CS50-vid#^3febee|class]]; do not use the same ID in multiple places.
+    * IDs **must be unique** within an HTML document unlike [[CS50W-HTML-CSS#^3febee|class]]; do not use the same ID in multiple places.
     * Example (e.g., to colorize a specific link):
         ```css
         #idname {
@@ -290,7 +290,7 @@ This tells which selector will get priority in case of collision
 - it helps us to remove repetition in css by introducing variables.
 - sass file extention is `.scss`
 ### Installation
-- In linux terminal (if node.js is already [[HTML & CSS-CS50-vid#^01e493| installed]]):
+- In linux terminal (if node.js is already [[CS50W-HTML-CSS#^01e493| installed]]):
 	```shell
 	npm install -g sass
 	```

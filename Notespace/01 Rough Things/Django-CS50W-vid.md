@@ -161,7 +161,7 @@ When we have to use same things in multiple HTML file,with Django we can use one
 	![[Note-CS50W-Lec3-Django#^549490]]
 
 ### Forms
-We use [[HTML & CSS-CS50-vid#^4911dd|action]] attribute in form tag to mention the url or path where to submit the form data. Here we can use above flexible linking for the path.
+We use [[CS50W-HTML-CSS#^4911dd|action]] attribute in form tag to mention the url or path where to submit the form data. Here we can use above flexible linking for the path.
 #### Post
 For submitting form data, we generally use `post` method instead of `get` .As it doesnt include parameters to the end of the url. But while submitting the form, you'll stumble upon this error: _CSRF varification failed._
 ###### [[Note-CS50W-Lec3-Django#^484782|CSRF (Cross-Site Request Forgery)]]
