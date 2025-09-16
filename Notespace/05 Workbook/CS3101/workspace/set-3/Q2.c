@@ -2,7 +2,8 @@
 
 int asmaa(double n) {
   int m;
-  if (n != (double)(int)n) {
+  if (n != (double)(int)n) // checking if it's not a natural number
+  {
     m = (int)n + 1;
     return m;
   } else {
