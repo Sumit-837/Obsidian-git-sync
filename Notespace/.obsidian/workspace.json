@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf"
+                "file": "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "CS3101 2025_ Ungraded"
+              "title": "PH3101-Midsem-2025"
             }
           }
         ]
@@ -198,18 +198,19 @@
   },
   "active": "35a37836272f4cdb",
   "lastOpenFiles": [
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025-Solution.pdf",
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf",
+    "05 Workbook/PH3101/PH3101-tutorial-01.pdf",
+    "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec3.pdf",
     "05 Workbook/CS3101/workspace/set-3/Q9_INC.c",
     "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
     "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep-upto Midsem.pdf",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.md",
-    "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf",
     "05 Workbook/CS3101/workspace/set-3/Q9.c~",
     "05 Workbook/CS3101/workspace/set-3/4913",
     "05 Workbook/CS3101/workspace/set-3/Q9.c",
-    "05 Workbook/CS3101/workspace/set-3/Q8_INC.c",
-    "05 Workbook/CS3101/workspace/set-3/Q8.c",
-    "05 Workbook/CS3101/workspace/set-3/Q7.c~",
     "05 Workbook/CS3101/workspace/image1.md",
     "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
     "01 Rough Things/PH3103 Sample Question-GEMINI.md",
@@ -219,7 +220,6 @@
     "01 Rough Things/Ph3101-topics-covered-till 7.md",
     "01 Rough Things/PH3104 Cheatsheeet planner.md",
     "01 Rough Things/PH3104 study plan.md",
-    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/CS3101/Tests/Untitled.md",
     "05 Workbook/PH3102/Exams/Untitled.md",
     "01 Rough Things/PH3102 Solve Plan.md",
