@@ -11,12 +11,14 @@
             "id": "35a37836272f4cdb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf"
+                "file": "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "PH3101-Midsem-2025"
+              "icon": "lucide-file",
+              "title": "PH3103 Table-of-Contents Midsem"
             }
           }
         ]
@@ -198,19 +200,19 @@
   },
   "active": "35a37836272f4cdb",
   "lastOpenFiles": [
+    "05 Workbook/PH3103/PH3103-HW-4.pdf",
+    "05 Workbook/PH3103/PH3103-HW-5.pdf",
+    "05 Workbook/PH3103/PH3103-HW-6.pdf",
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf",
+    "05 Workbook/PH3103/Tests/PH3103-Midsem-2025.pdf",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025-Solution.pdf",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
-    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf",
     "05 Workbook/PH3101/PH3101-tutorial-01.pdf",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec3.pdf",
     "05 Workbook/CS3101/workspace/set-3/Q9_INC.c",
     "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
-    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep-upto Midsem.pdf",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.md",
-    "05 Workbook/CS3101/workspace/set-3/Q9.c~",
-    "05 Workbook/CS3101/workspace/set-3/4913",
-    "05 Workbook/CS3101/workspace/set-3/Q9.c",
     "05 Workbook/CS3101/workspace/image1.md",
     "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
     "01 Rough Things/PH3103 Sample Question-GEMINI.md",
