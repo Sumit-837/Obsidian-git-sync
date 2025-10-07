@@ -129,8 +129,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -209,8 +208,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -234,24 +233,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "smart-composer:Open smart composer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "handwritten-notes:Create empty handwritten note": false,
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "smart-composer:Open smart composer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "6c763f710a2e13b6",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/PH3101/H.Note-PH3101-Somedeep.pdf",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
+    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep-upto Midsem.pdf",
+    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep.pdf",
+    "Untitled.md",
     "00 Resources/IISER-K/PH3105/Expt5-PH3105-Example.pdf",
     "05 Workbook/PH3103/Tests/PH3103-CT-2.pdf",
     "05 Workbook/PH3103/PH3103-HW-7.pdf",
@@ -259,12 +262,7 @@
     "05 Workbook/PH3102/PH3102-Assignment-3.pdf",
     "05 Workbook/PH3105/Expt-4/SR23MS090-EXPT-4.pdf",
     "05 Workbook/PH3105/Expt-4/Main_plot.lml",
-    "05 Workbook/PH3105/Expt-4",
-    "Untitled.md",
     "01 Rough Things/Expt-4 roadmap.md",
-    "05 Workbook/PH3103/PH3103-HW-5.pdf",
-    "05 Workbook/PH3103/PH3103-HW-4.pdf",
-    "05 Workbook/PH3103/PH3103-HW-6.pdf",
     "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.md",
