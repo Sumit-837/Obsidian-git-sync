@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "35a37836272f4cdb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/PH3103/PH3103-HW-6.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "PH3103-HW-6"
-            }
-          },
-          {
-            "id": "34c3a6d4fc8964fb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/PH3103/PH3103-HW-4.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "PH3103-HW-4"
-            }
-          },
-          {
-            "id": "9c816101d2aefb2c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/PH3103/PH3103-HW-5.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "PH3103-HW-5"
-            }
-          },
-          {
             "id": "72ecda8d77c93ee1",
             "type": "leaf",
             "state": {
@@ -58,21 +22,45 @@
             }
           },
           {
-            "id": "6c763f710a2e13b6",
+            "id": "f349d5dda5874b4d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "05 Workbook/PH3104/PH3104-Problem Set-2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "PH3104-Problem Set-2"
+            }
+          },
+          {
+            "id": "ce525f55678f3d35",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "H.Note-PH3104-Somedeep"
+            }
+          },
+          {
+            "id": "62b588824a4665be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "PH3104 Note conversion (From semiconductors)"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -233,7 +221,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "handwritten-notes:Create empty handwritten note": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -245,25 +232,28 @@
       "templater-obsidian:Templater": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "smart-composer:Open smart composer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "6c763f710a2e13b6",
+  "active": "62b588824a4665be",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/PH3101/H.Note-PH3101-Somedeep.pdf",
-    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
-    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep-upto Midsem.pdf",
-    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep.pdf",
     "Untitled.md",
-    "00 Resources/IISER-K/PH3105/Expt5-PH3105-Example.pdf",
-    "05 Workbook/PH3103/Tests/PH3103-CT-2.pdf",
-    "05 Workbook/PH3103/PH3103-HW-7.pdf",
-    "05 Workbook/PH3103/HW_7.pdf",
-    "05 Workbook/PH3102/PH3102-Assignment-3.pdf",
-    "05 Workbook/PH3105/Expt-4/SR23MS090-EXPT-4.pdf",
-    "05 Workbook/PH3105/Expt-4/Main_plot.lml",
+    "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
+    "05 Workbook/PH3104/PH3104-Problem Set-2.pdf",
     "01 Rough Things/Expt-4 roadmap.md",
     "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
+    "01 Rough Things/PH3104 study plan.md",
+    "00 Resources/IISER-K/PH3104/PH.md",
+    "00 Resources/IISER-K/PH3104/Note-PH3104-Capacitor_Charging.pdf",
+    "05 Workbook/PH3103/PH3103-HW-6.pdf",
+    "05 Workbook/PH3103/PH3103-HW-4.pdf",
+    "05 Workbook/PH3103/PH3103-HW-5.pdf",
+    "05 Workbook/PH3103/PH3103-HW-7.pdf",
+    "05 Workbook/PH3102/PH3102-Assignment-3.pdf",
+    "00 Resources/IISER-K/CS3101/Storage_classes.pdf",
+    "00 Resources/IISER-K/CS3101/arrays_strings.pdf",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.md",
     "05 Workbook/CS3101/workspace/image1.md",
@@ -273,7 +263,6 @@
     "01 Rough Things/Note-PH3102-Lec3.md",
     "01 Rough Things/Ph3101-topics-covered-till 7.md",
     "01 Rough Things/PH3104 Cheatsheeet planner.md",
-    "01 Rough Things/PH3104 study plan.md",
     "05 Workbook/CS3101/Tests/Untitled.md",
     "05 Workbook/PH3102/Exams/Untitled.md",
     "01 Rough Things/PH3102 Solve Plan.md",
@@ -288,8 +277,6 @@
     "00 Rough Notes/OOP-Python-Indently.yt-vid.md",
     "00 Rough Notes/CS3101 2025_ Ungraded.md",
     "00 Rough Notes/CS3101/CS3101 2025_ Ungraded.md",
-    "03 Resources/IISER-K/PH3105/placeholder.md",
-    "03 Resources/IISER-K/PH3104/Untitled.md",
-    "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md"
+    "03 Resources/IISER-K/PH3105/placeholder.md"
   ]
 }
