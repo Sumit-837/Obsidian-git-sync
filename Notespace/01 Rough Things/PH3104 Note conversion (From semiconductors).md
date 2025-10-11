@@ -529,7 +529,7 @@ Brief: Models momentum loss by random collisions using a single time constant $\
   - From (ii) and (iv): $-q E_x - \dfrac{p_x}{\tau} = 0$
   - Hence average momentum per electron: $\langle p_x \rangle = q E_x \tau$
   - Next page continues to convert to velocity and define mobility/conductivity.
-# [[H.Note-PH3104-Somedeep.pdf#page=70|page-70,71]]
+# [[H.Note-PH3104-Somedeep.pdf#page=70|page-70,72]]
 ## Lecture 16–17 (16/09/2023) — Mobility, conductivity, drift current, and Fermi-level alignment at junctions
 
 ### 1) From average momentum to drift velocity
@@ -592,3 +592,449 @@ Brief: At equilibrium, net transfer is zero; equate forward and reverse rates to
 - Therefore, at equilibrium:
   $$f_1(E) = f_2(E)\;\;\forall E \;\Rightarrow\; E_{F_1} = E_{F_2}$$
   The Fermi level is uniform across the junction at equilibrium.
+
+# [[H.Note-PH3104-Somedeep.pdf#page=73|page-73,74]]
+## Lecture 18 (18/09/2023) — Drift and diffusion currents, equilibrium versus quasi-equilibrium
+
+### 1) Drift current (recap)
+Brief: Current due to carrier motion in an electric field.
+- Total drift current density along x:
+  - $J_x = q\,( \mu_n n + \mu_p p )\,E_x$
+- Meaning:
+  - $n, p$ are electron and hole concentrations.
+  - $\mu_n, \mu_p$ are mobilities.
+  - Sign conventions are absorbed in $q$ and the definitions of $J_n, J_p$ below.
+
+---
+
+### 2) Particle flux and diffusion coefficient
+Brief: Carrier concentration gradients drive diffusion; flux is proportional to the gradient.
+- Define particle flux at position $x$ across cross-section $A$:
+  - Electrons: $\varphi_n(x) = - D_n \,\dfrac{d n}{dx}$  (1)
+  - Holes:     $\varphi_p(x) = - D_p \,\dfrac{d p}{dx}$  (2)
+- $D_n, D_p$ are the diffusion coefficients.
+
+---
+
+### 3) Diffusion current densities
+Brief: Convert flux to electrical current densities (multiplying by charge).
+- Electrons (toward +x if $dn/dx>0$):
+  - $J_n^{(\mathrm{diff})} = +\,q\,D_n \,\dfrac{dn}{dx}$  (III)
+- Holes:
+  - $J_p^{(\mathrm{diff})} = -\,q\,D_p \,\dfrac{dp}{dx}$  (IV)
+
+---
+
+### 4) Net current = drift + diffusion
+Brief: Local total current is the superposition of field-driven drift and gradient-driven diffusion.
+- Electrons:
+  - $J_n(x) = q\big(\mu_n\,n\,E_x + D_n \,\dfrac{dn}{dx}\big)$  (V)
+- Holes:
+  - $J_p(x) = q\big(\mu_p\,p\,E_x - D_p \,\dfrac{dp}{dx}\big)$  (VI)
+- Total:
+  - $J = J_n + J_p$
+- Sketches on the page indicate how $n(x)$, $p(x)$, and the directions of $J^{\mathrm{drift}}$ and $J^{\mathrm{diff}}$ relate for $E_x$ along +x.
+
+---
+
+### 5) Equilibrium carrier statistics
+Brief: In thermal equilibrium, drift and diffusion currents cancel and carrier densities follow Boltzmann forms.
+- At equilibrium:
+  - $J_n^{(\mathrm{diff})} + J_n^{(\mathrm{drift})} = 0$, 
+    $J_p^{(\mathrm{diff})} + J_p^{(\mathrm{drift})} = 0$
+- Carrier concentrations:
+  - $n_0 = N_c\,e^{-(E_c - E_F)/(k_B T)}$
+  - $p_0 = N_v\,e^{-(E_F - E_v)/(k_B T)}$
+- Intrinsic relation:
+  - $n_i^2 = n_0 p_0 = N_c N_v\,e^{-E_g/(k_B T)}$, so $n_0 = p_0 = n_i$ when intrinsic.
+
+---
+
+### 6) Quasi-Fermi levels (non-equilibrium)
+Brief: Under bias/illumination, electrons and holes can be described by separate Fermi levels.
+- Definitions:
+  - $n = n_i\,e^{(E_{F_n} - E_i)/(k_B T)}$
+  - $p = n_i\,e^{(E_i - E_{F_p})/(k_B T)}$  (VIII)
+- At equilibrium:
+  - $E_{F_n} = E_{F_p} = E_F$.
+  - For intrinsic material specifically: $E_F = E_i$, and $n=p=n_i$.
+
+---
+
+### 7) Electric field, potential, and electron potential energy
+Brief: Relates spatial band “tilt” with field and potential; sign is for electrons.
+- Field–potential relation:
+  - $E_x(x) = -\,\dfrac{dV(x)}{dx}$
+- Electron potential energy:
+  - $U(x) = q\,V(x)$
+- The note’s margin sketch shows sloped band edges (band bending), equivalent to a spatially varying potential producing $E_x$.
+- Rewriting electron current with explicit field and gradient (as used in later pages):
+  - $J_n(x) = q\,\mu_n\,n(x)\,E_x(x) + q\,D_n\,\dfrac{dn}{dx}$
+
+# [[H.Note-PH3104-Somedeep.pdf#page=75|page-75,76]]
+## Lecture 18 — Quasi-Fermi gradients, Einstein relation, and current in terms of energy levels
+
+### 1) Spatial derivatives of carrier densities
+Brief: Start from the quasi-Fermi level definitions and differentiate to relate gradients of n, p to energy-level slopes.
+- Electrons:
+  - $n(x) = n_i\,e^{\frac{E_{F_n}(x)-E_i(x)}{k_BT}}$
+  - $\displaystyle \frac{dn}{dx} = \frac{n(x)}{k_BT}\left[\frac{dE_{F_n}}{dx}-\frac{dE_i}{dx}\right]$
+- Holes:
+  - $p(x) = n_i\,e^{\frac{E_i(x)-E_{F_p}(x)}{k_BT}}$
+  - $\displaystyle \frac{dp}{dx} = \frac{p(x)}{k_BT}\left[\frac{dE_i}{dx}-\frac{dE_{F_p}}{dx}\right]$
+
+### 2) Einstein diffusion relation
+Brief: Connects diffusion coefficients to mobilities at temperature T.
+- $\displaystyle D_n = \mu_n\,\frac{k_BT}{q}$,  $\displaystyle D_p = \mu_p\,\frac{k_BT}{q}$
+
+### 3) Intrinsic level slope and electric field
+Brief: Band edges (and $E_i$) tilt with electrostatic potential; relate their slope to the field.
+- Convention for electrons:
+  - $E_i(x) = -q\,V(x)$
+  - $\displaystyle \frac{dE_i}{dx} = -q\,\frac{dV}{dx} = q\,E(x)$
+
+### 4) Electron current in terms of $E_{F_n}(x)$
+Brief: Substitute the density gradient (from 1) into drift+diffusion and use the Einstein relation (2) and the field relation (3).
+- Start from:
+  - $\displaystyle J_n(x) = q\,\mu_n\,n(x)\,E(x) + q\,D_n\,\frac{dn}{dx}$
+- Substitute:
+  - $$qD_n\frac{dn}{dx} = q\left(\mu_n\frac{k_BT}{q}\right)\frac{n}{k_BT}\left[\frac{dE_{F_n}}{dx}-\frac{dE_i}{dx}\right]
+  = \mu_n n\!\left[\frac{dE_{F_n}}{dx}-\frac{dE_i}{dx}\right]$$
+- Use $\frac{dE_i}{dx}=qE(x)$:
+  - $$\displaystyle J_n(x) = q\mu_n n E + \mu_n n\!\left[\frac{dE_{F_n}}{dx}-qE\right]
+  = \mu_n n\,\frac{dE_{F_n}}{dx}$$
+- Result:
+  - $\displaystyle \boxed{\,J_n(x) = \mu_n\,n(x)\,\frac{dE_{F_n}}{dx}\,}$
+
+### 5) Hole current in terms of $E_{F_p}(x)$
+Brief: Analogous steps for holes produce a compact expression driven by the hole quasi-Fermi gradient.
+- Start from:
+  - $\displaystyle J_p(x) = q\,\mu_p\,p(x)\,E(x) - q\,D_p\,\frac{dp}{dx}$
+- Proceeding exactly as for electrons gives:
+  - $\displaystyle \boxed{\,J_p(x) = -\,\mu_p\,p(x)\,\frac{dE_{F_p}}{dx}\,}$
+
+### 6) Equilibrium cue (band-bending sketch)
+Brief: With no net current, the quasi-Fermi levels are flat.
+- Equilibrium condition:
+  - $\displaystyle \frac{dE_{F}}{dx} = 0 \;\Rightarrow\; J_n = 0,\; J_p = 0$
+- Margin sketch indicates “band bending” of $E_c,E_v$ while a single Fermi level remains constant across the structure.
+# [[H.Note-PH3104-Somedeep.pdf#page=77|page-77,78]]
+## Lecture 19 — P–N Junction: equilibrium, built‑in potential, and band diagrams (19/09/2023)
+
+### 1) Equilibrium in the depletion region
+Brief: With no external bias, drift and diffusion currents cancel for each carrier.
+- Hole current balance:
+  - $J_p^{(\text{drift})} + J_p^{(\text{diff})} = 0$
+- Electron current balance:
+  - $J_n^{(\text{drift})} + J_n^{(\text{diff})} = 0$
+- Depletion sketch: junction with widths $x_{p0}$ (into p side) and $x_{n0}$ (into n side); net electric field present across width $w = x_{p0} + x_{n0}$.
+
+### 2) From $J_p=0$ to Einstein relation and a density–potential link
+Brief: Start from the hole current balance to relate $p(x)$ to the electrostatic potential; recover Einstein’s relation on the way.
+- Write $J_p=0$:
+  - $q\,\mu_p\,p(x)\,E(x) \;-\; q\,D_p\,\dfrac{dp}{dx} = 0$
+- Rearrange:
+  - $\mu_p\,p(x)\,E(x) = D_p\,\dfrac{dp}{dx}$
+  - $\displaystyle \frac{\mu_p}{D_p}\,E(x) = \frac{1}{p(x)}\,\frac{dp}{dx}$
+- Use $E(x) = -\,\dfrac{dV(x)}{dx}$ and Einstein relation:
+  - $\displaystyle \frac{D_p}{\mu_p}=\frac{k_BT}{q} \quad\Longrightarrow\quad \frac{\mu_p}{D_p}=\frac{q}{k_BT}$
+- Integrate across the depletion region (from p-edge to n-edge):
+  - $$\displaystyle \frac{q}{k_BT}\int_{-x_{p0}}^{x_{n0}} E(x)\,dx
+     \;=\; \int_{p_p}^{p_n}\frac{1}{p}\,dp
+     \;=\; \ln\!\left(\frac{p_n}{p_p}\right)$$
+- Since $\displaystyle \int E\,dx = -\Delta V = -(V_n - V_p)$,
+  - $-\dfrac{q}{k_BT}\,(V_n - V_p) = \ln\!\left(\dfrac{p_n}{p_p}\right)$
+  - Equivalently,
+    $$\boxed{\;\frac{p_p}{p_n} \;=\; e^{\,qV_0/(k_BT)}\;},\qquad V_0 \equiv V_p - V_n\ \text{(built‑in/contact potential)}$$
+- Margin cue: “band bending” sketch accompanying the integration.
+
+### 3) P–N junction setup and built‑in potential
+Brief: After forming contact, charges transfer until a built‑in potential $V_0$ develops and $E_F$ aligns.
+- Junction sketch:
+  - p side (acceptors $N_A^-$), n side (donors $N_D^+$), depletion region of width $w$.
+  - Labeled “transition or depletion space charge.”
+  - Electrostatic (contact) potential denoted $V_0$ across the depletion region.
+- Band diagram concept:
+  - Before contact: separate $p$- and $n$‑type bands with different Fermi levels ($E_{Fp}$, $E_{Fn}$).
+  - After contact (equilibrium): a single flat Fermi level; conduction/valence bands bend across the junction.
+- Charge neutrality across cross‑section area $A$:
+  - $$q\,N_D\,x_{n0}\,A \;=\; q\,N_A\,x_{p0}\,A \qquad\text{(balance of charges)}$$
+
+### 4) Energy–potential conventions (for electrons)
+Brief: The notes use electron energy conventions to connect band edges, intrinsic level, potential, and field.
+- Energy versus position sketch with $E_c(x)$, $E_i(x)$, $E_v(x)$ sloping across $x$.
+- Conventions:
+  - $E_i(x) = -\,q\,V(x)$
+  - $E(x) = -\,\dfrac{dV(x)}{dx}$
+- Remark: “I am drawing the potential (energy) for electrons,” consistent with $E_i(x) = -qV(x)$.
+
+# [[H.Note-PH3104-Somedeep.pdf#page=79|page-79,80]]
+## Lecture 20–21 (23/09/2023) — PN junction recap, depletion width, and minority-carrier boundary conditions
+
+### 1) Recap: built‑in potential and edge concentrations
+Brief: Relations at equilibrium between edge concentrations and the built‑in potential.
+- Ratio of equilibrium hole densities (p‑side edge vs n‑side minority):
+  - $\displaystyle \frac{p_p}{p_m} = e^{qV_0/k_BT}$  (j)
+- Built‑in (contact) potential from band edges:
+  - $\displaystyle qV_0 = E_{Vp} - E_{Vn}$
+- Depletion widths and total width:
+  - Sketch shows $p|n$ with depletion spanning $-x_{p0}$ to $x_{n0}$, total width $W$.
+  - $\displaystyle x_{n0} = \frac{W\,N_A}{N_D + N_A}$
+- Built‑in potential in terms of $W$:
+  - $\displaystyle V_0 = \frac{1}{2}\,\frac{q}{\varepsilon}\left(\frac{N_A N_D}{N_A + N_D}\right) W^2$
+
+### 2) Band diagrams and biasing
+Brief: Qualitative band bending and barrier changes under forward/reverse bias.
+- At equilibrium:
+  - $E_{Fp} = E_{Fn}$ (single Fermi level)
+  - Barrier height across junction: $qV_0$
+- Forward bias (battery polarity shown across $p$–$n$):
+  - Barrier reduces to $q(V_0 - V)$
+  - Diagrams show $E_{Fp}$ and $E_{Fn}$ separated by $\approx qV$
+- Reverse bias:
+  - Barrier increases to $q(V_0 + V_p)$ (sketch label)
+  - Corresponding band diagram with widened barrier and separated quasi‑Fermi levels
+
+### 3) Minority‑carrier concentrations at depletion edges (reverse bias page heading)
+Brief: No recombination in the depletion region; relate edge concentrations using $V_0$ and applied bias.
+- Assumption: “No recombination in the depletion region.”
+- Equilibrium ratio (left edge to right edge):
+  - $\displaystyle \frac{p(-x_{p0})}{p_p} = e^{qV_0/k_BT}$  (i)
+- With bias $V$ (steady state):
+  - $\displaystyle \frac{p(-x_{p0})}{p(x_{n0})} = e^{q(V_0 - V)/k_BT}$  (ii)
+- Ratio of (i) and (ii):
+  - $\displaystyle \boxed{\frac{p(x_{n0})}{p_m} = e^{qV/k_BT}}$
+- Notes:
+  - $p_m$ → equilibrium value of minority carriers (holes) in the n‑region.
+  - $n_p$ → equilibrium value of minority carriers (electrons) in the p‑region.
+- Sketches indicate:
+  - Battery and depletion region under bias.
+  - Band diagrams for equilibrium, forward bias ($q(V_0 - V)$), and reverse bias ($q(V_0 + V_p)$).
+
+# [[H.Note-PH3104-Somedeep.pdf#page=81|page-81,82]]
+## PN Junction — Minority‐carrier injection and Shockley diode equation
+
+### 1) Boundary conditions at the depletion edges under forward bias
+Brief: Applying a forward bias V raises minority‐carrier concentrations at the depletion edges relative to their equilibrium values; the “excess” then diffuses into the neutral regions.
+
+- At the n-side edge (x = x_n0):
+  - Minority holes:
+    - $p(x_{n0}) = p_m\,e^{qV/k_BT}$
+    - Excess over equilibrium:
+      $$\Delta p(x_{n0}) = p(x_{n0}) - p_m = p_m\!\left(e^{qV/k_BT}-1\right)$$
+  - These excess holes diffuse in the +x direction (sketch).
+
+- Similarly, at the p-side edge (x = -x_p0):
+  - Minority electrons:
+    - $n(x_{p0}) = n_p\,e^{qV/k_BT}$
+    - Excess over equilibrium:
+      $$\Delta n(x_{p0}) = n(x_{p0}) - n_p = n_p\!\left(e^{qV/k_BT}-1\right)$$
+
+- Qualitative note (from margin text): Drift current for minority carriers is in the direction of the electric field (barrier potential), while diffusion current is driven by the concentration gradient. Net injected carrier density is given by the above excesses.
+
+---
+
+### 2) Minority‐carrier profiles in the neutral regions
+Brief: Excess minority carriers decay exponentially away from the depletion edge with their diffusion lengths.
+
+- On the n side (holes):
+  - $\Delta p(x) = \Delta p(0)\,e^{-x/L_p}$, with $\Delta p(0)=\Delta p(x_{n0})$
+  - Hence $\displaystyle \frac{dp}{dx}\Big|_{x=0} = -\frac{1}{L_p}\,\Delta p(0)$
+
+- On the p side (electrons):
+  - $\Delta n(x) = \Delta n(0)\,e^{-x/L_n}$, with $\Delta n(0)=\Delta n(x_{p0})$
+  - Hence $\displaystyle \frac{dn}{dx}\Big|_{x=0} = -\frac{1}{L_n}\,\Delta n(0)$
+
+- Symbols:
+  - $L_p$ = hole diffusion length in the n region; $L_n$ = electron diffusion length in the p region.
+  - $p_m$ = equilibrium minority‐carrier (holes) concentration in the n region.
+  - $n_p$ = equilibrium minority‐carrier (electrons) concentration in the p region.
+
+---
+
+### 3) Diffusion currents at the depletion edges
+Brief: Evaluate the diffusion currents at the depletion edges using $J = \pm qD\,\frac{d(\text{carrier})}{dx}$, then multiply by area $A$ for total current.
+
+- Hole diffusion current density at the n-side edge:
+  - $J_p = -\,q D_p\,\dfrac{dp}{dx}$
+  - Using the edge slope:
+    $$J_p(x_n=0) = q\,D_p\,\frac{\Delta p(0)}{L_p}
+      = q\,D_p\,\frac{p_m}{L_p}\!\left(e^{qV/k_BT}-1\right)$$
+  - Total hole current:
+    $$I_p(x_n=0) = A\,J_p(x_n=0) = qA\,\frac{D_p}{L_p}\,p_m\!\left(e^{qV/k_BT}-1\right)$$
+
+- Electron diffusion current density at the p-side edge:
+  - $J_n = -\,q D_n\,\dfrac{dn}{dx}$
+  - Using the edge slope:
+    $$J_n(x_p=0) = q\,D_n\,\frac{\Delta n(0)}{L_n}
+      = q\,D_n\,\frac{n_p}{L_n}\!\left(e^{qV/k_BT}-1\right)$$
+  - Total electron current:
+    $$I_n(x_p=0) = A\,J_n(x_p=0) = qA\,\frac{D_n}{L_n}\,n_p\!\left(e^{qV/k_BT}-1\right)$$
+
+---
+
+### 4) Net diode current — Shockley diode equation (from the notes’ boxed result)
+Brief: The total current is the sum of hole and electron diffusion currents evaluated at the depletion edges.
+
+- Net current:
+  $$\boxed{\,I_T = qA\!\left(\frac{D_p}{L_p}\,p_m + \frac{D_n}{L_n}\,n_p\right)\!\left(e^{qV/k_BT}-1\right)\,}$$
+
+- Identification of the saturation current:
+  - $I_S \equiv qA\!\left(\dfrac{D_p}{L_p}\,p_m + \dfrac{D_n}{L_n}\,n_p\right)$
+  - So $I_T = I_S\!\left(e^{qV/k_BT}-1\right)$
+
+- Direction notes (as annotated):
+  - For forward bias, $e^{qV/k_BT}-1>0$, both contributions are positive.
+  - $J_{\mathrm{diff}}$ is toward +x on the n side; analogous sign conventions hold on the p side.
+# [[H.Note-PH3104-Somedeep.pdf#page=83|page-83,84]]
+## PN junction as a rectifier — diode I–V, minority-edge excess, simple circuits, and half‑wave rectification
+
+### 1) Diode I–V and minority excess at the depletion edge
+Brief: Uses the Shockley result to show rectifying behavior and the corresponding edge excess minority concentration.
+- Diode current:
+  \[
+  I_D = I_0\!\left(e^{\frac{qV}{k_BT}} - 1\right)
+  \]
+- Minority‑carrier excess at the n‑side edge under forward bias:
+  \[
+  \Delta p(x_n) = p_m\!\left(e^{\frac{qV}{k_BT}} - 1\right)
+  \]
+- Reverse bias: sketched band diagram and I–V showing a small “leakage current”.
+
+- Room‑temperature cue:
+  \[
+  \frac{k_BT}{q}\approx 0.0259\ \text{V at 300 K},\qquad
+  e^{\frac{qV}{k_BT}}\gg 1\ \text{(forward bias)}
+  \]
+- Symbols drawn: diode and Zener diode.
+
+---
+
+### 2) Simple series circuit with a diode
+Brief: KVL for a diode in series with a resistor; useful for load‑line plots.
+- Series circuit (source Vi, series R, diode with drop \(V_D\)):
+  $$\[
+  V_i = V_D + I_D R,\qquad
+  I_D = \frac{V_i - V_D}{R}
+  \]$$
+- I–V sketch indicates a “threshold” voltage $(V_{\text{th}}$).
+
+---
+
+### 3) Half‑wave rectifier (HWR)
+Brief: Transformer + single diode + load \(R_L\); output is one‑polarity half cycles.
+- Circuit and waveforms sketched:
+  - Input \(v_i(t)\) sinusoidal.
+  - Output \(v_{out}(t)\): only the positive half cycles (half‑wave rectification).
+- Efficiency of rectification (as concluded in the notes):
+  $$\[
+  \eta = \frac{\text{DC power output}}{\text{power input}}
+  \quad\Longrightarrow\quad
+  \boxed{\ \eta = \tfrac{1}{2}\ \text{ for HWR}\ }
+  \]$$
+  The intermediate algebra in the notes shows ratios with RMS/DC terms and ends with the above result for the half‑wave rectifier.
+
+# [[H.Note-PH3104-Somedeep.pdf#page=85|page-85,86]]
+## Lecture 21–22 — Full‑wave rectification (center‑tap and bridge) and HWR averages (25/09/2023)
+
+### 1) Full‑wave rectification (center‑tapped, two diodes)
+Brief: A center‑tapped secondary with two diodes conducts on alternate half‑cycles, flipping the negative half to positive across the load.
+- Circuit: transformer secondary with ends A and B, center tap to reference, diodes D1 and D2 feeding load RL → Vout.
+- Conduction:
+  - Positive half‑cycle: one diode conducts (say D1), current through RL in + direction.
+  - Negative half‑cycle: the other diode (D2) conducts, current through RL remains in the same + direction.
+- Waveforms:
+  - Input: sinusoid.
+  - Output Vout: full‑wave rectified (all positive “humps”).
+
+### 2) Full‑wave bridge rectifier
+Brief: Four diodes in a bridge allow full‑wave rectification without a center tap.
+- Diodes D1–D4 arranged in a bridge; RL across the bridge output.
+- Conduction path flips each half‑cycle so current through RL is unidirectional.
+- Waveform: Vout shows full‑wave rectified sinusoid (same polarity for both halves).
+
+---
+
+## Lecture 22 — Half‑wave rectifier (HWR): DC value, Fourier hint, power relations
+
+### 3) Average (DC) output of HWR
+Brief: Average over one full period, with conduction only for 0→T/2.
+- Circuit: single diode + RL.
+- Notation: peak amplitude V0 (used in the integrals/sketches).
+- DC value:
+  - $V_{\text{DC}}=\dfrac{1}{T}\int_{0}^{T/2}V_0\sin\omega t\,dt
+   = \dfrac{1}{2\pi}\int_{0}^{\pi}V_0\sin\alpha\,d\alpha
+   = \dfrac{V_0}{\pi}.$
+
+### 4) HWR Fourier series (as indicated in notes)
+Brief: Output has a DC term plus harmonics; the notes show the DC term and leading sinusoidal terms.
+- Sketch/series cue in notes:
+  - $v_L(t)=\dfrac{V_0}{\pi}\;+\;\text{sinusoidal terms at }\omega,\,2\omega,\dots$
+  - Example form noted:
+    $$v_L(t)\approx \dfrac{V_0}{\pi}
+      + \dfrac{V_0}{2\pi}\sin\omega t
+      - \dfrac{2V_0}{3\pi}\sin 2\omega t + \cdots$$
+  - Purpose in notes: to separate DC and AC components for power/RMS calculations.
+
+### 5) Power relations (from the page results)
+Brief: Uses DC and RMS values tabulated in the notes.
+- DC output power:
+  - $$P_{\text{DC}}=\dfrac{V_{\text{DC}}^{2}}{R_L}
+   = \dfrac{1}{R_L}\left(\dfrac{V_0}{\pi}\right)^{2}.$$
+- RMS of HWR output (as stated): 
+  - $V_{\text{rms}}^{\text{(HWR)}}=\dfrac{V_0}{2}.$
+- RMS of FWR output (as stated for comparison):
+  - $V_{\text{rms}}^{\text{(FWR)}}=\dfrac{V_0}{\sqrt{2}}.$
+- Total load power (HWR):
+  - $$P_T=\dfrac{(V_{\text{rms}}^{\text{(HWR)}})^2}{R_L}
+   = \dfrac{V_0^{2}}{4R_L}.$$
+- Difference highlighted at the end of the page:
+  - $$P_T - P_{\text{DC}}
+   = \dfrac{V_0^{2}}{4R_L} - \dfrac{V_0^{2}}{\pi^{2}R_L}.$$
+
+Notes:
+- Margin labels “FB → Forward Bias, RB → Reverse Bias” mark diode conduction halves.
+- Plots next to the circuits show input $v_i(t)$, HWR output $v_{\text{out}}(t)$, and the full‑wave output for comparison.
+# [[H.Note-PH3104-Somedeep.pdf#page=87|page-87,88]]
+## Rectification wrap-up — ripple factor, bridge rectifier details, and filters
+
+### 1) AC component and ripple factor γ
+Brief: Separate the rectifier output into DC and AC components; define the ripple factor.
+- From load power balance:
+  - AC component power:
+    $$\frac{V_{\text{AC}}^2}{R} = \frac{V_{\text{rms}}^2 - V_{\text{DC}}^2}{R}$$
+  - Hence
+    $$V_{\text{AC}} = \sqrt{V_{\text{rms}}^2 - V_{\text{DC}}^2}$$
+- Ripple factor (as written):
+  $$\gamma = \sqrt{\left(\frac{V_{\text{rms}}}{V_{\text{DC}}}\right)^2 - 1}$$
+- Values noted in the margin:
+  - For HWR (half-wave rectifier): $\gamma \approx 1.21$
+  - For FWR (full-wave rectifier): $\gamma \approx 0.48$
+- Sketch: FWR output waveform (consecutive positive “humps”).
+
+---
+
+### 2) Bridge rectifier (four-diode) operation and PIV
+Brief: Conduction paths for alternate half-cycles; peak inverse voltage noted.
+- Schematic: standard bridge with D1–D4; load $R_L$ across bridge output; transformer secondary to bridge AC inputs.
+- Conduction description:
+  - When terminal “A” is positive w.r.t. “D”, diodes D1 and D2 conduct → current flows from B to C through $R_L$.
+  - In the next half-cycle, D3 and D4 conduct → current again flows from B to C through $R_L$ (same load polarity).
+- Peak Inverse Voltage (PIV) for each diode (as noted): equals $V_0$ (the secondary peak).
+
+---
+
+### 3) Filters for rectifier outputs (capacitor input filter)
+Brief: Add a smoothing capacitor across the load; observe charge/discharge and the resulting ripple.
+- Circuit: diode → C in parallel with $R_L$ (capacitor-input RC filter).
+- Waveform note: “In this cycle the capacitor C will charge after the peak is reached; the capacitor starts discharging” → sawtooth-like ripple on the rectified envelope.
+- Ripple voltage (from notes):
+  $$V_r \;=\; \frac{I_{\text{DC}}\,T_2}{C}$$
+  where $T_2$ is the discharge interval between charging peaks.
+- Design cues written:
+  - If I want small current draw → $R$ (on $R_L$) is high.
+  - If I want to draw a large current → (implied) larger C and/or different filter is needed to hold ripple down.
+- Block diagram shown: Rectification → L–C filter chain:
+  - Series/parallel sequence “L — C — L — C — … — $R_L$”
+  - Charge relation written:
+    $$Q = I_{\text{DC}}\,T_2 = C\,V_{\text{DC}}$$

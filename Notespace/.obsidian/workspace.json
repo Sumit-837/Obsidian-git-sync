@@ -34,6 +34,37 @@
             }
           },
           {
+            "id": "62b588824a4665be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Rough Things/PH3104 Table of Contents.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": false
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PH3104 Table of Contents"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "9de55617c20ac01d",
+        "type": "tabs",
+        "children": [
+          {
             "id": "ce525f55678f3d35",
             "type": "leaf",
             "state": {
@@ -44,23 +75,8 @@
               "icon": "lucide-file-text",
               "title": "H.Note-PH3104-Somedeep"
             }
-          },
-          {
-            "id": "62b588824a4665be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PH3104 Note conversion (From semiconductors)"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -221,6 +237,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -238,13 +255,16 @@
   },
   "active": "62b588824a4665be",
   "lastOpenFiles": [
-    "Untitled.md",
-    "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
     "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
+    "Untitled.md",
+    "01 Rough Things/PH3104 Table of Contents.md",
+    "01 Rough Things/PH3104 Cheatsheeet planner.md",
+    "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
+    "01 Rough Things/PH3102 Solve Plan.md",
+    "05 Workbook/CS3101/workspace/set-4/Q1d.c",
     "05 Workbook/PH3104/PH3104-Problem Set-2.pdf",
     "01 Rough Things/Expt-4 roadmap.md",
     "01 Rough Things/PH3103 Table-of-Contents Midsem.md",
-    "01 Rough Things/PH3104 study plan.md",
     "00 Resources/IISER-K/PH3104/PH.md",
     "00 Resources/IISER-K/PH3104/Note-PH3104-Capacitor_Charging.pdf",
     "05 Workbook/PH3103/PH3103-HW-6.pdf",
@@ -253,7 +273,6 @@
     "05 Workbook/PH3103/PH3103-HW-7.pdf",
     "05 Workbook/PH3102/PH3102-Assignment-3.pdf",
     "00 Resources/IISER-K/CS3101/Storage_classes.pdf",
-    "00 Resources/IISER-K/CS3101/arrays_strings.pdf",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.md",
     "05 Workbook/CS3101/workspace/image1.md",
@@ -262,10 +281,8 @@
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "01 Rough Things/Note-PH3102-Lec3.md",
     "01 Rough Things/Ph3101-topics-covered-till 7.md",
-    "01 Rough Things/PH3104 Cheatsheeet planner.md",
     "05 Workbook/CS3101/Tests/Untitled.md",
     "05 Workbook/PH3102/Exams/Untitled.md",
-    "01 Rough Things/PH3102 Solve Plan.md",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
     "00 Resources/Pics/Untitled.md",
