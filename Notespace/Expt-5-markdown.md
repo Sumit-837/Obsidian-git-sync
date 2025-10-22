@@ -1,4 +1,5 @@
 # 1 Title
+Study of Beta Spectroscopy
 # 2 Aim
 # 3 Experimental Setup
 ## Source
@@ -21,10 +22,9 @@ full derivation from Lorentz force to the total kinetic energy via relativity
 # 5 Experimental Methodology
 all methods from initialisation with hysteresis curve to full data taking.   
 # 6 Data
-# 7 Analysis
-## Results
+# 7 Analysis and results
 graphs and most frequent energy 
-## Error analysis
+# Error analysis
 ...
 # Discussion
 ...

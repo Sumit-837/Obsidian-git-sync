@@ -44,3 +44,5 @@ on bench
 - Best with bar (more on lateral)
 - rope is ok
 - Never do reverse-bar (less progress, more on medial)
+
+# Leg 
