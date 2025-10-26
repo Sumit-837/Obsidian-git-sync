@@ -4,52 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "9de55617c20ac01d",
-        "type": "tabs",
-        "dimension": 50.55555555555556,
-        "children": [
-          {
-            "id": "ce525f55678f3d35",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/PH3101/Note-PH3101-Lec2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Note-PH3101-Lec2"
-            }
-          },
-          {
-            "id": "d1be92e15f418f96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 Handbook/Obsidian Markdown Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown Cheatsheet"
-            }
-          },
-          {
-            "id": "967c752d9f87b1a0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
         "id": "6f3f99f606759a8a",
         "type": "tabs",
-        "dimension": 49.44444444444444,
         "children": [
           {
             "id": "c0f3cccad1c71177",
@@ -69,10 +25,48 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/CS3101/(9)Pointers.pdf"
+                "file": "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(9)Pointers"
+              "title": "CS3101 2025_ Ungraded"
+            }
+          },
+          {
+            "id": "dd555df6ec4fa24f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3101/(10)structure.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(10)structure"
+            }
+          },
+          {
+            "id": "89855cc5f0eafcd0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3101/(7)user-defined-functions.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(7)user-defined-functions"
+            }
+          },
+          {
+            "id": "b91ce4dd63fd49ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Arrays"
             }
           }
         ],
@@ -133,7 +127,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -227,8 +222,19 @@
               "icon": "lucide-file-signature",
               "title": "Footnotes"
             }
+          },
+          {
+            "id": "38ecf5843527e359",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -253,23 +259,23 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "5e48f105891c59cf",
+  "active": "e3a4739d44959aed",
   "lastOpenFiles": [
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
     "00 Resources/IISER-K/CS3101/(10)structure.pdf",
+    "05 Workbook/CS3101/workspace/CS3101 2025_ Ungraded.pdf",
     "00 Resources/IISER-K/CS3101/(9)Pointers.pdf",
-    "00 Resources/IISER-K/CS3101/(8)arrays_strings.pdf",
     "00 Resources/IISER-K/CS3101/(7)user-defined-functions.pdf",
     "00 Resources/IISER-K/CS3101/(6)analysis_of_algorithms.pdf",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
+    "00 Resources/IISER-K/CS3101/(8)arrays_strings.pdf",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec2.pdf",
     "00 Resources/IISER-K/CS3101/(5)loops.pdf",
     "00 Resources/IISER-K/CS3101/(4)decisonMaking_and_branching.pdf",
     "06 Templates/College Lectures sem-5.md",
     "05 Workbook/CS3101/welearn Examples/Structures/struct_function_pointer.c",
-    "05 Workbook/CS3101/welearn Examples/Structures/struct_function_pointer-bookarray.c",
-    "05 Workbook/CS3101/welearn Examples/Structures/struct_function.c",
-    "05 Workbook/CS3101/welearn Examples/Structures/struct.c",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
-    "04 Handbook/Obsidian Markdown Cheatsheet.md",
     "01 Rough Things/Scientific Workout Routeine.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2(inc).md",
@@ -293,7 +299,6 @@
     "05 Workbook/PH3102/Exams/Untitled.md",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
-    "00 Resources/Pics/Untitled.md",
     "00 Resources/Pics/phy lab expt 3.png",
     "05 Workbook/PH3105/Expt-3/Main-photon-interactions-versus-photon-energies-for-different-atomic-number-43.png"
   ]

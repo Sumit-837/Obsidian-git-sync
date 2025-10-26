@@ -24,7 +24,7 @@ Syntax: `type array_name[] = {comma, seperated, elements, ...}`
 Example: `int numero[] = {1, 2, 3, 4, 5};`
 - **Partial initialisation:** If we still enter size while declaration, if the elements are less then size, rest of the array will fill up with zero (same applies in multidimensional arrays).
 - In case of array of characters (string), last element will always be null **'\0'**. so the total number of elements will be (number of characters + 1).
-- While declaring array of characters, we can directly write the string in double quote instead of using {}.
+- While declaring array of characters, we can directly write the string in **double quote** instead of using {}.
 	```c
 	//instead of
 	char name[] = {'M', 'o', 't', 'a', '\0'};
@@ -34,7 +34,7 @@ Example: `int numero[] = {1, 2, 3, 4, 5};`
 
 >[!Note] Strings
 >there is nothing as a string type in C. We can use array of chars as string.
->
+>> They are always mentioned in double quote, where chars are mentioned in single quote.
 ### 2D Array:
 #### Declaration:
 Syntax: `type array_name[no_of_rows][no_of_cols]`
@@ -101,3 +101,5 @@ Example:
 Refer to: [[(8)arrays_strings.pdf#page=18]]
 ### String Functions from header: <string.h>
 refer to: [[(8)arrays_strings.pdf#page=21]]
+- As string is an array, you can't assign directly (`=`) a string value into its variable. you have to use `strcpy()`
+	eg. `strcpy(string_var, “Sumit”)`
