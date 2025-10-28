@@ -106,6 +106,7 @@ Done Previously.
 #### Accessing Elements:
 While `p = &a[0]` (p represents the address of the first element):
 `(p + i)` === `&a[i]` ==> address of $i^{th}$ element of the array.
+
 `*(p + i)` === `a[i]` ==> value of $i^{th}$ element of the array.
 
 >[!Address of arrays elements]
@@ -118,6 +119,9 @@ While `p = &a[0]` (p represents the address of the first element):
 >[!tip] Fact: array as a pointer ?
 >After declaration of `p = a;`,`a` can also be used as pointer in some cases:
 >`*(a + i)` === represents `a[i]`
+
+^70c60c
+
 #### Valid and invalid pointer expressions:
 See [[(9)Pointers.pdf#page=22|notes]].
 

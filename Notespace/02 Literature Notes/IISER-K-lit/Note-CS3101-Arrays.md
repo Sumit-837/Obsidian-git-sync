@@ -36,14 +36,14 @@ Example: `int numero[] = {1, 2, 3, 4, 5};`
 >there is nothing as a string type in C. We can use array of chars as string.
 >> They are always mentioned in double quote, where chars are mentioned in single quote.
 ### 2D Array:
-#### Declaration:
+#### Declaration: 
 Syntax: `type array_name[no_of_rows][no_of_cols]`
 Example: `int marks[10][5]`
 #### Accessing Elements:
 To access the element at $i^{th}$ row and $j^{th}$ column of an array:
 Syntax: `array_name[i-1][j-1]`
 
-#### Initialisation:
+#### Initialisation of 2D array:
 Example: 
 ```c
 // write all elements directly
@@ -64,7 +64,8 @@ int a[2][3] = {
 	//but you cannot omit the columns
 	int a[3][] = {1, 2, ...} // Not allowed
 	```
-
+	Even if the later is not allowed, you have a [[C-Array-of-Pointers|trick]].
+ ^6619b9
 - **partial Initialisation:** ... you can make diagonal matrices with it.
 
 #### Related Programs:
