@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Note-CS50X-2025-Lec1-C"
             }
+          },
+          {
+            "id": "bc3d3e0a1a2e9328",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3101/(10)structure.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(10)structure"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,11 +204,14 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "d6ba845bd7aea6dc",
+  "active": "bc3d3e0a1a2e9328",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/CS3101/(8)arrays_strings.pdf",
+    "00 Resources/IISER-K/CS3101/(10)structure.pdf",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
     "02 Literature Notes/CS50W-HTML-CSS.md",
     "00 Resources/CS50",
-    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
     "00 Resources/CS50/Vid-CS50X-2025.md",
     "00 Resources/CS50/Note-CS50W-Lec3-Django.md",
     "00 Resources/IISER-K/PH3103/Untitled.md",
@@ -210,7 +226,6 @@
     "00 Resources/IISER-K/PH3104/Pic-PH3104-Star, Delta.pdf",
     "00 Resources/IISER-K/PH3101/Handwritten Note-Ph3101-Somdeep-fromLec8.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
-    "05 Workbook/PH3101/Exam/PH3101-Suppi-Midsem-2024.pdf",
     "01 Rough Things/PH3104-Syllabus.md",
     "01 Rough Things/Study plan PH3101.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
@@ -227,7 +242,6 @@
     "03 Resources/IISER-K/PH3105/Untitled.md",
     "03 Resources/IISER-K/PH3102/Untitled 1.md",
     "03 Resources/IISER-K/PH3102/Untitled.md",
-    "03 Resources/IISER-K/PH3101/Untitled.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",

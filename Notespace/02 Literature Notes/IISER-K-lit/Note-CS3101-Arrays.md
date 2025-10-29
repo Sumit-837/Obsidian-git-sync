@@ -14,15 +14,12 @@ source material: "[[(8)arrays_strings.pdf]]"
 #### Declaration:
 Syntax: `type array_name[size];`
 Example: `int marks[10];`
-#### Accessing Elements:
-Syntax: `array_name[element_location-1]`
-Example: `marks[0]`
-#### Initialisation:
-As we can also assign values one by one by accessing the array after declaration. Its better to directly assign values **while declaration**.
+##### Initialisation:
+As we can also assign values one by one by accessing the array after declaration with size. Its better to directly assign values **while declaration**.
 
 Syntax: `type array_name[] = {comma, seperated, elements, ...}`
 Example: `int numero[] = {1, 2, 3, 4, 5};`
-- **Partial initialisation:** If we still enter size while declaration, if the elements are less then size, rest of the array will fill up with zero (same applies in multidimensional arrays).
+- **Partial initialisation:** If we still enter size while initialisation, if the elements are less then size, rest of the array will fill up with zero (same applies in multidimensional arrays).
 - In case of array of characters (string), last element will always be null **'\0'**. so the total number of elements will be (number of characters + 1).
 - While declaring array of characters, we can directly write the string in **double quote** instead of using {}.
 	```c
@@ -31,6 +28,20 @@ Example: `int numero[] = {1, 2, 3, 4, 5};`
 	//we can do
 	char name[] = "Mota";
 	```
+
+>[!warning]
+>While declaring, you must mention size or initiatialize with values. Otherwise...
+>
+
+e.g.
+```c
+int arr[]; //invalid: no memory allocated
+arr[0] = 1;
+arr[1] = 2; //error
+```
+#### Accessing Elements:
+Syntax: `array_name[element_location-1]`
+Example: `marks[0]`
 
 >[!Note] Strings
 >there is nothing as a string type in C. We can use array of chars as string.
@@ -86,6 +97,7 @@ Example: `int chart[20][2][30][5]`
 - **Usage**:
 	We can use it to determine the element number of the Array like:
 	`elements_count = sizeof(array_name)/sizeof(type)`
+	Or `elements_count = sizeof(array_name)/sizeof(array_name[0])`
 ### Function: getchar()
 Its just a simple input function from stdio.h
 Example: 
