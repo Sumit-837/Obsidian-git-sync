@@ -26,3 +26,5 @@ int main() {
   }
   return 0;
 }
+
+// in terms of big O , time complexity in this is O(n);

@@ -1,12 +1,17 @@
+#include "calculations.h"
 #include <stdio.h>
 
 int main() {
   int n = 5;
-  char row[n + 1] = {"11   "}; // making it char for including spaces afterwards
-  for (int i = 2; i <= n; i++) {
-    // suppose i is 2.
-    while (int j <= i) {
-      row[j] = (char)((int)row[j] + (int)row[j + 1]);
+  for (int row = 0; row < n; row++) {
+    /* //printing spaces: */
+    /* for(int space = 0;) */
+
+    // printing coefficients:
+    for (int col = 0; col <= row; col++) {
+      printf("%d ", nCr(row, col));
     }
+    printf("\n");
   }
+  return 0;
 }
