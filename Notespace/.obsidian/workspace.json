@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "cee06bb70d1d25c2",
+        "id": "2c2f61faf6911a54",
         "type": "tabs",
         "children": [
           {
-            "id": "3f56be58c9358f11",
+            "id": "be82cea009a6c18f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "05 Workbook/PH3103/PH3103-HW-9.pdf"
+                "file": "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "PH3103-HW-9"
+              "icon": "lucide-file",
+              "title": "Note-CS50X-2025-Lec4-Memory"
+            }
+          },
+          {
+            "id": "d863a8ef649417cc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -76,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -208,15 +219,33 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "3f56be58c9358f11",
+  "active": "be82cea009a6c18f",
   "lastOpenFiles": [
+    "03 Permanent Notes/C-Array-of-Strings.md",
+    "03 Permanent Notes/C-Array-as-Function-Argument.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+    "03 Permanent Notes/C-Return and Evaluation(inc).md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "00 Resources/CS50/Note-CS50W-Lec2-Python.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
+    "04 Handbook/Create markdown note from any website.md",
+    "Untitled",
+    "00 Resources/CS50/Vid-CS50X-2025.md",
+    "00 Resources/Note-CS50X-2025-Lec1-C.md",
+    "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
+    "05 Workbook/PH3102/PH3102-Assignment-6.pdf",
+    "01 Rough Things/OOP-Python-Indently.yt-vid.md",
+    "Expt-5-markdown.md",
+    "01 Rough Things/Python-CS50W-vid.md",
+    "05 Workbook/PH3104/PH3104-Problem Set-2.pdf",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Somedeep.pdf",
+    "05 Workbook/PH3103/PH3103-HW-9.pdf",
     "00 Resources/IISER-K/PH3103/General proof of series solutioon theorems.pdf",
     "01 Rough Things/Types of ODEs.md",
     "01 Rough Things/PH3103 Table-of-Contents.md",
     "01 Rough Things/PH3103 Sample Question-GEMINI.md",
-    "05 Workbook/PH3103/PH3103-HW-9.pdf",
     "01 Rough Things/Study plan PH3101.md",
-    "04 Handbook/Obsidian Markdown Cheatsheet.md",
     "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
     "01 Rough Things/PH3103-study plan for ct..md",
     "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep.pdf",
@@ -225,26 +254,9 @@
     "01 Rough Things/H.Notes-PH3103-Somedeep-upto Midsem.pdf.md",
     "00 Resources/Books/zettili.pdf",
     "00 Resources/Books/Quantum Physics of Atoms.pdf",
-    "00 Resources/Books/Classical Mechanics (Herber_ (Z-Library).pdf",
-    "05 Workbook/PH3101/PH3101-tutorial-Sept15.pdf",
-    "05 Workbook/PH3101/PH3101-tutorial-Oct10.pdf",
-    "05 Workbook/CS3101/Tests/CT-2-Slot-2/CS3101-CT-2-S2.pdf",
-    "05 Workbook/CS3101/Tests/CT-2-Slot-1/CS3101-CT-2-S1.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
-    "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "03 Permanent Notes/Untitled 1.md",
-    "03 Permanent Notes/C-Array-of-Pointers.md",
-    "03 Permanent Notes/C-Return and Evaluation(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
-    "Untitled.md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
-    "06 Templates/College Lectures sem-5.md",
-    "01 Rough Things/Scientific Workout Routeine.md",
-    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2(inc).md",
-    "03 Permanent Notes/Untitled.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",

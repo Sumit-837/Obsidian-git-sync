@@ -5,6 +5,7 @@ tags:
   - cs
   - cs50
 Professor: David J Malan
+course: CS50X Autumn 2025
 ---
 
 

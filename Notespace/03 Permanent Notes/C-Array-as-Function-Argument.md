@@ -14,3 +14,5 @@ int avgarr(int arr[], int size);
 	//will eventually decay to:
 	int avgarr(int *arr);
 	```
+---
+Related: [[Note-CS3101-Pointers(inc)#^70c60c|Array acting as pointers ?]]

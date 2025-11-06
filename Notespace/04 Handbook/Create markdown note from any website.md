@@ -7,4 +7,4 @@ The url is...
 If the text is too large for your clipboard then
 - copy the whole thing 
 - find one where it's reaching the limit.
-- go to Qwen in browser **desktop mode** , tap on edit button under the generated responce and select the rest text.
+- go to Qwen in browser **desktop mode** , tap on edit button under the generated response and select the rest text.

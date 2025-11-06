@@ -75,7 +75,7 @@ int a[2][3] = {
 	//but you cannot omit the columns
 	int a[3][] = {1, 2, ...} // Not allowed
 	```
-	Even if the later is not allowed, you have a [[C-Array-of-Pointers|trick]].
+	Even if the later is not allowed, you have a [[C-Array-of-Strings|trick]].
  ^6619b9
 - **partial Initialisation:** ... you can make diagonal matrices with it.
 

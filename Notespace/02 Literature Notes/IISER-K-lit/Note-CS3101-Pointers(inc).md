@@ -32,6 +32,7 @@ It has 2 ==different== Use cases:
 As mentioned [[Note-CS3101-Pointers(inc)#Declaration|earlier]].
 #### 2. De-referencing:
 When used **outside a Declaration**; it can access the value stored at the address a pointer points to.
+In simple words: Instructs the compiler to go to a location in memory.
 Example: If `p` is declared to be pointing address of`a`; `*p` gives the **value of** `a`.
 
 ```c
@@ -56,7 +57,8 @@ Its type is dependent upon the variable its pointing to.
 >> int* a, * b; //right but looks bad;
 >> int *a, *b; //good
 >> ```
-- `char *` behaves differently.(story for another time...)
+- `char *` behaves differently.
+	- as string (array of char) variables [[#^70c60c|also act like pointers]] to their first element, we can declare a string using `char *`.
 ## Placeholder:
 - We use **`%p`** as a placeholder for pointer variables or addresses (`&a`).
 - Generally `%p` expects the type to be `void *`, but it also accepts `int *`, `float *` and rest all as long as they're addresses and not value.
@@ -101,6 +103,7 @@ The function took the address of local variable and changed the value at that ad
 Done Previously.
 #### Assigning:
 `p = &a[0];` === `p = a;` ==> assigns the address of the first value of the array `a` to pointer variable `p`.
+(Update: No need as `a` literally acts as its pointer)
 ##### Shifting pointer:
 `p++;` ==> shifts the pointer to the address of next element of array. eg. `&a[0]`-->`&a[1]`
 #### Accessing Elements:
@@ -109,19 +112,25 @@ While `p = &a[0]` (p represents the address of the first element):
 
 `*(p + i)` === `a[i]` ==> value of $i^{th}$ element of the array.
 
->[!Address of arrays elements]
+>[!Address of array's elements]
 >`&a[i]` = `&a[0]`+($i\times$`sizeof(type)`)
 >Where,
 >$i^{th}$ element's address ==> `&a[i]`
 >Base/ first element's address ==> `&a[0]`
 >type of array elements ==> `type`
 
->[!tip] Fact: array as a pointer ?
->After declaration of `p = a;`,`a` can also be used as pointer in some cases:
->`*(a + i)` === represents `a[i]`
+>[!tip] Fact: Array acting as a pointer ?
+>Array variable `a` also acts as pointer to its first element:
+>- `*a` === represents `a[0]`
+>- In general: `*(a + i)` === represents `a[i]`
 
 ^70c60c
 
 #### Valid and invalid pointer expressions:
 See [[(9)Pointers.pdf#page=22|notes]].
+
+---
+## Tricks
+### Printing partial strings with `%s`.
+![[Note-CS50X-2025-Lec4-Memory#^ce8840]]
 
