@@ -13,22 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
-                "mode": "source",
+                "file": "01 Rough Things/PH3103 Table-of-Contents.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note-CS50X-2025-Lec4-Memory"
-            }
-          },
-          {
-            "id": "d863a8ef649417cc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PH3103 Table-of-Contents"
             }
           }
         ]
@@ -221,9 +211,12 @@
   },
   "active": "be82cea009a6c18f",
   "lastOpenFiles": [
+    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+    "Expt-1-structure.md",
+    "05 Workbook/PH3105/Expt-1/sr23ms090-Experiment-1.pdf",
+    "05 Workbook/PH3105/Expt-1",
     "03 Permanent Notes/C-Array-of-Strings.md",
     "03 Permanent Notes/C-Array-as-Function-Argument.md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "03 Permanent Notes/C-Return and Evaluation(inc).md",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
@@ -252,11 +245,7 @@
     "01 Rough Things/H.Notes-PH3103-Somedeep.pdf.pdf.pdf.md",
     "01 Rough Things/H.Notes-PH3103-Somedeep.md",
     "01 Rough Things/H.Notes-PH3103-Somedeep-upto Midsem.pdf.md",
-    "00 Resources/Books/zettili.pdf",
-    "00 Resources/Books/Quantum Physics of Atoms.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
-    "03 Permanent Notes/Untitled 1.md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
