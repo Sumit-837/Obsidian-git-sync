@@ -17,15 +17,20 @@ source material: "[[(9)Pointers.pdf]]"
 	`&var` ==> gives the memory address of the variable `var`.
 # Pointer Variable:
 A **pointer** is a variable that **stores the memory address** of another variable.
+>i.e. the values stored in pointer variables are addresses (in hexadecimal) to another memory block that contains a value/ is a variable.
 ## Declaration:
 Syntax: `data_type *pointer_var;`
 Example: `int *p;` ==> declares, **p** is a pointer variable which can hold (point) the location of an `int` variable. Also `int *` is the type of the pointer variable.
-## Assigning values(addresses) to it:
+## Assigning addresses to it:
+### Assigning after Declaration:
 Syntax: `pointer_var = &var;`
-Example: if a in an int variable, `p = &a;`
+Example: if a is an int variable, `p = &a;`
 ### Assigning while Declaration:
 Example: `int *p = &a;`
 >This is kinda misleading as we will know the other use of `*` operator as dereferencing.
+### Assigning address to a value directly without variable
+You can't just assign address of a value to a pointer as its not pointing to any variable containing that value. 
+Instead, you can allocate memory using `malloc()` and then point the declared pointer to a value.([[Note-CS50X-2025-Lec4-Memory#Pointer Fun with Binky|reference]])
 ## Operator: * (Indirection operator)
 It has 2 ==different== Use cases:
 #### 1. Declaration of a Pointer variable:
@@ -59,6 +64,7 @@ Its type is dependent upon the variable its pointing to.
 >> ```
 - `char *` behaves differently.
 	- as string (array of char) variables [[#^70c60c|also act like pointers]] to their first element, we can declare a string using `char *`.
+- `FILE *` ==> we'll know [[Note-CS50X-2025-Lec4-Memory#File I/O|later]].
 ## Placeholder:
 - We use **`%p`** as a placeholder for pointer variables or addresses (`&a`).
 - Generally `%p` expects the type to be `void *`, but it also accepts `int *`, `float *` and rest all as long as they're addresses and not value.
@@ -98,6 +104,8 @@ int main() {
 }
 ```
 The function took the address of local variable and changed the value at that address, Affecting it.
+### Swapping variables
+(Same use as above)([[Note-CS50X-2025-Lec4-Memory#Swapping|reference]]).
 ### Pointers and Arrays
 #### Declaration:
 Done Previously.

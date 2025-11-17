@@ -764,6 +764,11 @@ Notice that running this code will allocate `1024` locations in memory for your 
 ## Pointer Fun with Binky
 
 We watched a video from Stanford University that helped us visualize and understand pointers.
+```c
+int *x
+x = malloc(sizeof(int));
+*x = 42;
+```
 
 ---
 
