@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note-CS3101-Pointers(inc)"
+              "title": "Note-CS3101-Structures(inc)"
             }
           }
         ]
@@ -212,11 +212,12 @@
   },
   "active": "be82cea009a6c18f",
   "lastOpenFiles": [
-    "02 Literature Notes/IISER-K-lit/|later.md",
+    "00 Resources/IISER-K/CS3101/(10)structure.pdf",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+    "02 Literature Notes/IISER-K-lit/|later.md",
     "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
@@ -247,7 +248,6 @@
     "Expt-5-markdown.md",
     "01 Rough Things/Python-CS50W-vid.md",
     "01 Rough Things/Types of ODEs.md",
-    "01 Rough Things/PH3103 Sample Question-GEMINI.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
