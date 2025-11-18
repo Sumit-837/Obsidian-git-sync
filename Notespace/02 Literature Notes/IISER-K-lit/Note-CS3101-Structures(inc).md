@@ -12,6 +12,8 @@ source material: "[[(10)structure.pdf]]"
 ---
 # Struct:
 It is a **user-defined data type** that lets you **group** multiple logically connected **variables of different types** under one tag_name.
+
+You can make custom types now!!!
 ## Declaration:
 ### Separate Declaration
 - **Declaring the body:**
@@ -39,10 +41,11 @@ Here `Student` is that user defined data type.
 >[!Note]
 >Declaring the **body** outside main is best practise as other functions can also use it.
 ### Declaration for Easier usage (typedef)
+([[Note-CS50X-2025-Lec3-Algorithms#Structs|reference]])
 You can use an instruction named `typedef` to create a sort of alias.
 **Benefit:** Now we don't have to type `struct` again and again while declaring variables. e.g.
 ```c
-typedef struct {
+typedef struct Student {   // you can also avoid writing Student here.
 	int roll;
 	float marks;
 } Student;
@@ -50,4 +53,3 @@ typedef struct {
 Student s1;  // cleaner
 Student s2;
 ```
-%% {backlink to CS50X LEc 3} %%

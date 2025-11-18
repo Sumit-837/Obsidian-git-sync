@@ -13,6 +13,48 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Linked-Lists(inc)"
+            }
+          },
+          {
+            "id": "a434b0762565d071",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Pointers(inc)"
+            }
+          },
+          {
+            "id": "63fd4b425588e246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS50X-2025-Lec4-Memory"
+            }
+          },
+          {
+            "id": "e9cbb5d96ff60fd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
                 "mode": "source",
                 "source": false
@@ -21,7 +63,53 @@
               "title": "Note-CS3101-Structures(inc)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "70936313b5355f59",
+        "type": "split",
+        "children": [
+          {
+            "id": "49f408b86a7e8cc9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3f8cdf96039fb315",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "00 Resources/IISER-K/CS3101/(9)Pointers.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "(9)Pointers"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e16ce065403123f8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b0fe8fb10481c575",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Note-CS50X-2025-Lec5-Data Structures"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -40,7 +128,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -207,16 +295,39 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "be82cea009a6c18f",
+  "active": "63fd4b425588e246",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/CS3101/(10)structure.pdf",
+    "05 Workbook/CS3101/workspace/set-6/Q1.c~",
+    "05 Workbook/CS3101/workspace/set-6/Username-Password.txt~",
+    "05 Workbook/CS3101/workspace/set-6/4913",
+    "05 Workbook/CS3101/workspace/set-6/Username-Password.txt",
+    "05 Workbook/CS3101/workspace/set-6/a.out",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
+    "05 Workbook/CS3101/workspace/set-6/Q1.c",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "02 Literature Notes/IISER-K-lit/|later.md",
     "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+    "00 Resources/IISER-K/CS3101/(9)Pointers.pdf",
+    "05 Workbook/CS3101/workspace/set-7/a.out",
+    "05 Workbook/CS3101/workspace/set-7/Q5b.c",
+    "05 Workbook/CS3101/workspace/set-7/Q5a.c",
+    "05 Workbook/CS3101/workspace/set-7/Q4.c",
+    "03 Permanent Notes/C-arrow-operator->(inc).md",
+    "03 Permanent Notes/C-type-size_t(inc).md",
+    "03 Permanent Notes/C-Array-as-Function-Argument.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec3-Algorithms.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
+    "02 Literature Notes/CS50W-HTML-CSS.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
+    "00 Resources/CS50/Vid-CS50X-2025.md",
+    "00 Resources/CS50/Vid-CS50W-2020.md",
+    "02 Literature Notes/IISER-K-lit/|later.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
@@ -225,29 +336,9 @@
     "2025-11-17.md",
     "03 Permanent Notes/C-Array-of-Strings.md",
     "01 Rough Things/PH3103 Table-of-Contents.md",
-    "05 Workbook/CS3101/welearn Examples/volume.c",
-    "05 Workbook/CS3101/welearn Examples/tax_program.c",
-    "05 Workbook/CS3101/welearn Examples/stack_array.c",
-    "05 Workbook/CS3101/welearn Examples/queue_array.c",
-    "05 Workbook/CS3101/welearn Examples/pointers_array_function.c",
-    "05 Workbook/CS3101/welearn Examples/myprog_withmyheader.c",
-    "05 Workbook/CS3101/welearn Examples/mathfunc.h",
-    "05 Workbook/CS3101/welearn Examples/mathfunc.c",
-    "05 Workbook/CS3101/welearn Examples/linearsearch_string.c",
-    "05 Workbook/CS3101/welearn Examples/Compare_ifelseif-ifelse.c",
     "Expt-1-structure.md",
-    "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "03 Permanent Notes/C-Return and Evaluation(inc).md",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
-    "00 Resources/CS50/Note-CS50W-Lec2-Python.md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
-    "04 Handbook/Create markdown note from any website.md",
-    "00 Resources/CS50/Vid-CS50X-2025.md",
-    "00 Resources/Note-CS50X-2025-Lec1-C.md",
-    "01 Rough Things/OOP-Python-Indently.yt-vid.md",
-    "Expt-5-markdown.md",
-    "01 Rough Things/Python-CS50W-vid.md",
-    "01 Rough Things/Types of ODEs.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
