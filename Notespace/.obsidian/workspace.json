@@ -11,14 +11,94 @@
             "id": "8c7abebb495f0667",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3101/(9)Pointers.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(9)Pointers"
+            }
+          },
+          {
+            "id": "45fe363d4b86035e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3101/(13)sorting.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(13)sorting"
+            }
+          },
+          {
+            "id": "7134972948deb29b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Rough Things/PH3104 Table of Contents.md",
+                "file": "03 Permanent Notes/C-Array-as-Function-Output.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PH3104 Table of Contents"
+              "title": "C-Array-as-Function-Output"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "dde2df731aa61068",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f31be0456c18ca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Linked-Lists(inc)"
+            }
+          },
+          {
+            "id": "4239b7f98aab909b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Pointers(inc)"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "19ee5a7e8bb19f95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e1fa66f4369374a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Note-CS50X-2025-Lec5-Data Structures"
             }
           }
         ]
@@ -78,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -209,28 +290,34 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "8c7abebb495f0667",
+  "active": "45fe363d4b86035e",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/CS3101/(11)file_handling.pdf",
-    "03 Permanent Notes/Untitled.md",
-    "00 Resources/IISER-K/CS3101/(9)Pointers.pdf",
-    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
-    "05 Workbook/CS3101/workspace/set-6/Q1.c~",
-    "05 Workbook/CS3101/workspace/set-6/Username-Password.txt~",
-    "05 Workbook/CS3101/workspace/set-6/4913",
-    "05 Workbook/CS3101/workspace/set-6/Username-Password.txt",
-    "05 Workbook/CS3101/workspace/set-6/a.out",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
-    "05 Workbook/CS3101/workspace/set-6/Q1.c",
+    "00 Resources/IISER-K/PH3105/Manuals/Expt_5.pdf",
+    "00 Resources/IISER-K/PH3105/Manuals/Expt_4.pdf",
+    "00 Resources/IISER-K/PH3105/Manuals/Expt_3.pdf",
+    "00 Resources/IISER-K/PH3105/Manuals/Expt_1.pdf",
+    "00 Resources/IISER-K/PH3105/Manuals/Expt_2.pdf",
+    "00 Resources/IISER-K/PH3105/Manuals",
+    "00 Resources/IISER-K/PH3105/Expt2-PH3105-Example.pdf",
+    "00 Resources/IISER-K/PH3105/Report-2.pdf",
+    "05 Workbook/PH3105/SR23MS090-Expt-2.pdf",
+    "05 Workbook/PH3105/SR23MS090-Expt-1.pdf",
+    "05 Workbook/PH3105/sr23ms090-Expt-1.pdf",
+    "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "05 Workbook/CS3101/workspace/set-7/a.out",
-    "05 Workbook/CS3101/workspace/set-7/Q5b.c",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
+    "03 Permanent Notes/C-Array-as-Function-Output.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+    "01 Rough Things/PH3103 Table-of-Contents.md",
+    "01 Rough Things/PH3103-study plan for ct..md",
     "03 Permanent Notes/C-arrow-operator->(inc).md",
     "03 Permanent Notes/C-type-size_t(inc).md",
-    "03 Permanent Notes/C-Array-as-Function-Argument.md",
+    "01 Rough Things/Phy expt 3 draft.md",
+    "01 Rough Things/PH3104 Table of Contents.md",
+    "03 Permanent Notes/Untitled.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
     "00 Resources/CS50/Note-CS50X-2025-Lec3-Algorithms.md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
     "02 Literature Notes/CS50W-HTML-CSS.md",
     "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
     "00 Resources/CS50/Vid-CS50X-2025.md",
@@ -241,11 +328,6 @@
     "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
     "04 Handbook/C-Programming Usefull Knowledge.md",
-    "2025-11-17.md",
-    "03 Permanent Notes/C-Array-of-Strings.md",
-    "01 Rough Things/PH3103 Table-of-Contents.md",
-    "Expt-1-structure.md",
-    "03 Permanent Notes/C-Return and Evaluation(inc).md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",

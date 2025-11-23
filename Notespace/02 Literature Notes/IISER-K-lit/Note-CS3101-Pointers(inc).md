@@ -104,6 +104,7 @@ int main() {
 }
 ```
 The function took the address of local variable and changed the value at that address, Affecting it.
+- [[C-Array-as-Function-Output|Usage]]
 ### Swapping variables
 (Same use as above)([[Note-CS50X-2025-Lec4-Memory#Swapping|reference]]).
 ### Pointers and Arrays
@@ -114,6 +115,8 @@ Done Previously.
 (Update: No need as `a` literally acts as its pointer)
 ##### Shifting pointer:
 `p++;` ==> shifts the pointer to the address of next element of array. eg. `&a[0]`-->`&a[1]`
+
+> You can only do this when a different pointer is assigned with array like above. It's not possible using array as a pointer.
 #### Accessing Elements:
 While `p = &a[0]` (p represents the address of the first element):
 `(p + i)` === `&a[i]` ==> address of $i^{th}$ element of the array.
