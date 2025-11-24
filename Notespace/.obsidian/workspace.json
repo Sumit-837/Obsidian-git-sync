@@ -30,20 +30,6 @@
               "icon": "lucide-file-text",
               "title": "(13)sorting"
             }
-          },
-          {
-            "id": "7134972948deb29b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 Permanent Notes/C-Array-as-Function-Output.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C-Array-as-Function-Output"
-            }
           }
         ],
         "currentTab": 1
@@ -292,17 +278,17 @@
   },
   "active": "45fe363d4b86035e",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/PH3105/Manuals/Expt_5.pdf",
-    "00 Resources/IISER-K/PH3105/Manuals/Expt_4.pdf",
-    "00 Resources/IISER-K/PH3105/Manuals/Expt_3.pdf",
-    "00 Resources/IISER-K/PH3105/Manuals/Expt_1.pdf",
-    "00 Resources/IISER-K/PH3105/Manuals/Expt_2.pdf",
-    "00 Resources/IISER-K/PH3105/Manuals",
-    "00 Resources/IISER-K/PH3105/Expt2-PH3105-Example.pdf",
-    "00 Resources/IISER-K/PH3105/Report-2.pdf",
-    "05 Workbook/PH3105/SR23MS090-Expt-2.pdf",
-    "05 Workbook/PH3105/SR23MS090-Expt-1.pdf",
-    "05 Workbook/PH3105/sr23ms090-Expt-1.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT5.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT4.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT3.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT2.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT1.pdf",
+    "00 Resources/IISER-K/PH3105/Susnata.com",
+    "00 Resources/IISER-K/PH3105/Example reports/Expt5-PH3105-Example.pdf",
+    "00 Resources/IISER-K/PH3105/Example reports/Expt4-PH3105-Example.pdf",
+    "00 Resources/IISER-K/PH3105/Example reports/Expt3-PH3105-Example.pdf",
+    "00 Resources/IISER-K/PH3105/Example reports/Expt2-PH3105-Example.pdf",
+    "00 Resources/IISER-K/PH3105/Example reports/Expt1-PH3105-Example.pdf",
     "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
