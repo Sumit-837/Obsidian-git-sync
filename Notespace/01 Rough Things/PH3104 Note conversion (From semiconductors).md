@@ -1,4 +1,4 @@
-# [[H.Note-PH3104-Somedeep.pdf#page=52|page-52,53]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=52|page-52,53]]
 
 ## Lecture 11 — Semiconductors (29/08/2023)
 
@@ -43,7 +43,7 @@
 
 ### 6) Band-edge sketch
 - Small diagram indicating c.B. (Ec) above v.B. (Ev)
-# [[H.Note-PH3104-Somedeep.pdf#page=54|page-54,55]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=54|page-54,55]]
 ## Lecture 11 — Dispersion, Effective Mass, Crystal Potential, and Bloch’s Theorem
 
 ### 1) Dispersion relation and effective mass
@@ -82,7 +82,7 @@
 - Real-space periodicity `a` ↔ zone boundaries at `k = ±π/a`
 - Sketch shows parabolic bands with gaps at `±π/a`
 - Near minima/maxima, dispersion annotated by `ħ^2 k^2 / (2 m*)`
-# [[H.Note-PH3104-Somedeep.pdf#page=56|page-56,57]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=56|page-56,57]]
 ## Lecture 11 — Density of States (k-space)
 
 ### 1) k-space (reciprocal space) setup
@@ -153,7 +153,7 @@ Brief: Quick reminders reflected by the margin sketches.
 - Zone edges marked at $k=\pm\pi/a$ (Brillouin zone boundaries).
 - “What is relevant is density of states per unit volume” → use the 3D expression above.
 - Small plot labeled “$D(E)\approx E^{1/2}$” indicates the $\sqrt{E-E_c}$ behavior in 3D.
-# [[H.Note-PH3104-Somedeep.pdf#page=58|page-58,59]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=58|page-58,59]]
 ## Lecture 13-14 — Recap, Fermi Level, Block Function, Density of States in k-space and 3D Box
 
 ### 1) Recap: Fermi Level and Band Filling
@@ -225,7 +225,7 @@ Brief: Quick reminders reflected by the margin sketches.
 - 3D particle in a box and state counting.
 - Density of states in 1D and 3D with spin degeneracy.
 
-# [[H.Note-PH3104-Somedeep.pdf#page=60|page-60,61]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=60|page-60,61]]
 ## DOS continuation and Fermi–Dirac distribution
 
 ### 1) 3D DOS: from k-space to energy
@@ -267,7 +267,7 @@ Brief: Useful approximation when $E-E_F\gg k_BT$ in the conduction band.
   - $f_c(E)\approx e^{-(E-E_F)/k_BT}=e^{(E_F-E)/k_BT}$
 - Sketch: DOS $g(E)$ with $E_v$, $E_F$, $E_c$ and a small $f(E)$ tail “deep in the conduction band”.
 
-# [[H.Note-PH3104-Somedeep.pdf#page=62|page-62,63]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=62|page-62,63]]
 ## Lecture 15 — Fermi–Dirac distribution, non-degenerate limits, and intrinsic semiconductors (Si) — 04/09/2023
 
 ### 1) Reference values (Silicon)
@@ -340,7 +340,7 @@ Brief: Product of DOS and occupancy; shows where electrons most likely sit withi
 Brief: How the above relations were illustrated.
 - DOS and $f(E)$ sketched versus $E$ with markers at $E_v$, $E_F$, $E_c$, and $E_g \approx 1.12\ \text{eV}$.
 - Separate sketches for $g(E)$ and $f(E)$ highlighting their shapes near $E_c$ and $E_v$.
-# [[H.Note-PH3104-Somedeep.pdf#page=64|page-64,65]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=64|page-64,65]]
 ## Carrier concentration in conduction band and intrinsic semiconductors
 
 ### 1) Electron concentration in conduction band (equilibrium)
@@ -417,7 +417,7 @@ Brief: How the above relations were illustrated.
   (equation ⑤, circled; space charge neutrality / electrical neutrality)
 
 
-# [[H.Note-PH3104-Somedeep.pdf#page=66|page-66,67]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=66|page-66,67]]
 ## Equilibrium conditions and carrier concentration in doped semiconductors
 
 ### 1) Charge neutrality in equilibrium
@@ -485,7 +485,7 @@ Brief: How the above relations were illustrated.
 - Fermi level position moves toward the majority carrier band:
   - n-type: $E_F$ moves closer to $E_c$
   - p-type: $E_F$ moves closer to $E_v$
-# [[H.Note-PH3104-Somedeep.pdf#page=68|page-68,69]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=68|page-68,69]]
 ## Lecture 16–17 (16/09/2023) — Recap, drift vs diffusion, and relaxation-time model
 
 ### 1) Recap: intrinsic semiconductor relations
@@ -529,7 +529,7 @@ Brief: Models momentum loss by random collisions using a single time constant $\
   - From (ii) and (iv): $-q E_x - \dfrac{p_x}{\tau} = 0$
   - Hence average momentum per electron: $\langle p_x \rangle = q E_x \tau$
   - Next page continues to convert to velocity and define mobility/conductivity.
-# [[H.Note-PH3104-Somedeep.pdf#page=70|page-70,72]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=70|page-70,72]]
 ## Lecture 16–17 (16/09/2023) — Mobility, conductivity, drift current, and Fermi-level alignment at junctions
 
 ### 1) From average momentum to drift velocity
@@ -593,7 +593,7 @@ Brief: At equilibrium, net transfer is zero; equate forward and reverse rates to
   $$f_1(E) = f_2(E)\;\;\forall E \;\Rightarrow\; E_{F_1} = E_{F_2}$$
   The Fermi level is uniform across the junction at equilibrium.
 
-# [[H.Note-PH3104-Somedeep.pdf#page=73|page-73,74]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=73|page-73,74]]
 ## Lecture 18 (18/09/2023) — Drift and diffusion currents, equilibrium versus quasi-equilibrium
 
 ### 1) Drift current (recap)
@@ -671,7 +671,7 @@ Brief: Relates spatial band “tilt” with field and potential; sign is for ele
 - Rewriting electron current with explicit field and gradient (as used in later pages):
   - $J_n(x) = q\,\mu_n\,n(x)\,E_x(x) + q\,D_n\,\dfrac{dn}{dx}$
 
-# [[H.Note-PH3104-Somedeep.pdf#page=75|page-75,76]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=75|page-75,76]]
 ## Lecture 18 — Quasi-Fermi gradients, Einstein relation, and current in terms of energy levels
 
 ### 1) Spatial derivatives of carrier densities
@@ -718,7 +718,7 @@ Brief: With no net current, the quasi-Fermi levels are flat.
 - Equilibrium condition:
   - $\displaystyle \frac{dE_{F}}{dx} = 0 \;\Rightarrow\; J_n = 0,\; J_p = 0$
 - Margin sketch indicates “band bending” of $E_c,E_v$ while a single Fermi level remains constant across the structure.
-# [[H.Note-PH3104-Somedeep.pdf#page=77|page-77,78]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=77|page-77,78]]
 ## Lecture 19 — P–N Junction: equilibrium, built‑in potential, and band diagrams (19/09/2023)
 
 ### 1) Equilibrium in the depletion region
@@ -768,7 +768,7 @@ Brief: The notes use electron energy conventions to connect band edges, intrinsi
   - $E(x) = -\,\dfrac{dV(x)}{dx}$
 - Remark: “I am drawing the potential (energy) for electrons,” consistent with $E_i(x) = -qV(x)$.
 
-# [[H.Note-PH3104-Somedeep.pdf#page=79|page-79,80]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=79|page-79,80]]
 ## Lecture 20–21 (23/09/2023) — PN junction recap, depletion width, and minority-carrier boundary conditions
 
 ### 1) Recap: built‑in potential and edge concentrations
@@ -811,7 +811,7 @@ Brief: No recombination in the depletion region; relate edge concentrations usin
   - Battery and depletion region under bias.
   - Band diagrams for equilibrium, forward bias ($q(V_0 - V)$), and reverse bias ($q(V_0 + V_p)$).
 
-# [[H.Note-PH3104-Somedeep.pdf#page=81|page-81,82]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=81|page-81,82]]
 ## PN Junction — Minority‐carrier injection and Shockley diode equation
 
 ### 1) Boundary conditions at the depletion edges under forward bias
@@ -886,7 +886,7 @@ Brief: The total current is the sum of hole and electron diffusion currents eval
 - Direction notes (as annotated):
   - For forward bias, $e^{qV/k_BT}-1>0$, both contributions are positive.
   - $J_{\mathrm{diff}}$ is toward +x on the n side; analogous sign conventions hold on the p side.
-# [[H.Note-PH3104-Somedeep.pdf#page=83|page-83,84]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=83|page-83,84]]
 ## PN junction as a rectifier — diode I–V, minority-edge excess, simple circuits, and half‑wave rectification
 
 ### 1) Diode I–V and minority excess at the depletion edge
@@ -934,7 +934,7 @@ Brief: Transformer + single diode + load \(R_L\); output is one‑polarity half 
   \]$$
   The intermediate algebra in the notes shows ratios with RMS/DC terms and ends with the above result for the half‑wave rectifier.
 
-# [[H.Note-PH3104-Somedeep.pdf#page=85|page-85,86]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=85|page-85,86]]
 ## Lecture 21–22 — Full‑wave rectification (center‑tap and bridge) and HWR averages (25/09/2023)
 
 ### 1) Full‑wave rectification (center‑tapped, two diodes)
@@ -995,7 +995,7 @@ Brief: Uses DC and RMS values tabulated in the notes.
 Notes:
 - Margin labels “FB → Forward Bias, RB → Reverse Bias” mark diode conduction halves.
 - Plots next to the circuits show input $v_i(t)$, HWR output $v_{\text{out}}(t)$, and the full‑wave output for comparison.
-# [[H.Note-PH3104-Somedeep.pdf#page=87|page-87,88]]
+# [[H.Note-PH3104-Circuits-Somedeep.pdf#page=87|page-87,88]]
 ## Rectification wrap-up — ripple factor, bridge rectifier details, and filters
 
 ### 1) AC component and ripple factor γ

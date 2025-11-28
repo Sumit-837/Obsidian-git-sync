@@ -4,56 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fecfa2d56ddfd115",
+        "id": "5f53e1dce1e076e0",
         "type": "tabs",
         "children": [
           {
-            "id": "8c7abebb495f0667",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/CS3101/(9)Pointers.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "(9)Pointers"
-            }
-          },
-          {
-            "id": "45fe363d4b86035e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/CS3101/(13)sorting.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "(13)sorting"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "dde2df731aa61068",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5f31be0456c18ca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Note-CS3101-Linked-Lists(inc)"
-            }
-          },
-          {
-            "id": "4239b7f98aab909b",
+            "id": "5a595574b0ec6ed2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,26 +20,17 @@
               "icon": "lucide-file",
               "title": "Note-CS3101-Pointers(inc)"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "19ee5a7e8bb19f95",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "1e1fa66f4369374a",
+            "id": "949eb46927982ea5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
-                "mode": "preview",
-                "source": false
+                "file": "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Note-CS50X-2025-Lec5-Data Structures"
+              "icon": "lucide-file-text",
+              "title": "H.Note-PH3104-Analogue Electronics-Sneha"
             }
           }
         ]
@@ -144,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -276,24 +221,24 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "45fe363d4b86035e",
+  "active": "5a595574b0ec6ed2",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT5.pdf",
-    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT4.pdf",
-    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT3.pdf",
-    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT2.pdf",
-    "00 Resources/IISER-K/PH3105/Susnata.com/A8_PH3015_EXPT1.pdf",
-    "00 Resources/IISER-K/PH3105/Susnata.com",
-    "00 Resources/IISER-K/PH3105/Example reports/Expt5-PH3105-Example.pdf",
-    "00 Resources/IISER-K/PH3105/Example reports/Expt4-PH3105-Example.pdf",
-    "00 Resources/IISER-K/PH3105/Example reports/Expt3-PH3105-Example.pdf",
-    "00 Resources/IISER-K/PH3105/Example reports/Expt2-PH3105-Example.pdf",
-    "00 Resources/IISER-K/PH3105/Example reports/Expt1-PH3105-Example.pdf",
-    "03 Permanent Notes/C-Array-as-Function-Argument.md",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/Q3.c~",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/Q3.c",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/Q2.c~",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/test.c",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/Q2.c",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/Q1.c~",
+    "05 Workbook/CS3101/Tests/PYQ/CT-makup-2024/4913",
+    "01 Rough Things/ece_semiconductor_phy.pdf",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf",
+    "00 Resources/IISER-K/PH3102/PH3102Lectures13November2025.pdf",
+    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-PostMidSem-Sneha.pdf",
+    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
+    "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "03 Permanent Notes/C-Array-as-Function-Output.md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
     "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
     "01 Rough Things/PH3103 Table-of-Contents.md",
     "01 Rough Things/PH3103-study plan for ct..md",
