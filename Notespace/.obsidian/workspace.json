@@ -13,22 +13,32 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
+                "file": "00 Resources/IISER-K/PH3101/H.Notes-PH3101-RigidBody-Sneha.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Book-PH3102-QM-S.Lal"
+              "title": "H.Notes-PH3101-RigidBody-Sneha"
             }
           },
           {
-            "id": "90735a27b175e537",
+            "id": "82cf50721ce3883c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf"
+                "file": "05 Workbook/PH3102/PH3102-Assignment-6.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Book-PH3102-QM-S.Lal"
+              "title": "PH3102-Assignment-6"
+            }
+          },
+          {
+            "id": "4c94d525c540c690",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -221,23 +231,23 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "90735a27b175e537",
+  "active": "82cf50721ce3883c",
   "lastOpenFiles": [
-    "05 Workbook/PH3102/PH3102-tutorials.zip",
-    "05 Workbook/PH3102/PH3102-Tutorial-6.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-8.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-7.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-9.pdf",
-    "00 Resources/IISER-K/PH3102/Book-PH3102-QM-S.Lal.pdf",
+    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-RigidBody-Sneha.pdf",
+    "05 Workbook/PH3102/PH3102-Assignment-6.pdf",
+    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-SmallOscillations-Sneha.pdf",
+    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-PostMidSem-Sneha.pdf",
+    "00 Resources/IISER-K/PH3101/H.Note-PH3101-Somedeep.pdf",
+    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
+    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec4.pdf",
+    "01 Rough Things/PH3102-Endsem-Question-practice.md",
+    "01 Rough Things/QM_anticipated.pdf",
+    "05 Workbook/PH3102/Tests/PH3102-Endsem-2024.pdf",
+    "05 Workbook/PH3103/PH3103-HW-11.pdf",
+    "05 Workbook/PH3103/PH3103-HW-11.pdf",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "01 Rough Things/Note-PH3102-Lec3.md",
     "01 Rough Things/Expt-4 roadmap.md",
-    "05 Workbook/PH3102/PH3102-Tutorial-1.pdf",
-    "01 Rough Things/PH3102-Endsem-Question-practice.md",
-    "05 Workbook/PH3102/PH3102-Tutorial-10.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-11.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-12.pdf",
-    "05 Workbook/PH3102/PH3102-Tutorial-10a.pdf",
     "01 Rough Things/PH3102 Solve Plan.md",
     "03 Permanent Notes/C-Array-of-Strings.md",
     "03 Permanent Notes/C-Array-as-Function-Output.md",
