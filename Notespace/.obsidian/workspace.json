@@ -20,25 +20,29 @@
             }
           },
           {
-            "id": "82cf50721ce3883c",
+            "id": "4c94d525c540c690",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "05 Workbook/PH3102/PH3102-Assignment-6.pdf"
+                "file": "05 Workbook/PH3101/Tests/PH3101-CT-all.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "PH3102-Assignment-6"
+              "title": "PH3101-CT-all"
             }
           },
           {
-            "id": "4c94d525c540c690",
+            "id": "f66272889521428f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Rough Things/PH3101-exam-planner.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "PH3101-exam-planner"
             }
           }
         ],
@@ -99,8 +103,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -231,20 +234,21 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "82cf50721ce3883c",
+  "active": "4c94d525c540c690",
   "lastOpenFiles": [
     "00 Resources/IISER-K/PH3101/H.Notes-PH3101-RigidBody-Sneha.pdf",
-    "05 Workbook/PH3102/PH3102-Assignment-6.pdf",
-    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-SmallOscillations-Sneha.pdf",
+    "05 Workbook/PH3101/Tests/PH3101-CT-all.pdf",
+    "01 Rough Things/PH3101-exam-planner.md",
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf",
+    "05 Workbook/PH3101/Tests/PH3101-Endsem-2024.pdf",
+    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025-Solution.pdf",
     "00 Resources/IISER-K/PH3101/H.Notes-PH3101-PostMidSem-Sneha.pdf",
+    "01 Rough Things/Ph3101-topics-covered-till 7.md",
+    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-SmallOscillations-Sneha.pdf",
+    "05 Workbook/PH3102/PH3102-Assignment-6.pdf",
     "00 Resources/IISER-K/PH3101/H.Note-PH3101-Somedeep.pdf",
     "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec4.pdf",
     "01 Rough Things/PH3102-Endsem-Question-practice.md",
-    "01 Rough Things/QM_anticipated.pdf",
-    "05 Workbook/PH3102/Tests/PH3102-Endsem-2024.pdf",
-    "05 Workbook/PH3103/PH3103-HW-11.pdf",
-    "05 Workbook/PH3103/PH3103-HW-11.pdf",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "01 Rough Things/Note-PH3102-Lec3.md",
     "01 Rough Things/Expt-4 roadmap.md",
@@ -267,8 +271,6 @@
     "00 Resources/CS50/Note-CS50X-2025-Lec3-Algorithms.md",
     "02 Literature Notes/CS50W-HTML-CSS.md",
     "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
-    "00 Resources/CS50/Vid-CS50X-2025.md",
-    "00 Resources/CS50/Vid-CS50W-2020.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
