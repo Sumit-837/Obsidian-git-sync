@@ -4,73 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "4adaeaf9741fd768",
+        "id": "2d8876e23d0443fd",
         "type": "tabs",
         "children": [
           {
-            "id": "a41c9ef23410e189",
+            "id": "cb663f45dee5bacd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Rough Things/PH3103 Table-of-Contents-rough.md",
+                "file": "01 Rough Things/ece_TOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PH3103 Table-of-Contents-rough"
+              "title": "ece_TOC"
+            }
+          },
+          {
+            "id": "6cfce2faa3ab9456",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "H.Note-PH3104-Analogue Electronics-Sneha"
+            }
+          },
+          {
+            "id": "cff2c18ed9c28943",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "01 Rough Things/ece_semiconductor_phy.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ece_semiconductor_phy"
             }
           }
         ]
-      },
-      {
-        "id": "8477ca72aefce4cb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "189cf965320655eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Rough Things/PH3103 Table-of-Contents-rough.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PH3103 Table-of-Contents-rough"
-            }
-          },
-          {
-            "id": "85e51cabfb29018a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 Handbook/Obsidian Markdown Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Markdown Cheatsheet"
-            }
-          },
-          {
-            "id": "be2c3b503002c97e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Resources/IISER-K/PH3103/TOC2-PH3103.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TOC2-PH3103"
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -258,24 +233,27 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "be2c3b503002c97e",
+  "active": "cb663f45dee5bacd",
   "lastOpenFiles": [
+    "01 Rough Things/ece_semiconductor_phy.pdf",
+    "01 Rough Things/ece_TOC.md",
+    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf",
+    "05 Workbook/PH3103/PH3103-HW-11.pdf",
+    "01 Rough Things/PH3104 Table of Contents.md",
     "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Sneha.pdf",
+    "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
+    "05 Workbook/PH3103/PH3103-HW-12.pdf",
+    "05 Workbook/PH3103/PH3103-HW-9.pdf",
     "00 Resources/IISER-K/PH3103/TOC2-PH3103.md",
-    "00 Resources/IISER-K/PH3103/TOC-PH3103.md",
-    "01 Rough Things/PH3103 Table-of-Contents-rough.md",
     "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep.pdf",
+    "00 Resources/IISER-K/PH3103/TOC-PH3103.md",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "01 Rough Things/PH3103 Table-of-Contents-rough.md",
     "00 Resources/IISER-K/PH3101/H.Notes-PH3101-RigidBody-Sneha.pdf",
     "01 Rough Things/PH3101-exam-planner.md",
     "05 Workbook/PH3101/Tests/PH3101-Endsem-2024.pdf",
     "05 Workbook/PH3101/Tests/PH3101-CT-all.pdf",
-    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.pdf",
-    "05 Workbook/PH3101/Tests/PH3101-Midsem-2025-Solution.pdf",
-    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-PostMidSem-Sneha.pdf",
     "01 Rough Things/Ph3101-topics-covered-till 7.md",
-    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-SmallOscillations-Sneha.pdf",
-    "05 Workbook/PH3102/PH3102-Assignment-6.pdf",
     "01 Rough Things/PH3102-Endsem-Question-practice.md",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "01 Rough Things/Note-PH3102-Lec3.md",
@@ -292,9 +270,6 @@
     "03 Permanent Notes/C-arrow-operator->(inc).md",
     "03 Permanent Notes/C-type-size_t(inc).md",
     "01 Rough Things/Phy expt 3 draft.md",
-    "01 Rough Things/PH3104 Table of Contents.md",
-    "03 Permanent Notes/Untitled.md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
