@@ -7,5 +7,5 @@ tags:
   - iiser-k
   - sem-5
   - c-programming
-source material: "[[(9)pointers.pdf#page=45]]"
+source material: "[[(9)Pointers.pdf#page=45]]"
 ---

@@ -11,14 +11,12 @@
             "id": "cb663f45dee5bacd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01 Rough Things/ece_TOC.md",
-                "mode": "source",
-                "source": false
+                "file": "00 Resources/IISER-K/PH3104/H Notes-PH3104-Digital Electronics-PB.pdf"
               },
-              "icon": "lucide-file",
-              "title": "ece_TOC"
+              "icon": "lucide-file-text",
+              "title": "H Notes-PH3104-Digital Electronics-PB"
             }
           },
           {
@@ -39,13 +37,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "01 Rough Things/ece_semiconductor_phy.pdf"
+                "file": "00 Resources/IISER-K/PH3205/ieee754.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "ece_semiconductor_phy"
+              "title": "ieee754"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -233,26 +232,27 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "cb663f45dee5bacd",
+  "active": "cff2c18ed9c28943",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/PH3205/ieee754.pdf",
+    "00 Resources/Harvard",
     "01 Rough Things/ece_semiconductor_phy.pdf",
+    "00 Resources/IISER-K/PH3205/Unconfirmed 636142.crdownload",
+    "00 Resources/IISER-K/PH3205",
+    "05 Workbook/PH3205/PH3205-worksheet-1.pdf",
+    "05 Workbook/PH3205",
+    "00 Resources/IISER-K/Semester 5",
+    "05 Workbook/Sem 5",
     "01 Rough Things/ece_TOC.md",
-    "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf",
-    "05 Workbook/PH3103/PH3103-HW-11.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3104/H Notes-PH3104-Digital Electronics-PB.pdf",
     "01 Rough Things/PH3104 Table of Contents.md",
-    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Sneha.pdf",
     "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
-    "05 Workbook/PH3103/PH3103-HW-12.pdf",
-    "05 Workbook/PH3103/PH3103-HW-9.pdf",
-    "00 Resources/IISER-K/PH3103/TOC2-PH3103.md",
-    "00 Resources/IISER-K/PH3103/H.Notes-PH3103-Somedeep.pdf",
-    "00 Resources/IISER-K/PH3103/TOC-PH3103.md",
+    "00 Resources/IISER-K/Semester 5/PH3103/TOC2-PH3103.md",
+    "00 Resources/IISER-K/Semester 5/PH3103/TOC-PH3103.md",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
     "01 Rough Things/PH3103 Table-of-Contents-rough.md",
-    "00 Resources/IISER-K/PH3101/H.Notes-PH3101-RigidBody-Sneha.pdf",
     "01 Rough Things/PH3101-exam-planner.md",
-    "05 Workbook/PH3101/Tests/PH3101-Endsem-2024.pdf",
-    "05 Workbook/PH3101/Tests/PH3101-CT-all.pdf",
     "01 Rough Things/Ph3101-topics-covered-till 7.md",
     "01 Rough Things/PH3102-Endsem-Question-practice.md",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
@@ -263,9 +263,9 @@
     "03 Permanent Notes/C-Array-as-Function-Output.md",
     "03 Permanent Notes/C-Array-as-Function-Argument.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
-    "00 Resources/CS50/Note-CS50X-2025-Lec4-Memory.md",
+    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec4-Memory.md",
     "01 Rough Things/PH3103-study plan for ct..md",
     "03 Permanent Notes/C-arrow-operator->(inc).md",
     "03 Permanent Notes/C-type-size_t(inc).md",

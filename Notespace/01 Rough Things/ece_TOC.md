@@ -194,7 +194,7 @@
     
     - Derivation from a function $F$ into maxterms 18. (Page 4)
         
-    - Example expression: $(\overline{A}+B+C+\overline{D})(A+\overline{B}+D)\dots$19. (Page 5)
+    - Example expression: $(\overline{A}+B+C+\overline{D})(A+\overline{B}+D)\dots$ . (Page 5)
         
     - **POS to Truth Table:** Method of identifying "0" outputs 20. (Page 6)
         
