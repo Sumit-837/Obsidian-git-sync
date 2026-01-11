@@ -1,3 +1,6 @@
+Tags: [[C]]
+
+---
 As we know, arrays act as pointers so if we want to get array as function output, we may declare the function output like:
 ```c
 int *function(type arguments, ...);

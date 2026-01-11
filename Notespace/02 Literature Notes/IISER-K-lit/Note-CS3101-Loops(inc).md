@@ -3,11 +3,10 @@ course: "CS3101 : Programming and Data Structures - I"
 topic: Loops in C
 lecturer: Kripabandhu Ghosh
 institution: IISER-K
-tags:
-  - iiser-k
-  - sem-5
 source material: "[[(5)loops.pdf]]"
 ---
+Tags: [[C]]
+****
 # Logic operators:
 ## `&&` (Logical AND)
 ## `||` (Logical OR)

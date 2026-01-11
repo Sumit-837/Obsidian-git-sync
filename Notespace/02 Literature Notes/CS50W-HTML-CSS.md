@@ -1,17 +1,12 @@
 ---
 title: HTML and CSS Basics
-tags:
-  - html
-  - css
-  - cs
-  - cs50w
-  - cs50
-  - lit
 created: 2025-06-01
 source 1: "[[Vid-CS50X-2025#Lec 8-HTML-CSS-Javascript]]"
 source 2: "[[Vid-CS50W-2020#Lecture 0 - HTML & CSS]]"
 Professor: David J Malan, Brian Yu
 ---
+Tags: [[HTML]], [[CSS]]
+****
 ## Setting up a server
 
 This serves your current directory as a local server:

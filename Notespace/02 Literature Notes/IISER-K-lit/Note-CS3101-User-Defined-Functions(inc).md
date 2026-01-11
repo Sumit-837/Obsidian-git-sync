@@ -3,11 +3,10 @@ course: "CS3101 : Programming and Data Structures - I"
 topic: User Defined Functions in C
 lecturer: Kripabandhu Ghosh
 institution: IISER-K
-tags:
-  - iiser-k
-  - sem-5
 source material: "[[(7)user-defined-functions.pdf]]"
 ---
+Tags: [[C]]
+****
 Syntax: 
 ```
 return-type function-name(type arg_var1, type arg_var2, ...) {

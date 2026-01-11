@@ -1,3 +1,6 @@
+Tags: [[C]]
+
+****
 ```c
 int f(int a) {
 	return a + 1; //gives incremented value

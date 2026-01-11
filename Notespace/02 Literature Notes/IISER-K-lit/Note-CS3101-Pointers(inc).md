@@ -10,6 +10,8 @@ tags:
   - coding
 source material: "[[(9)Pointers.pdf]]"
 ---
+Tags: [[C]]
+****
 ## Operator: &
 & has two completely different meanings depending on where used.
 1. Bit-wise AND operator (none of our interest now).
@@ -104,7 +106,7 @@ int main() {
 }
 ```
 The function took the address of local variable and changed the value at that address, Affecting it.
-- [[C-Array-as-Function-Output|Usage]]
+- [[C-Array as Function Output|Usage]]
 ### Swapping variables
 (Same use as above)([[Note-CS50X-2025-Lec4-Memory#Swapping|reference]]).
 ### Pointers and Arrays

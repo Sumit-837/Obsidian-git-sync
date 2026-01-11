@@ -1,4 +1,4 @@
-| Topic                                         | Somedeep PDF (Partial)                          | Global PDF (H.Notes-PH3103-Sneha.pdf)        |
+| Topic                                         | Somedeep PDF (Partial)                          | H.Notes-PH3103-Sneha.pdf                     |
 | --------------------------------------------- | ----------------------------------------------- | -------------------------------------------- |
 | **1. Complex Analysis**                       |                                                 |                                              |
 | 1.1. Complex Functions & Limits               | [[H.Notes-PH3103-Somedeep.pdf#page=1\|p.1]]     | [[H.Notes-PH3103-Sneha.pdf#page=1\|p.1]]     |

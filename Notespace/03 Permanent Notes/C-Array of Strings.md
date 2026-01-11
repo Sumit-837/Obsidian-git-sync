@@ -1,8 +1,9 @@
 ---
 title: Trick to initialise un-sized array of sized arrays
-subject: C-programming
-source: "[[C-Array-of-Strings#page=26|CS3101-problem-S4-Q2]]"
+source: "[[C-Array of Strings#page=26|CS3101-problem-S4-Q2]]"
 ---
+Tags: [[C]]
+
 ****
 While initialising 2D arrays, we found
 ![[Note-CS3101-Arrays#^6619b9]]

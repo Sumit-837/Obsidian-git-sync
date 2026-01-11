@@ -1,3 +1,5 @@
+Tags: [[C]]
+****
 If array is used as a function argument, it decays into a pointer pointing the first element.
 ```c
 int avgarr(int arr[]);

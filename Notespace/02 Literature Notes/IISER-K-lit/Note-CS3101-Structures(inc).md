@@ -3,13 +3,10 @@ course: "CS3101 : Programming and Data Structures - I"
 topic: Structures in C
 lecturer: Kripabandhu Ghosh
 institution: IISER-K
-tags:
-  - iiser-k
-  - sem-5
-  - c-programming
-  - coding
 source material: "[[(10)structure.pdf]]"
 ---
+Tags: [[C]]
+****
 # Struct:
 It is a **user-defined data type** that lets you **group** multiple logically connected **variables of different types** under one tag_name.
 

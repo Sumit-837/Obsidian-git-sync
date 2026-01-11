@@ -11,40 +11,134 @@
             "id": "cb663f45dee5bacd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/PH3104/H Notes-PH3104-Digital Electronics-PB.pdf"
+                "file": "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "H Notes-PH3104-Digital Electronics-PB"
+              "icon": "lucide-file",
+              "title": "Note-CS3101-Structures(inc)"
             }
           },
           {
             "id": "6cfce2faa3ab9456",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf"
+                "file": "06 Tags/C.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "H.Note-PH3104-Analogue Electronics-Sneha"
+              "icon": "lucide-file",
+              "title": "C"
             }
           },
           {
-            "id": "cff2c18ed9c28943",
+            "id": "dc2dda4ff6282b16",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/PH3205/ieee754.pdf"
+                "file": "02 Literature Notes/CS50W-HTML-CSS.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "ieee754"
+              "icon": "lucide-file",
+              "title": "CS50W-HTML-CSS"
+            }
+          },
+          {
+            "id": "f73fe4bd13497146",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Tags/Mechanics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Mechanics"
+            }
+          },
+          {
+            "id": "2a323cfba4a98724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06 Tags/HTML.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "HTML"
+            }
+          },
+          {
+            "id": "51d43b5f7473b4f8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -76,7 +170,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:cs50w",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +211,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Rough Notes/CS3101/CS3101 2025_ Ungraded.md",
-                "collapseAll": false,
+                "file": "06 Tags/Programming.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -127,7 +221,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CS3101 2025_ Ungraded"
+              "title": "Backlinks for Programming"
             }
           },
           {
@@ -165,13 +259,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 Resources/IISER-K/PH3102/book-PH3102-QM-S.Lal.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of book-PH3102-QM-S.Lal"
+              "title": "Outline"
             }
           },
           {
@@ -207,11 +300,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -232,44 +325,44 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "cff2c18ed9c28943",
+  "active": "51d43b5f7473b4f8",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/PH3205/ieee754.pdf",
-    "00 Resources/Harvard",
-    "01 Rough Things/ece_semiconductor_phy.pdf",
-    "00 Resources/IISER-K/PH3205/Unconfirmed 636142.crdownload",
-    "00 Resources/IISER-K/PH3205",
-    "05 Workbook/PH3205/PH3205-worksheet-1.pdf",
-    "05 Workbook/PH3205",
-    "00 Resources/IISER-K/Semester 5",
-    "05 Workbook/Sem 5",
-    "01 Rough Things/ece_TOC.md",
-    "00 Resources/IISER-K/Semester 5/PH3104/H.Note-PH3104-Analogue Electronics-Sneha.pdf",
-    "00 Resources/IISER-K/Semester 5/PH3104/H Notes-PH3104-Digital Electronics-PB.pdf",
-    "01 Rough Things/PH3104 Table of Contents.md",
-    "01 Rough Things/PH3104 Note conversion (From semiconductors).md",
-    "00 Resources/IISER-K/Semester 5/PH3103/TOC2-PH3103.md",
-    "00 Resources/IISER-K/Semester 5/PH3103/TOC-PH3103.md",
+    "02 Literature Notes/CS50W-HTML-CSS.md",
     "04 Handbook/Obsidian Markdown Cheatsheet.md",
-    "01 Rough Things/PH3103 Table-of-Contents-rough.md",
-    "01 Rough Things/PH3101-exam-planner.md",
-    "01 Rough Things/Ph3101-topics-covered-till 7.md",
-    "01 Rough Things/PH3102-Endsem-Question-practice.md",
-    "01 Rough Things/OOP-Python-Indently.yt-vid.md",
-    "01 Rough Things/Note-PH3102-Lec3.md",
-    "01 Rough Things/Expt-4 roadmap.md",
-    "01 Rough Things/PH3102 Solve Plan.md",
-    "03 Permanent Notes/C-Array-of-Strings.md",
-    "03 Permanent Notes/C-Array-as-Function-Output.md",
-    "03 Permanent Notes/C-Array-as-Function-Argument.md",
+    "06 Tags/Mechanics.md",
+    "06 Tags/Classical Mechanics.md",
+    "06 Tags/Quantum Mechanics.md",
+    "06 Tags/Field Theory.md",
+    "06 Tags/Physics.md",
+    "00 Resources/Books/Statistical Physics of Particl - Kardar, Mehran_4020.pdf",
+    "00 Resources/Booklist/Book view.base",
+    "00 Resources/Booklist/Classical Mechanics - Herbert Goldstein.md",
+    "00 Resources/Booklist/Statistical Physics of Particles - Mehran Kardar.md",
+    "00 Resources/Booklist",
+    "00 Resources/Books/Classical Mechanics (Herber_ (Z-Library).pdf",
+    "00 Resources/Books/Quantum Physics of Atoms.pdf",
+    "06 Tags/HTML.md",
+    "06 Tags/Programming.md",
+    "06 Tags/CSS.md",
+    "00 Resources/Vid-Bash Scripting-Learn Linux TV.md",
+    "07 Templates/College Lectures sem-5.md",
+    "06 Tags/C.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
+    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec1-C.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec4-Memory.md",
-    "01 Rough Things/PH3103-study plan for ct..md",
-    "03 Permanent Notes/C-arrow-operator->(inc).md",
-    "03 Permanent Notes/C-type-size_t(inc).md",
-    "01 Rough Things/Phy expt 3 draft.md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
+    "02 Literature Notes/IISER-K-lit/Note-CS3101-User-Defined-Functions(inc).md",
+    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
+    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2(inc).md",
+    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
+    "03 Permanent Notes/C-Array as Function Output.md",
+    "01 Rough Things/ece_semiconductor_phy.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3104/Note-PH3104-Capacitor_Charging.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3104/H.Note-PH3104-OP.Amps & Oscillators-Sneha.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3104/Pic-PH3104-Star, Delta.pdf",
+    "00 Resources/IISER-K/PH3205/ieee754.pdf",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
