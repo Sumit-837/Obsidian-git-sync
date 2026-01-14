@@ -12,11 +12,10 @@ source material: "[[(9)Pointers.pdf]]"
 ---
 Tags: [[C]]
 ****
-## Operator: &
-& has two completely different meanings depending on where used.
-1. Bit-wise AND operator (none of our interest now).
-2. As **address-of** operator:
-	`&var` ==> gives the memory address of the variable `var`.
+## Prerequisites: 
+### [[C-Operator-'&']]
+### [[C-Operator-'*' (Indirection operator)]]
+
 # Pointer Variable:
 A **pointer** is a variable that **stores the memory address** of another variable.
 >i.e. the values stored in pointer variables are addresses (in hexadecimal) to another memory block that contains a value/ is a variable.
@@ -33,22 +32,6 @@ Example: `int *p = &a;`
 ### Assigning address to a value directly without variable
 You can't just assign address of a value to a pointer as its not pointing to any variable containing that value. 
 Instead, you can allocate memory using `malloc()` and then point the declared pointer to a value.([[Note-CS50X-2025-Lec4-Memory#Pointer Fun with Binky|reference]])
-## Operator: * (Indirection operator)
-It has 2 ==different== Use cases:
-#### 1. Declaration of a Pointer variable:
-As mentioned [[Note-CS3101-Pointers(inc)#Declaration|earlier]].
-#### 2. De-referencing:
-When used **outside a Declaration**; it can access the value stored at the address a pointer points to.
-In simple words: Instructs the compiler to go to a location in memory.
-Example: If `p` is declared to be pointing address of`a`; `*p` gives the **value of** `a`.
-
-```c
-int a = 21;
-int *p = &a;  //Declaring pionter variable p & assigning address of a in it.
-
-printf("%p\n", p); //prints the address of a
-printf("%i\n", *p); //prints 21
-```
 ## **Type:**
 Its type is dependent upon the variable its pointing to.
 - `int *` ==> type of a pointer variable pointing to an int variable.

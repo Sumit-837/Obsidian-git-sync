@@ -25,7 +25,7 @@ You can make custom types now!!!
 	This way, whenever we have to declare a variable of our type, we have to write `struct` before it.
 	
 	`struct tag_name variable1, variable2;`
-### Declaring together:****
+### Declaring together:
 ```c
 struct student {
 	char name[25];
@@ -37,7 +37,7 @@ struct student {
 Here `Student` is that user defined data type.
 >[!Note]
 >Declaring the **body** outside main is best practise as other functions can also use it.
-### Declaration for Easier usage (typedef)
+### `typedef`: Declaration for Easier usage
 ([[Note-CS50X-2025-Lec3-Algorithms#Structs|reference]])
 You can use an instruction named `typedef` to create a sort of alias.
 **Benefit:** Now we don't have to type `struct` again and again while declaring variables. e.g.
