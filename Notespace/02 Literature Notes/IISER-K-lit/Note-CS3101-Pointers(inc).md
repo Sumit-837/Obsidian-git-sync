@@ -14,7 +14,7 @@ Tags: [[C]]
 ****
 ## Prerequisites: 
 ### [[C-Operator-'&']]
-### [[C-Operator-'*' (Indirection operator)]]
+### [[C-Operator-'asteric' (Indirection operator)]]
 
 # Pointer Variable:
 A **pointer** is a variable that **stores the memory address** of another variable.

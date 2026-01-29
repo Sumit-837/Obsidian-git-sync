@@ -21,12 +21,24 @@
             "id": "9353da017dbb29cd",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "05 Workbook/PH3203/Q_Paper-Time-dependent.pdf"
+                "file": "03 Permanent Notes/C-Operator-'asteric' (Indirection operator).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Q_Paper-Time-dependent"
+              "icon": "lucide-file",
+              "title": "C-Operator-'asteric' (Indirection operator)"
             }
           }
         ],
@@ -87,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -220,6 +231,7 @@
   },
   "active": "9353da017dbb29cd",
   "lastOpenFiles": [
+    "05 Workbook/PH3203/Q_Paper-Time-dependent.pdf",
     "00 Resources/MIT/TIPT-MIT-Zubach.pdf",
     "00 Resources/MIT/a0889c5ca8a479c3e56c544d646fb770_MIT8_06S18ch1.pdf",
     "00 Resources/MIT/Unconfirmed 494706.crdownload",
@@ -234,7 +246,6 @@
     "06 Tags/Field Theory.md",
     "05 Workbook/PH3203/Q_Paper-Time-Independent.pdf",
     "05 Workbook/PH3203/Unconfirmed 390044.crdownload",
-    "05 Workbook/PH3203/Q_Paper-Time-dependent.pdf",
     "05 Workbook/PH3203/tutorialsheetplanforthisweek.zip",
     "05 Workbook/PH3203/Unconfirmed 65569.crdownload",
     "05 Workbook/PH3203",
@@ -243,7 +254,7 @@
     "02 Literature Notes/CS50W-HTML-CSS.md",
     "03 Permanent Notes/C-Operator-'&'.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Linked-Lists(inc).md",
-    "03 Permanent Notes/C-Operator-'*' (Indirection operator).md",
+    "03 Permanent Notes/C-Operator-'asteric' (Indirection operator).md",
     "06 Tags/C.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Structures(inc).md",
