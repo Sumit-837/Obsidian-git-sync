@@ -1,6 +1,6 @@
 Tags: [[C]]
 ****
-It has 2 ==different== Use cases:
+**`*`** operator has 2 ==different== Use cases:
 #### 1. Declaration of a Pointer variable:
 As mentioned in [[Note-CS3101-Pointers(inc)#Declaration]].
 #### 2. De-referencing:
