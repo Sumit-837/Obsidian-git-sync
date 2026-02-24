@@ -59,24 +59,12 @@
             "id": "e679cb9831a778fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01 Rough Things/PH3202-TOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "05 Workbook/CS3201/workspace/Ungraded CS3201_ Practice Problems (2026).pdf"
               },
-              "icon": "lucide-file",
-              "title": "PH3202-TOC"
+              "icon": "lucide-file-text",
+              "title": "Ungraded CS3201_ Practice Problems (2026)"
             }
           }
         ],
@@ -137,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -267,8 +256,9 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "5e48f105891c59cf",
+  "active": "e679cb9831a778fa",
   "lastOpenFiles": [
+    "01 Rough Things/PH3202-TOC.md",
     "00 Resources/IISER-K/CS3201/Codes/treeTraversal.c",
     "00 Resources/IISER-K/CS3201/Codes/test_struct.c",
     "00 Resources/IISER-K/CS3201/Codes/struct_function_pointer.c",
@@ -279,8 +269,6 @@
     "00 Resources/IISER-K/CS3201/Codes/pointers_to_function.c",
     "00 Resources/IISER-K/CS3201/Codes/pointers_string_function_const.c",
     "00 Resources/IISER-K/CS3201/Codes/pointers_string_function.c",
-    "00 Resources/IISER-K/CS3201/Codes/pointers_matrix.c",
-    "01 Rough Things/PH3202-TOC.md",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
     "04 Handbook/Latex guide.md",

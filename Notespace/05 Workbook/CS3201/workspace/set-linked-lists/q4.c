@@ -6,42 +6,56 @@ typedef struct node {
   struct node *link;
 } node;
 
-void list_print(node *head) {
-  node *temptr = head;
-  printf("[");
-  while (temptr != NULL) {
+void list_print(node *head);
+node *LLUnion(node *L1, node *L2);
+node *LLIsect(node *L1, node *L2);
 
-    if (temptr->link !=
-        NULL) { // This if-else block is entirely for butification.
-      printf("%d, ", temptr->member);
-    } else {
-      printf("%d", temptr->member);
+// we are assuming here , there are no duplicate entries in a list itself. if
+// that happens, we can always remove the duplicates by using previous program
+// (q3.c)
+
+int main() {
+  // Making two lists
+  node *L1 = NULL;
+  node *L2 = NULL;
+  printf("Creating list 1: Enter 5 values:\n");
+  for (int i = 0; i < 5; i++) {
+    node *n = malloc(sizeof(node));
+    int a;
+    scanf("%d", &a);
+    if (n == NULL) {
+      return 0;
     }
-    temptr = temptr->link;
+    n->member = a;
+    n->link = L1;
+    L1 = n;
   }
-  printf("]\n");
-}
+  printf("Crteated list 1\n\n");
 
-void free_list(node *head) {
-  node *tmp;
-  while (head != NULL) {
-    tmp = head;
-    head = head->link;
-    free(tmp);
+  printf("Creating list 2: Enter 5 values:\n");
+  for (int i = 0; i < 5; i++) {
+    node *n = malloc(sizeof(node));
+    int a;
+    scanf("%d", &a);
+    if (n == NULL) {
+      return 0;
+    }
+    n->member = a;
+    n->link = L2;
+    L2 = n;
   }
-}
+  printf("Crteated list 2\n\n");
 
-int list_len(node *head) {
-  int i = 1;
-  node *temptr = head;
-  while (temptr->link != NULL) {
-    i++;
-    temptr = temptr->link;
-  }
-  return i;
+  // Printing lists
+  list_print(L1);
+  list_print(L2);
+  list_print(LLUnion(L1, L2));
+  list_print(LLIsect(L1, L2));
+  return 0;
 }
 
 node *LLUnion(node *L1, node *L2) {
+
   node *LU = NULL;
   // at first, take the first list fully
   node *temptr0 = L1;
@@ -113,4 +127,20 @@ node *LLIsect(node *L1, node *L2) {
     temptr2 = temptr2->link;
   }
   return LIt;
+}
+
+void list_print(node *head) {
+  node *temptr = head;
+  printf("[");
+  while (temptr != NULL) {
+
+    if (temptr->link !=
+        NULL) { // This if-else block is entirely for butification.
+      printf("%d, ", temptr->member);
+    } else {
+      printf("%d", temptr->member);
+    }
+    temptr = temptr->link;
+  }
+  printf("]\n");
 }
