@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/CS3201/(2)SinglyLinkedLists.pdf"
+                "file": "00 Resources/IISER-K/CS3201/(3)LinkedLists.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(2)SinglyLinkedLists"
+              "title": "(3)LinkedLists"
             }
           },
           {
@@ -42,33 +42,9 @@
               "icon": "lucide-file-text",
               "title": "Ungraded CS3201_ Practice Problems (2026)"
             }
-          },
-          {
-            "id": "cc0b1df7eb062404",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/PH3203/Q_Paper-Time-Independent.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Q_Paper-Time-Independent"
-            }
-          },
-          {
-            "id": "e679cb9831a778fa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/CS3201/workspace/Ungraded CS3201_ Practice Problems (2026).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Ungraded CS3201_ Practice Problems (2026)"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -256,19 +232,20 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "e679cb9831a778fa",
+  "active": "bead400f2e7046e9",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/CS3201/(3)LinkedLists.pdf",
+    "05 Workbook/CS3201/workspace/set-linked-lists/q7-gem.c",
+    "05 Workbook/CS3201/workspace/Ungraded CS3201_ Practice Problems (2026).pdf",
+    "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf",
+    "05 Workbook/PH3203/Q_Paper-Time-Independent.pdf",
+    "00 Resources/IISER-K/CS3201/(2)SinglyLinkedLists.pdf",
     "01 Rough Things/PH3202-TOC.md",
     "00 Resources/IISER-K/CS3201/Codes/treeTraversal.c",
     "00 Resources/IISER-K/CS3201/Codes/test_struct.c",
     "00 Resources/IISER-K/CS3201/Codes/struct_function_pointer.c",
     "00 Resources/IISER-K/CS3201/Codes/Stack_LinkedList.c",
     "00 Resources/IISER-K/CS3201/Codes/recursion_factorial.c",
-    "00 Resources/IISER-K/CS3201/Codes/qsort-library-int.c",
-    "00 Resources/IISER-K/CS3201/Codes/polynomial_add_mult.c",
-    "00 Resources/IISER-K/CS3201/Codes/pointers_to_function.c",
-    "00 Resources/IISER-K/CS3201/Codes/pointers_string_function_const.c",
-    "00 Resources/IISER-K/CS3201/Codes/pointers_string_function.c",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
     "04 Handbook/Latex guide.md",
