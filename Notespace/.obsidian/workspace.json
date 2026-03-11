@@ -30,21 +30,9 @@
               "icon": "lucide-file-text",
               "title": "(3)LinkedLists"
             }
-          },
-          {
-            "id": "bead400f2e7046e9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "05 Workbook/CS3201/workspace/Ungraded CS3201_ Practice Problems (2026).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Ungraded CS3201_ Practice Problems (2026)"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -232,20 +220,20 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "bead400f2e7046e9",
+  "active": "053d3fb7c266df35",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/CS3201/(3)LinkedLists.pdf",
-    "05 Workbook/CS3201/workspace/set-linked-lists/q7-gem.c",
-    "05 Workbook/CS3201/workspace/Ungraded CS3201_ Practice Problems (2026).pdf",
-    "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf",
-    "05 Workbook/PH3203/Q_Paper-Time-Independent.pdf",
-    "00 Resources/IISER-K/CS3201/(2)SinglyLinkedLists.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/topics5.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/s41534-025-01028-7.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Volume_19_Issue_1_2021_PHYSICS_Quantum_Entanglement-2.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Geometry_of_Quantum_States_An_Introdu_z_library_sk,_1lib_sk,.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Bell’s Theorem (Stanford Encyclopedia of Philosophy).html",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm",
+    "00 Resources/IISER-K/Term Paper Qtm/topics5.pdf",
+    "00 Resources/IISER-K/Term Paper Qtm/s41534-025-01028-7.pdf",
+    "00 Resources/IISER-K/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
     "01 Rough Things/PH3202-TOC.md",
-    "00 Resources/IISER-K/CS3201/Codes/treeTraversal.c",
-    "00 Resources/IISER-K/CS3201/Codes/test_struct.c",
-    "00 Resources/IISER-K/CS3201/Codes/struct_function_pointer.c",
-    "00 Resources/IISER-K/CS3201/Codes/Stack_LinkedList.c",
-    "00 Resources/IISER-K/CS3201/Codes/recursion_factorial.c",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
     "04 Handbook/Latex guide.md",
