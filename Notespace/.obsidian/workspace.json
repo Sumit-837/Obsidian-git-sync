@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4ad6f21da190c89a",
+        "id": "d472a6a702e456ce",
         "type": "tabs",
         "children": [
           {
-            "id": "d890d51d5f67b619",
+            "id": "9d96f78207decab7",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf"
+                "file": "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(1)Intro and prerequisites"
-            }
-          },
-          {
-            "id": "053d3fb7c266df35",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/CS3201/(3)LinkedLists.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "(3)LinkedLists"
+              "title": "0702225v2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,8 +207,12 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "053d3fb7c266df35",
+  "active": "9d96f78207decab7",
   "lastOpenFiles": [
+    "01 Rough Things/Types of ODEs.md",
+    "01 Rough Things/Scientific Workout Routeine.md",
+    "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf",
+    "00 Resources/IISER-K/CS3201/(3)LinkedLists.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/topics5.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/s41534-025-01028-7.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
@@ -230,9 +221,6 @@
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/Bell’s Theorem (Stanford Encyclopedia of Philosophy).html",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm",
-    "00 Resources/IISER-K/Term Paper Qtm/topics5.pdf",
-    "00 Resources/IISER-K/Term Paper Qtm/s41534-025-01028-7.pdf",
-    "00 Resources/IISER-K/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
     "01 Rough Things/PH3202-TOC.md",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
@@ -257,7 +245,6 @@
     "03 Permanent Notes/C-Operator-'Arrow' (inc).md",
     "03 Permanent Notes/C-Evaluation while returning value in function (inc).md",
     "03 Permanent Notes/C-Arrays as Function Argument in.md",
-    "03 Permanent Notes/C-Array of Strings.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",

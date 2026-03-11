@@ -1,30 +1,33 @@
 # Push Day (Chest, Triceps, Shoulder)
 ## Chest:
-### 1.Upper chest
-#### 3x inclined dumbbell chest press (D1,D2)
+### 1.Upper chest (any one)
+#### 3x inclined dumbbell chest press
 for better control
 - don't lock arms overhead, put more importance on lower half of the rep.
 ### 2. Middle chest
-#### 3x Flat Bench Press (D1)
+#### 3x Flat Bench Press
 - start from ~20 reps with empty bat for warmup
 - then 3 sets of:
 	- mid weight
 	- high weight
 	- low weight
-### 3. Lower chest
+### 3. Lower chest (Any one)
 For better range (full stretch to back)
-#### Cable-chest with inclined bench / peck deck machine (D2)
+#### Chest Dips (Compound)
+#### Cable-chest with inclined bench / peck deck machine
+
 
 ## Shoulder (Deltoid muscle)
 ### Front Head
 already slightly stimulated with chest workout
 #### Seated Dumbbell shoulder press
 #### Easy bar front raise
-### Side Head
-#### Super-rom lateral dumbbell raise
+### Side Head (Most important) (Any 2)
+#### 2x Super-rom lateral dumbbell raise
 arm goes all the way up unlike common lateral raises
 (avoid thumb up position (hammer position)).
-#### Cross Body Cable Y raise
+#### 2x Cross Body Cable Y raise
+#### 2x lateral raises
 
 ### Rear Head
 already slightly stimulated with back workout
@@ -32,9 +35,9 @@ already slightly stimulated with back workout
 Sweep all the way out
 ## Triceps
 ### Overall (trains all) (Best)
-#### Dumbbell French press (beginners) (D1,D2)
-the one i used to do at first
-#### Overhead Cable extension (Best) (D1 if available)
+#### Dumbbell French press (beginners) 
+>the one i used to do at first
+#### Overhead Cable extension (Best)
 #### Modified skull-crusher (2nd best)
 on bench
 ### Long Head (back)
