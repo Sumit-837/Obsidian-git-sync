@@ -4,19 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d472a6a702e456ce",
+        "id": "bef9ccc3095a7b86",
         "type": "tabs",
         "children": [
           {
-            "id": "9d96f78207decab7",
+            "id": "c94ead1eb62371e2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf"
+                "file": "01 Rough Things/PH3203-study-plan-after-midsem.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "0702225v2"
+              "icon": "lucide-file",
+              "title": "PH3203-study-plan-after-midsem"
             }
           }
         ]
@@ -76,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -207,8 +218,12 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "9d96f78207decab7",
+  "active": "c94ead1eb62371e2",
   "lastOpenFiles": [
+    "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
+    "01 Rough Things/PH3203-study-plan-after-midsem.md",
+    "00 Resources/IISER-K/PH3203/(3)parity symmetric basis for scattering (st 6.1.2).pdf",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
     "01 Rough Things/Types of ODEs.md",
     "01 Rough Things/Scientific Workout Routeine.md",
     "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf",
@@ -218,9 +233,6 @@
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/Volume_19_Issue_1_2021_PHYSICS_Quantum_Entanglement-2.pdf",
     "00 Resources/IISER-K/PH3203/Term Paper Qtm/Geometry_of_Quantum_States_An_Introdu_z_library_sk,_1lib_sk,.pdf",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Bell’s Theorem (Stanford Encyclopedia of Philosophy).html",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm",
     "01 Rough Things/PH3202-TOC.md",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
@@ -243,8 +255,6 @@
     "03 Permanent Notes/C-type-size_t (inc).md",
     "03 Permanent Notes/C-Operator-'&'.md",
     "03 Permanent Notes/C-Operator-'Arrow' (inc).md",
-    "03 Permanent Notes/C-Evaluation while returning value in function (inc).md",
-    "03 Permanent Notes/C-Arrays as Function Argument in.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
