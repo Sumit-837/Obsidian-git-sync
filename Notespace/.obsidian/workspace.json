@@ -6,6 +6,7 @@
       {
         "id": "bef9ccc3095a7b86",
         "type": "tabs",
+        "dimension": 37.91773778920309,
         "children": [
           {
             "id": "c94ead1eb62371e2",
@@ -14,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "01 Rough Things/PH3203-study-plan-after-midsem.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -29,6 +30,25 @@
               },
               "icon": "lucide-file",
               "title": "PH3203-study-plan-after-midsem"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d4e59db0fa658948",
+        "type": "tabs",
+        "dimension": 62.08226221079692,
+        "children": [
+          {
+            "id": "b9a8a0cdd19b2787",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Introduction to Quantum Mec_3rdEd_ (Z-Library)"
             }
           }
         ]
@@ -88,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e9c52b2ddef3287",

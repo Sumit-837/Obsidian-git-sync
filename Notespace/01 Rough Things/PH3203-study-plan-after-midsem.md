@@ -2,8 +2,8 @@
 
 ## Phase 1: Rebuilding the Foundation (1D Basics)
 - [ ] **The Free Particle**
-  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf|Griffith's]] (Sec 2.4)
-  - **Goal:** Understand plane waves ($e^{ikx}$) as the starting point for free scattering states.
+  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf#page=74|Griffith's]] (Sec 2.4)
+  - **Goal:** Understand pla ne waves ($e^{ikx}$) as the starting point for free scattering states.
 - [ ] **The Delta-Function Potential**
   - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf|Griffith's]] (Sec 2.5) & [[Book-PH3102-QM-S.Lal.pdf|Lal]]
   - **Goal:** Master boundary conditions. Understand why the wavefunction is continuous but its derivative has a discontinuity.
