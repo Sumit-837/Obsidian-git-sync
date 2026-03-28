@@ -42,8 +42,45 @@
               "icon": "lucide-file-text",
               "title": "(4)odes-g"
             }
+          },
+          {
+            "id": "5bb9a0fabac7903d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/PH3205/(5)odes-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(5)odes-1"
+            }
+          },
+          {
+            "id": "e64244a7c37cd621",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PH3205-python-toolbox.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "PH3205-python-toolbox"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -232,22 +269,22 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "a3bcd70d8aa45ef4",
+  "active": "e64244a7c37cd621",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/PH3205/(4)odes-g.pdf",
+    "05 Workbook/PH3205/PH3205-worksheet-4.pdf",
     "01 Rough Things/PH3205-study-plan.md",
+    "00 Resources/IISER-K/PH3205/(5)odes-1.pdf",
+    "00 Resources/IISER-K/PH3201/PH3201-Formulae-Susnata.pdf",
+    "00 Resources/IISER-K/PH3201/Formula_Sheet_statMech.pdf",
+    "00 Resources/IISER-K/PH3205/(4)odes-g.pdf",
+    "05 Workbook/PH3205/my-codes-jupyter/things.ipynb",
+    "05 Workbook/PH3205/my-codes-jupyter/Untitled.ipynb",
+    "05 Workbook/PH3205/my-codes-jupyter/ODE.ipynb",
+    "05 Workbook/PH3205/my-codes-jupyter",
     "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
-    "05 Workbook/PH3205/PH3205-worksheet-9.pdf",
-    "05 Workbook/PH3205/PH3205-worksheet-7.pdf",
-    "05 Workbook/PH3205/PH3205-worksheet-5.pdf",
-    "00 Resources/IISER-K/PH3205/(9)TDSE-v2.pdf",
     "01 Rough Things/PH3203-study-plan-after-midsem.md",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/preskill_1_to_6.pdf",
-    "00 Resources/IISER-K/PH3203/(3)parity symmetric basis for scattering (st 6.1.2).pdf",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
     "01 Rough Things/Types of ODEs.md",
     "01 Rough Things/Scientific Workout Routeine.md",
-    "00 Resources/IISER-K/CS3201/(1)Intro and prerequisites.pdf",
     "01 Rough Things/PH3202-TOC.md",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
