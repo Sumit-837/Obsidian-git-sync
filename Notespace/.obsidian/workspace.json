@@ -4,17 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "d4e59db0fa658948",
+        "id": "dd91bb3c71e83cc6",
         "type": "tabs",
         "children": [
           {
-            "id": "a3bcd70d8aa45ef4",
+            "id": "df6466df2ce1632c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "2133b0a718badecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Rough Things/PH3205-study-plan.md",
-                "mode": "preview",
+                "file": "01 Rough Things/PH3202-TOC.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,59 +38,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PH3205-study-plan"
-            }
-          },
-          {
-            "id": "4c33942999034426",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/PH3205/(4)odes-g.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "(4)odes-g"
-            }
-          },
-          {
-            "id": "5bb9a0fabac7903d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/PH3205/(5)odes-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "(5)odes-1"
-            }
-          },
-          {
-            "id": "e64244a7c37cd621",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PH3205-python-toolbox.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "PH3205-python-toolbox"
+              "title": "PH3202-TOC"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -269,14 +231,15 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "e64244a7c37cd621",
+  "active": "2133b0a718badecf",
   "lastOpenFiles": [
+    "PH3205-python-toolbox.md",
+    "00 Resources/IISER-K/PH3205/(4)odes-g.pdf",
     "05 Workbook/PH3205/PH3205-worksheet-4.pdf",
     "01 Rough Things/PH3205-study-plan.md",
     "00 Resources/IISER-K/PH3205/(5)odes-1.pdf",
     "00 Resources/IISER-K/PH3201/PH3201-Formulae-Susnata.pdf",
     "00 Resources/IISER-K/PH3201/Formula_Sheet_statMech.pdf",
-    "00 Resources/IISER-K/PH3205/(4)odes-g.pdf",
     "05 Workbook/PH3205/my-codes-jupyter/things.ipynb",
     "05 Workbook/PH3205/my-codes-jupyter/Untitled.ipynb",
     "05 Workbook/PH3205/my-codes-jupyter/ODE.ipynb",
@@ -305,7 +268,6 @@
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2(inc).md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "03 Permanent Notes/C-type-size_t (inc).md",
-    "03 Permanent Notes/C-Operator-'&'.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
