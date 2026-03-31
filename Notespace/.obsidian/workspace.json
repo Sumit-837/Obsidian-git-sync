@@ -11,38 +11,39 @@
             "id": "df6466df2ce1632c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3201/(7)heightBalancedTrees.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(7)heightBalancedTrees"
             }
           },
           {
-            "id": "2133b0a718badecf",
+            "id": "30091857b85714b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01 Rough Things/PH3202-TOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "00 Resources/IISER-K/CS3201/(4)trees.pdf"
               },
-              "icon": "lucide-file",
-              "title": "PH3202-TOC"
+              "icon": "lucide-file-text",
+              "title": "(4)trees"
+            }
+          },
+          {
+            "id": "8fc682b5dc871e74",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/CS3201/(6)binarySearchTree.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "(6)binarySearchTree"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,24 +232,25 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "2133b0a718badecf",
+  "active": "df6466df2ce1632c",
   "lastOpenFiles": [
+    "05 Workbook/CS3201/workspace/tree.zip",
+    "05 Workbook/CS3201/workspace/tree/AVL_tree.c~",
+    "00 Resources/IISER-K/CS3201/(6)binarySearchTree.pdf",
+    "00 Resources/IISER-K/CS3201/(4)trees.pdf",
+    "00 Resources/IISER-K/CS3201/(7)heightBalancedTrees.pdf",
+    "05 Workbook/CS3201/workspace/tree/BST.c~",
+    "05 Workbook/CS3201/workspace/tree/BST.c",
+    "05 Workbook/CS3201/workspace/tree/4913",
+    "05 Workbook/CS3201/workspace/tree/AVL_tree.c",
+    "05 Workbook/CS3201/workspace/tree/tree-travarsal.c",
+    "05 Workbook/CS3201/workspace/tree/tree-making.c~",
+    "01 Rough Things/PH3202-TOC.md",
     "PH3205-python-toolbox.md",
-    "00 Resources/IISER-K/PH3205/(4)odes-g.pdf",
-    "05 Workbook/PH3205/PH3205-worksheet-4.pdf",
     "01 Rough Things/PH3205-study-plan.md",
-    "00 Resources/IISER-K/PH3205/(5)odes-1.pdf",
-    "00 Resources/IISER-K/PH3201/PH3201-Formulae-Susnata.pdf",
-    "00 Resources/IISER-K/PH3201/Formula_Sheet_statMech.pdf",
-    "05 Workbook/PH3205/my-codes-jupyter/things.ipynb",
-    "05 Workbook/PH3205/my-codes-jupyter/Untitled.ipynb",
-    "05 Workbook/PH3205/my-codes-jupyter/ODE.ipynb",
-    "05 Workbook/PH3205/my-codes-jupyter",
-    "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
     "01 Rough Things/PH3203-study-plan-after-midsem.md",
     "01 Rough Things/Types of ODEs.md",
     "01 Rough Things/Scientific Workout Routeine.md",
-    "01 Rough Things/PH3202-TOC.md",
     "00 Resources/Books/Untitled.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
     "04 Handbook/Latex guide.md",
