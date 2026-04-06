@@ -11,14 +11,12 @@
             "id": "202e61a8fe969bd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "00 Resources/CS50/Note-CS50X-2025-Lec1-C.md",
-                "mode": "preview",
-                "source": false
+                "file": "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Note-CS50X-2025-Lec1-C"
+              "icon": "lucide-file-text",
+              "title": "Introduction to Quantum Mec_3rdEd_ (Z-Library)"
             }
           },
           {
@@ -27,14 +25,38 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/CS3101/(10)structure.pdf"
+                "file": "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(10)structure"
+              "title": "Introduction to Quantum Mec_3rdEd_ (Z-Library)"
+            }
+          },
+          {
+            "id": "52b50ef1f5c7553b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IIT J proff cold mail.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "IIT J proff cold mail"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,8 +226,19 @@
       "handwritten-notes:Create empty handwritten note": false
     }
   },
-  "active": "bc3d3e0a1a2e9328",
+  "active": "52b50ef1f5c7553b",
   "lastOpenFiles": [
+    "PH3205-python-toolbox.md",
+    "01 Rough Things/PH3203-study-ct2.md",
+    "IIT J proff cold mail.md",
+    "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
+    "01 Rough Things/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf.md",
+    "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf.pdf",
+    "00 Resources/IISER-K/Semester 5/PH3102/Book-PH3102-QM-S.Lal.pdf",
+    "01 Rough Things/PH3101-exam-planner.md",
+    "01 Rough Things/Handwritten Notes.md",
+    "01 Rough Things/PH3201-TOC-23ms114-notes.md",
+    "01 Rough Things/PH3202-TOC.md",
     "00 Resources/IISER-K/CS3101/(8)arrays_strings.pdf",
     "00 Resources/IISER-K/CS3101/(10)structure.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
@@ -222,10 +255,6 @@
     "05 Workbook/PH3104/PH3104-Solution Set-1.pdf",
     "00 Resources/Books/zettili.pdf",
     "01 Rough Things/PH3102 Solve Plan.md",
-    "00 Resources/IISER-K/PH3104/Handwritten Note- PH3104-Somedeep.pdf",
-    "00 Resources/IISER-K/PH3104/Pic-PH3104-Star, Delta.pdf",
-    "00 Resources/IISER-K/PH3101/Handwritten Note-Ph3101-Somdeep-fromLec8.pdf",
-    "00 Resources/IISER-K/PH3101/Note-PH3101-Lec0.pdf",
     "01 Rough Things/PH3104-Syllabus.md",
     "01 Rough Things/Study plan PH3101.md",
     "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
@@ -235,13 +264,6 @@
     "Note-PH3102-Lec3.md",
     "05 Templates/College Lectures sem-5.md",
     "[[.md",
-    "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec2.md",
-    "04 Handbook/Git Cheatsheet.md",
-    "03 Resources/Note-CS50W-Lec2-Python.md",
-    "01 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
-    "03 Resources/IISER-K/PH3105/Untitled.md",
-    "03 Resources/IISER-K/PH3102/Untitled 1.md",
-    "03 Resources/IISER-K/PH3102/Untitled.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",
