@@ -11,34 +11,10 @@
             "id": "202e61a8fe969bd8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Introduction to Quantum Mec_3rdEd_ (Z-Library)"
-            }
-          },
-          {
-            "id": "bc3d3e0a1a2e9328",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Introduction to Quantum Mec_3rdEd_ (Z-Library)"
-            }
-          },
-          {
-            "id": "52b50ef1f5c7553b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "IIT J proff cold mail.md",
-                "mode": "preview",
+                "file": "01 Rough Things/PH3203-TOC-23ms114-notes.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -52,11 +28,23 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "IIT J proff cold mail"
+              "title": "PH3203-TOC-23ms114-notes"
+            }
+          },
+          {
+            "id": "52b50ef1f5c7553b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/PH3203/H.Notes-PH3203-Sneha.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "H.Notes-PH3203-Sneha"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -228,17 +216,19 @@
   },
   "active": "52b50ef1f5c7553b",
   "lastOpenFiles": [
-    "PH3205-python-toolbox.md",
     "01 Rough Things/PH3203-study-ct2.md",
-    "IIT J proff cold mail.md",
     "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
+    "01 Rough Things/PH3203-TOC-23ms114-notes.md",
+    "00 Resources/IISER-K/PH3203/H.Notes-PH3203-Sneha.pdf",
+    "01 Rough Things/H.Notes-PH3203-Sneha.md",
+    "01 Rough Things/PH3202-TOC.md",
+    "IIT J proff cold mail.md",
+    "PH3205-python-toolbox.md",
     "01 Rough Things/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf.md",
     "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf.pdf",
     "00 Resources/IISER-K/Semester 5/PH3102/Book-PH3102-QM-S.Lal.pdf",
     "01 Rough Things/PH3101-exam-planner.md",
     "01 Rough Things/Handwritten Notes.md",
-    "01 Rough Things/PH3201-TOC-23ms114-notes.md",
-    "01 Rough Things/PH3202-TOC.md",
     "00 Resources/IISER-K/CS3101/(8)arrays_strings.pdf",
     "00 Resources/IISER-K/CS3101/(10)structure.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Arrays.md",
@@ -253,7 +243,6 @@
     "01 Rough Things/PH3104 study plan.md",
     "05 Workbook/PH3104/PH3104-Problem Set-1.pdf",
     "05 Workbook/PH3104/PH3104-Solution Set-1.pdf",
-    "00 Resources/Books/zettili.pdf",
     "01 Rough Things/PH3102 Solve Plan.md",
     "01 Rough Things/PH3104-Syllabus.md",
     "01 Rough Things/Study plan PH3101.md",
@@ -262,8 +251,6 @@
     "00 Resources/CS50/Vid-CS50W-2020.md",
     "00 Rough Things/Ph3101-topics-covered-till 7.md",
     "Note-PH3102-Lec3.md",
-    "05 Templates/College Lectures sem-5.md",
-    "[[.md",
     "Pasted image 20250617222220.png",
     "Pasted image 20250617222205.png",
     "Pasted image 20250617222049.png",

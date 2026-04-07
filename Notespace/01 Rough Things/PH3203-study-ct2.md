@@ -2,10 +2,10 @@
 
 ## Phase 1: Rebuilding the Foundation (1D Basics)
 - [ ] **The Free Particle & Conservation Laws**
-  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf#page=74|Griffith's]] (Sec 2.4) & Handwritten Notes (Ch 8.1, 8.2)
+  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf#page=74|Griffith's]] (Sec 2.4) & [[H.Notes-PH3203-Sneha.pdf#page=109]]  (pg 109-111)
   - **Goal:** Understand plane waves and elastic collisions conserving energy.
 - [ ] **The Delta-Function Potential**
-  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf|Griffith's]] (Sec 2.5) & Handwritten Notes (Ch 8.5)
+  - **Source:** [[Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf|Griffith's]] (Sec 2.5) & [[H.Notes-PH3203-Sneha.pdf#page=114]] (pg 114-116)
   - **Goal:** Master boundary conditions. Understand the wavefunction derivative discontinuity.
 
 ## Phase 2: 1D Scattering & Transfer Matrices
@@ -13,7 +13,7 @@
   - **Source:** [[(3)parity symmetric basis for scattering (st 6.1.2).pdf|3]] (Sec 6.1)
   - **Goal:** Calculate amplitudes ($r, t$). Convert probabilities into currents.
 - [ ] **Transfer Matrix (M-Matrix) Setup**
-  - **Source:** Handwritten Notes (Ch 9.1, 9.2)
+  - **Source:** [[H.Notes-PH3203-Sneha.pdf]] (Ch 9.1, 9.2)
   - **Goal:** Translate the M-Matrix across boundaries to construct the S-matrix.
 
 > **>> PRACTICE CHECKPOINT 1 <<**
@@ -25,7 +25,7 @@
   - **Source:** [[(2a)Analyticity properties of S materix.pdf|2a]]
   - **Goal:** Push momentum into the complex plane ($k = i\kappa$). Prove poles equal bound states. 
 - [ ] **Resonances & Lifetimes**
-  - **Source:** [[(2b)resooances and life time.pdf|2b]] & Handwritten Notes (Ch 10.2)
+  - **Source:** [[(2b)resooances and life time.pdf|2b]] & [[H.Notes-PH3203-Sneha.pdf]] (Ch 10.2)
   - **Goal:** Connect transmission zeros to the Breit-Wigner shape and finite particle lifetimes.
 
 > **>> PRACTICE CHECKPOINT 2 <<**
@@ -47,7 +47,7 @@
   - **Video Alignments:** MIT Lectures L19.4, L20.1
   - **Goal:** Slice an incoming plane wave into $l$ channels using Legendre polynomials.
 - [ ] **The Optical Theorem**
-  - **Source:** Handwritten Notes (Ch 13.2) & MIT Lecture L20.4
+  - **Source:** [[H.Notes-PH3203-Sneha.pdf]] (Ch 13.2) & MIT Lecture L20.4
   - **Goal:** Prove total cross-section relates to forward scattering: $\sigma = \frac{4\pi}{k} Im[f(0)]$.
 - [ ] **Scattering Length & Zero-Energy Resonances**
   - **Source:** [[Tutorials_Sattering_Theory.pdf]] (Q4 context)
