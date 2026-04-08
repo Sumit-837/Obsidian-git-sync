@@ -13,10 +13,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "00 Resources/IISER-K/CS3201/(7)heightBalancedTrees.pdf"
+                "file": "00 Resources/IISER-K/PH3203/Term Paper Qtm/Volume_19_Issue_1_2021_PHYSICS_Quantum_Entanglement-2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "(7)heightBalancedTrees"
+              "title": "Volume_19_Issue_1_2021_PHYSICS_Quantum_Entanglement-2"
             }
           },
           {
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
-    "collapsed": true
+    "width": 268.5
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -232,19 +231,24 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "df6466df2ce1632c",
+  "active": "5e48f105891c59cf",
   "lastOpenFiles": [
-    "00 Resources/IISER-K/CS3201/(6)binarySearchTree.pdf",
-    "05 Workbook/CS3201/workspace/tree/prectise.c~",
-    "05 Workbook/CS3201/workspace/tree/4913",
-    "05 Workbook/CS3201/workspace/tree/prectise.c",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/E91/QKD_E91.ipynb",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/BB84/QKD_BB84_with-Eve.ipynb",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/BB84_with_repeaters/QKD_with_repeaters.ipynb",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/BB84_with_repeaters/QKD-Report.pdf",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/README.md",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/E91",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/BB84",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD/BB84_with_repeaters",
+    "05 Workbook/PH3203/term paper/IBMQ_QKD",
+    "05 Workbook/PH3203/term paper",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Lecture_4_12.pdf",
     "00 Resources/IISER-K/CS3201/(7)heightBalancedTrees.pdf",
-    "05 Workbook/CS3201/workspace/tree.zip",
-    "05 Workbook/CS3201/workspace/tree/AVL_tree.c~",
-    "00 Resources/IISER-K/CS3201/(4)trees.pdf",
-    "05 Workbook/CS3201/workspace/tree/BST.c~",
-    "05 Workbook/CS3201/workspace/tree/BST.c",
-    "05 Workbook/CS3201/workspace/tree/AVL_tree.c",
+    "IIT J proff cold mail.md",
+    "01 Rough Things/PH3203-study-ct2.md",
+    "01 Rough Things/PH3203-TOC-23ms114-notes.md",
+    "01 Rough Things/H.Notes-PH3203-Sneha.md",
     "01 Rough Things/PH3202-TOC.md",
     "PH3205-python-toolbox.md",
     "01 Rough Things/PH3205-study-plan.md",
@@ -265,11 +269,6 @@
     "00 Resources/Harvard/CS50/Vid-CS50X-2025.md",
     "00 Resources/Harvard/CS50/Vid-CS50W-2020.md",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Loops(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec1.md",
-    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec5(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-PH3102-Lec2(inc).md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "03 Permanent Notes/C-type-size_t (inc).md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
