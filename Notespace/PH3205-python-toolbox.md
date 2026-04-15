@@ -1,382 +1,617 @@
-# PH3205 Python Toolbox Cheat Sheet (from your notebooks)
-Date compiled: 2026-03-28  
-Source notebooks (examples): precision-scaling, demo (derivatives), solving ODEs, symplectic ODEs, BVP/eigenvalue shooting, Crank–Nicolson + Thomas algorithm, TDSE scattering (animation)
+# PH3205 Python Toolbox Cheat Sheet (Comprehensive)
+Date compiled: 2026-04-11  
+Scope: NumPy + Matplotlib + SciPy patterns commonly used in PH3205 workflows (precision scaling, derivatives, IVP ODEs, symplectic ODEs, BVP/eigenvalue shooting, Crank–Nicolson, TDSE animations)
 
-This is a compact reference of **NumPy**, **Matplotlib**, and **SciPy** functions/patterns that appear in your code, arranged roughly from **basic → advanced**, with **how to use**, common cases, and pitfalls.
-
----
-
-## NumPy (np)
-
-### 1) Array creation / conversion
-
-#### `np.array(obj, dtype=None)`
-Create an ndarray from list/tuple (can be 1D, 2D, …).
-```python
-a = np.array([1, 2, 3])
-b = np.array([[1, 2], [3, 4]])
-c = np.array([1, 2, 3], dtype=np.float64)
-```
-**Pitfall:** ragged lists create `dtype=object` → avoid for numerics.
-
-#### `np.asarray(x, dtype=None)`
-Convert input to ndarray (often no copy if already ndarray).
-```python
-y_ini = np.asarray([1.0])
-state = np.asarray([1.0, 0.0])
-```
-Use this for function inputs.
+A compact-but-complete reference of **NumPy**, **Matplotlib**, and **SciPy** functions/patterns arranged from **basic → advanced**, with usage, common cases, and pitfalls.
 
 ---
 
-### 2) Preallocation / constant arrays
+## 0) Standard imports and style
 
-#### `np.zeros(shape, dtype=float)`
-Allocate and fill with zeros (fast + predictable).
 ```python
-ys = np.zeros((N, len(y_ini)), dtype=np.float64)
-errors = np.zeros(len(hs))
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit, root_scalar
+from scipy.integrate import solve_ivp
+from scipy.interpolate import interp1d
+from scipy.linalg import solve_banded
 ```
 
-#### `np.full(shape, fill_value, dtype=None)`
-Allocate and fill with a constant.
+Optional quality-of-life:
+
 ```python
+np.set_printoptions(precision=6, suppress=True)
+plt.rcParams["figure.dpi"] = 120
+```
+
+---
+
+## 1) NumPy (`np`)
+
+## 1.1 Array creation and conversion
+
+### `np.array(obj, dtype=None)`
+Create ndarray from list/tuple.
+
+```python
+a = np.array([1, 2, 3], dtype=float)
+B = np.array([[1, 2], [3, 4]])
+```
+
+### `np.asarray(x, dtype=None)`
+Convert input to ndarray (avoids copy if already ndarray).
+
+```python
+y0 = np.asarray([1.0, 0.0], dtype=float)
+```
+
+### `np.zeros(shape, dtype=float)` / `np.ones(shape)` / `np.full(shape, value)`
+Preallocate arrays.
+
+```python
+ys = np.zeros((N, 2))
+mask = np.ones(N, dtype=bool)
 T = np.full(Nx, 300.0)
-a_A = np.full(n_interior-1, -r/2)
+```
+
+### `np.empty(shape, dtype=float)`
+Allocate without initializing (fast; fill immediately).
+
+```python
+buf = np.empty((Nt, Nx), dtype=np.float64)
+```
+
+### `np.eye(N, M=None, k=0)` / `np.diag(v, k=0)`
+Identity and diagonal arrays.
+
+```python
+I = np.eye(5)
+D = np.diag([1, 2, 3])
 ```
 
 ---
 
-### 3) Grids / ranges
+## 1.2 Grids and ranges
 
-#### `np.arange(start, stop, step)`
-Equally spaced values with a fixed step (stop usually excluded).
+### `np.arange(start, stop, step)`
+Fixed step grid; stop usually excluded.
+
 ```python
-xs = np.arange(x0, x0 + N*h, h)
-xs = np.arange(N) * h + x0
+xs = np.arange(x0, x1, h)
 ```
-**Pitfall (float):** may miss/overshoot endpoints due to floating error. For exact point count, prefer `linspace`.
 
-#### `np.linspace(start, stop, num)`
-Exactly `num` points including endpoints by default.
+Pitfall: floating step can miss endpoint due to roundoff.
+
+### `np.linspace(start, stop, num, endpoint=True, retstep=False)`
+Fixed number of points.
+
 ```python
 xs = np.linspace(0.0, 1.0, 129)
-xfine = np.linspace(0.0, xs[-1], 1000)
+xs, dx = np.linspace(0, L, Nx, retstep=True)
+```
+
+### `np.logspace(start, stop, num, base=10.0)`
+Log-spaced values (useful for convergence tests).
+
+```python
+hs = np.logspace(-4, -1, 20)
+```
+
+### `np.meshgrid(x, y, indexing='xy')`
+2D coordinate grids (surface/contour plots).
+
+```python
+X, Y = np.meshgrid(x, y, indexing="xy")
 ```
 
 ---
 
-### 4) Math functions (vectorized)
+## 1.3 Shape and structure operations
 
-#### `np.sin(x)`, `np.cos(x)`, `np.exp(x)`
-Element-wise trig/exp.
+### `arr.shape`, `arr.ndim`, `arr.size`, `len(arr)`
+Basic dimension info.
+
+### `arr.reshape(newshape)` / `arr.ravel()` / `arr.flatten()`
+Reshape and flatten.
+
 ```python
-y = np.sin(xs)
-exact = np.cos(xn)
-yexact = np.exp(-xs**2 / 2)
+u2d = u.reshape(Nx, Ny)
+u1 = u2d.ravel()      # view if possible
+u1_copy = u2d.flatten()  # copy
 ```
 
-#### `np.abs(x)`
-Absolute value element-wise.
+### `arr.T` / `np.transpose(arr, axes=...)`
+Transpose arrays.
+
+### `np.newaxis` / `None`
+Add singleton axis for broadcasting.
+
+```python
+col = x[:, None]   # (N,1)
+row = x[None, :]   # (1,N)
+```
+
+### `np.concatenate`, `np.stack`, `np.hstack`, `np.vstack`
+Join arrays.
+
+```python
+c = np.concatenate([a, b])
+M = np.stack([a, b], axis=0)
+```
+
+---
+
+## 1.4 Indexing, slicing, masking
+
+```python
+a[i]        # element
+a[i:j:k]    # slice
+a[-1]       # last
+A[i, j]     # 2D element
+A[:, 0]     # first column
+A[1:-1]     # interior points
+```
+
+Boolean masking:
+
+```python
+pos = x[x > 0]
+A[A < 0] = 0
+```
+
+Fancy indexing:
+
+```python
+idx = np.array([0, 3, 7])
+sel = a[idx]
+```
+
+---
+
+## 1.5 Vectorized math and constants
+
+- `np.abs`, `np.sqrt`, `np.exp`, `np.log`, `np.log10`
+- `np.sin`, `np.cos`, `np.tan`, `np.arctan`, etc.
+- `np.sinh`, `np.cosh`
+- `np.pi`, `np.e`
+
 ```python
 err = np.abs(y_num - y_exact)
+lx = np.log10(hs)
 ```
 
-#### `np.log10(x)`
-Element-wise log base 10 (for log-log plots).
-```python
-xd = np.log10(hs)
-yd = np.log10(errors)
-```
-**Pitfall:** input must be strictly positive.
+Pitfall: logs need strictly positive input.
 
-#### `np.pi`
-Constant π.
+---
+
+## 1.6 Reductions and statistics
+
+- `np.sum`, `np.mean`, `np.std`, `np.var`
+- `np.min`, `np.max`
+- `np.argmin`, `np.argmax`
+- `np.any`, `np.all`
+
+With axis:
+
 ```python
-xn = 2*np.pi/5
+col_means = A.mean(axis=0)
+row_max = A.max(axis=1)
 ```
 
 ---
 
-### 5) Indexing, slicing, and shapes (core usage)
+## 1.7 Comparison, logic, and conditionals
 
-#### Basic indexing/slicing
+- `np.isclose`, `np.allclose`
+- `np.isfinite`, `np.isnan`, `np.isinf`
+- `np.where(cond, x, y)`
+
 ```python
-arr[i]          # element (or row for 2D)
-arr[i:j]        # slice
-arr[-1]         # last element/row
-arr[1:-1]       # interior points (common in PDE)
-arr[:, 0]       # column 0 of 2D array
-arr[i, :]       # row i
-arr[i, j]       # element in 2D
+good = np.isfinite(y)
+z = np.where(x > 0, np.sqrt(x), 0.0)
 ```
 
-Used patterns from your notebooks:
+Nearest-index pattern:
+
 ```python
-T_in = T_old[1:-1]
-final_position = ys[-1, 0]
-```
-
-#### Shape helpers
-- `len(arr)` → size of first axis
-- `arr.shape` → tuple of dimensions
-
----
-
-### 6) Searching / selection / reductions
-
-#### `np.min(arr)`
-Minimum value.
-```python
-m = np.min(a)
-```
-
-#### `np.where(condition)`
-Indices where condition holds.
-```python
-idx = np.where(a == np.min(a))[0][0]
-```
-**Better nearest-index pattern (recommended):**
-```python
-idx = np.argmin(np.abs(xs + Lo))
-```
-(You didn’t explicitly use `np.argmin` in the pasted code, but it’s the clean replacement for your `where(min())` pattern.)
-
----
-
-### 7) Copying (important in time stepping)
-
-#### `arr.copy()`
-Independent copy to avoid overwriting data you still need.
-```python
-T_old = T.copy()
+i0 = np.argmin(np.abs(xs - x_target))
 ```
 
 ---
 
-### 8) Broadcasting (implicit but heavily used)
-NumPy automatically aligns shapes when possible.
-```python
-err = ysE[:, 0] - np.cos(xs)   # (N,) - (N,) → (N,)
-Y = np.zeros((N, 2))
-c = np.array([10, 20])         # (2,)
-Z = Y + c                       # add to every row
-```
-**Pitfall:** incompatible shapes raise an error.
+## 1.8 Copying and memory safety
 
----
+- `b = a` → same object/reference
+- `b = a.copy()` → independent copy
 
-### 9) Power operations (element-wise with arrays)
-Using `**` is element-wise for ndarrays.
+Time-stepping must often use copies:
+
 ```python
-xs2 = xs**2
-hs = 10.0 ** np.arange(-3.0, -1.0 + 0.2, 0.2)
+u_old = u.copy()
 ```
 
 ---
 
-## Matplotlib (plt)
+## 1.9 Linear algebra (`np.linalg`)
 
-### 1) Setup
+- `np.linalg.solve(A, b)` (preferred over inverse)
+- `np.linalg.inv(A)` (usually avoid for solving)
+- `np.linalg.eig(A)`, `np.linalg.eigh(A)` (Hermitian/symmetric)
+- `np.linalg.norm(v, ord=2)`
+
 ```python
-import matplotlib.pyplot as plt
+x = np.linalg.solve(A, b)
+w, V = np.linalg.eigh(H)
 ```
 
 ---
 
-### 2) Figure creation
+## 1.10 Numerical differentiation and integration helpers
 
-#### `plt.figure(figsize=(w, h))`
-Start a new figure.
+### `np.gradient(f, x_or_dx)`
+Finite-difference derivative estimate.
+
 ```python
-plt.figure(figsize=(6, 6))
+dfdx = np.gradient(fx, x)
+```
+
+### `np.diff(a, n=1)`
+Discrete differences.
+
+```python
+dx = np.diff(x)
+```
+
+### `np.trapz(y, x=None, dx=1.0)`
+Trapezoidal integral.
+
+```python
+I = np.trapz(np.abs(psi)**2, x)
 ```
 
 ---
 
-### 3) Plotting primitives
+## 1.11 Random sampling (`np.random`)
 
-#### `plt.plot(x, y, fmt=None, label=None, **kwargs)`
-Line plot.
 ```python
-plt.plot(xs, yfine, color="blue", linewidth=1, label="Exact")
-plt.plot(xs, ys, "o", label="Data")     # markers
-plt.plot(xs, ys, "b-")                  # blue line
+rng = np.random.default_rng(123)
+u = rng.random(1000)
+g = rng.normal(loc=0.0, scale=1.0, size=1000)
 ```
 
-#### `plt.scatter(x, y, s=..., color=..., label=..., edgecolor=...)`
-Scatter plot.
+Useful for Monte Carlo/error tests.
+
+---
+
+## 2) Matplotlib (`plt`)
+
+## 2.1 Figure/axes creation
+
+### Quick style
 ```python
-plt.scatter(xs, ysE, color="red", s=16, label="Euler", edgecolor="none")
+plt.figure(figsize=(6,4))
+```
+
+### Recommended OO style
+```python
+fig, ax = plt.subplots(figsize=(6,4))
+```
+
+Multiple panels:
+```python
+fig, axes = plt.subplots(2, 2, figsize=(8,6), sharex=True)
 ```
 
 ---
 
-### 4) Labels, legend, grid, layout
+## 2.2 Basic plotting
 
-#### `plt.xlabel(...)`, `plt.ylabel(...)`, `plt.title(...)`
-```python
-plt.xlabel(r"$x$")
-plt.ylabel("Errors")
-plt.title("Comparison of Numerical Methods")
-```
+- `ax.plot(x, y, ...)`
+- `ax.scatter(x, y, ...)`
+- `ax.errorbar(x, y, yerr=..., fmt='o')`
+- `ax.bar(...)`, `ax.hist(...)`
 
-#### `plt.grid()`
 ```python
-plt.grid()
-```
-
-#### `plt.legend(loc=...)`
-```python
-plt.legend()
-plt.legend(loc="upper left")
-```
-
-#### `plt.tight_layout()`
-```python
-plt.tight_layout()
-```
-
-#### `plt.show()`
-```python
-plt.show()
+ax.plot(x, y, label="RK4", lw=2)
+ax.scatter(xn, yn, s=20, color="red")
 ```
 
 ---
 
-### 5) Axis window control
+## 2.3 Labels and styling
 
-#### `plt.xlim([xmin, xmax])`, `plt.ylim([ymin, ymax])`
+- `ax.set_title`, `ax.set_xlabel`, `ax.set_ylabel`
+- `ax.legend(loc=...)`
+- `ax.grid(True, alpha=0.3)`
+- `ax.set_xlim`, `ax.set_ylim`
+- `ax.set_aspect('equal')` (phase-space circles etc.)
+
 ```python
-plt.xlim([-30.0, -20.0])
-plt.ylim([-20.0, 20.0])
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+ax.grid(True)
+ax.legend()
 ```
 
 ---
 
-### 6) Subplots (two styles)
+## 2.4 Scales and ticks
 
-#### (A) Quick style: `plt.subplot(r, c, i)`
-```python
-plt.figure(figsize=(8, 10))
-plt.subplot(3, 1, 1)
-plt.plot(xs, ysE[:, 0])
-plt.subplot(3, 1, 2)
-plt.plot(xs, ysm[:, 0])
-plt.subplot(3, 1, 3)
-plt.plot(xs, ysrk4[:, 0])
-plt.tight_layout()
-plt.show()
-```
+- `ax.set_xscale('log')`, `ax.set_yscale('log')`
+- `ax.semilogx`, `ax.semilogy`, `ax.loglog`
+- `ax.tick_params(...)`
 
-#### (B) Recommended OO style: `plt.subplots(...)`
 ```python
-fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(9, 4))
-axes[0].plot(xs, ysV);  axes[0].set_title("Verlet"); axes[0].legend()
-axes[1].plot(xs, ysVV); axes[1].plot(xs, vsVV); axes[1].set_title("Velocity Verlet"); axes[1].legend()
-axes[2].plot(xs, ysL);  axes[2].plot(xs, vsL);  axes[2].set_title("Leapfrog"); axes[2].legend()
-plt.tight_layout()
-plt.show()
+ax.loglog(hs, errs, "o-")
 ```
 
 ---
 
-### 7) Animation (TDSE notebook)
+## 2.5 Subplots/layout
 
-#### `matplotlib.animation.FuncAnimation`
-Typical pattern:
+- `plt.subplot(r,c,i)` (quick)
+- `plt.subplots(...)` (recommended)
+- `plt.tight_layout()`
+- `fig.subplots_adjust(...)`
+
+---
+
+## 2.6 Images/fields/contours
+
+- `ax.imshow(img, origin='lower', aspect='auto', extent=...)`
+- `ax.contour(X, Y, Z, levels=...)`
+- `ax.contourf(...)`
+- `fig.colorbar(mappable, ax=ax)`
+
+Useful for PDE/TDSE density maps.
+
+---
+
+## 2.7 Twin axes and annotations
+
+- `ax2 = ax.twinx()`
+- `ax.annotate("text", xy=(...), xytext=(...), arrowprops=...)`
+- `ax.axvline`, `ax.axhline`
+
+---
+
+## 2.8 Saving figures
+
+```python
+fig.savefig("result.png", dpi=200, bbox_inches="tight")
+```
+
+Prefer save before `plt.show()` in scripts.
+
+---
+
+## 2.9 Animation
+
+### `matplotlib.animation.FuncAnimation`
 ```python
 from matplotlib.animation import FuncAnimation
 
 fig, ax = plt.subplots()
-line, = ax.plot([], [])
+line, = ax.plot([], [], lw=2)
+
+def init():
+    line.set_data([], [])
+    return (line,)
 
 def update(frame):
     line.set_data(x, y_all[frame])
-    return line,
+    return (line,)
 
-ani = FuncAnimation(fig, update, frames=Nt, interval=30, blit=True)
+ani = FuncAnimation(fig, update, frames=Nt, init_func=init, interval=30, blit=True)
 ```
 
-#### Display in notebooks
+Notebook display:
 ```python
 from IPython.display import HTML
 HTML(ani.to_jshtml())
 ```
 
----
-
-## SciPy
-
-### 1) Import
-
-#### `from scipy.optimize import curve_fit`
+Save animation:
 ```python
-from scipy.optimize import curve_fit
+ani.save("wave.mp4", fps=30)
 ```
 
 ---
 
-### 2) Fitting
+## 3) SciPy (`scipy`)
 
-#### `curve_fit(model_func, xdata, ydata, p0=None)`
-Fits parameters of a model function by least squares.
+## 3.1 Optimization and fitting (`scipy.optimize`)
 
-**Model function must be:** `model(x, p1, p2, ...)`
+### `curve_fit(model, xdata, ydata, p0=None, sigma=None, absolute_sigma=False)`
+Least-squares parameter fit.
 
-Example (line fit; used in your convergence slope plots):
 ```python
-from scipy.optimize import curve_fit
-import numpy as np
-
-def line(x, m, c):
-    return m*x + c
-
-xs = np.log10(hs)
-ys = np.log10(errors)
-
-params, cov = curve_fit(line, xs, ys, p0=[1.0, 1.0])
-m, c = params
+def line(x, m, c): return m*x + c
+popt, pcov = curve_fit(line, x, y, p0=[1,0])
+m, c = popt
+perr = np.sqrt(np.diag(pcov))
 ```
 
-**Parameter uncertainties (optional):**
+### `root_scalar(f, bracket=[a,b], method='brentq')`
+1D root finding (shooting eigenvalue, turning points).
+
 ```python
-sigma = np.sqrt(np.diag(cov))
+sol = root_scalar(f, bracket=[E1, E2], method="brentq")
+E = sol.root
 ```
 
-**Common pitfalls**
-- Wrong argument order in model function (must start with `x`)
-- Bad `p0` for nonlinear models
-- NaN/inf in data (check with `np.isfinite`)
+### `newton(func, x0, fprime=None)` (if imported)
+Newton root-finding, faster near good initial guess.
 
 ---
 
-## Non-library but important patterns present in your notebooks
+## 3.2 ODE integration (`scipy.integrate`)
 
-### A) Log–log convergence slope workflow (derivative/ODE error scaling)
-1. Compute errors vs step size `h`
-2. Transform: `x = log10(h)`, `y = log10(error)`
-3. Fit line using `curve_fit` → slope gives order of method
+### `solve_ivp(fun, t_span, y0, method='RK45', t_eval=None, args=(), rtol=..., atol=...)`
+
+```python
+def rhs(t, y, w):
+    return [y[1], -w**2 * y[0]]
+
+sol = solve_ivp(rhs, (0, 10), [1.0, 0.0], args=(2.0,), t_eval=np.linspace(0,10,500))
+y = sol.y[0]
+```
+
+Methods: `"RK45"`, `"RK23"`, `"DOP853"`, `"Radau"`, `"BDF"` (stiff).
 
 ---
 
-## Note: one code typo that will break execution
-In `(4)Solving-ODEs.ipynb`, midpoint has:
+## 3.3 Interpolation (`scipy.interpolate`)
+
+### `interp1d(x, y, kind='linear', fill_value='extrapolate')`
+
+```python
+f = interp1d(x, y, kind="cubic")
+yq = f(xq)
+```
+
+For smooth postprocessing/comparisons.
+
+---
+
+## 3.4 Linear algebra (`scipy.linalg`)
+
+### `solve_banded((l,u), ab, b)`
+Efficient solver for banded systems (e.g., CN discretizations).
+
+```python
+# tridiagonal => l=u=1
+x = solve_banded((1,1), ab, b)
+```
+
+For plain tridiagonal you may also use your own Thomas algorithm.
+
+---
+
+## 3.5 Sparse matrices (advanced PDE scaling)
+
+- `scipy.sparse.diags`
+- `scipy.sparse.linalg.spsolve`
+
+Useful when Nx is very large.
+
+---
+
+## 4) Core numerical method patterns (PH3205)
+
+## 4.1 Convergence/order estimation
+
+1. Compute errors for many `h`
+2. `x = log10(h)`, `y = log10(err)`
+3. fit `y = m x + c` via `curve_fit`
+4. slope `m` = order
+
+---
+
+## 4.2 ODE state conventions
+
+Use first-order system form:
+```python
+y = [position, velocity]
+```
+Return derivative as same-length vector.
+
+---
+
+## 4.3 Time-stepping preallocation
+
+```python
+ys = np.zeros((N, nvar))
+ys[0] = y0
+for i in range(N-1):
+    ...
+```
+
+---
+
+## 4.4 Crank–Nicolson template
+
+- Build tridiagonal A and B once
+- Loop in time: `A u^{n+1} = B u^n + bc`
+- Solve with Thomas or banded solver
+- Enforce boundary conditions each step
+
+---
+
+## 4.5 Shooting method template (BVP/eigenvalue)
+
+- Guess parameter (e.g., energy `E`)
+- Integrate IVP
+- Define mismatch at boundary
+- Root-find mismatch in parameter
+
+---
+
+## 5) Common pitfalls checklist
+
+1. **Ragged arrays** → `dtype=object` breaks numerics  
+2. **`arange` with floats** misses endpoint  
+3. **In-place overwrite** in stepping (`u_old = u` bug)  
+4. **Shape mismatch** in broadcasting  
+5. **Using `inv(A)@b`** instead of `solve(A,b)`  
+6. **Log of non-positive values** in convergence plots  
+7. **Model signature wrong in `curve_fit`** (`model(x,...)` required)  
+8. **Unstable explicit timestep** for diffusion/Schrödinger schemes  
+9. **Forgetting BC updates** each iteration  
+10. **Unnormalized wavefunction/probability drift** without checks
+
+---
+
+## 6) Quick “which tool when?”
+
+- Grid with fixed **step** → `np.arange`
+- Grid with fixed **point count** → `np.linspace`
+- Store trajectories/fields → `np.zeros`, `np.full`
+- Exact/reference solutions → vectorized `np.sin/np.cos/np.exp`
+- Error norms → `np.abs`, `np.linalg.norm`, `np.max`
+- Nearest index → `np.argmin(np.abs(x-x0))`
+- Fit order → `curve_fit` on log-log data
+- Robust IVP solve → `solve_ivp`
+- Tridiagonal CN solve → Thomas / `solve_banded`
+- Publication plots → `fig, ax = plt.subplots`, labels, legend, grid, savefig
+- Animations → `FuncAnimation`
+
+---
+
+## 7) One typo fix from your note
+
+In midpoint code, replace:
 ```python
 k1 = h * f1(x, y)cz
 ```
-This `cz` is a typo. It should be:
+with:
 ```python
 k1 = h * f1(x, y)
 ```
 
 ---
 
-## Quick checklist: “Which tool when?”
-- **Make grids**: `np.arange` (fixed step), `np.linspace` (fixed count)
-- **Store results**: `np.zeros`, `np.full`
-- **Exact solutions**: `np.sin`, `np.cos`, `np.exp`
-- **Error**: `np.abs`, log plots: `np.log10`
-- **Find special index**: `np.where(...)` (works), `np.argmin(abs(...))` (cleaner)
-- **Plot**: `plt.plot` (line), `plt.scatter` (points), `plt.legend`, `plt.grid`
-- **Order estimation**: `scipy.optimize.curve_fit`
+## 8) Minimal import presets by task
+
+### ODE lab
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.integrate import solve_ivp
+from scipy.optimize import curve_fit
+```
+
+### PDE/CN lab
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.linalg import solve_banded
+```
+
+### Shooting/eigenvalue lab
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import root_scalar
+from scipy.integrate import solve_ivp
+```
