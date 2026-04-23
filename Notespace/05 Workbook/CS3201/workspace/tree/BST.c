@@ -8,43 +8,21 @@ typedef struct BST_Node {
   struct BST_Node *p; // parent_pointer
 } Node;
 
-void preorder(Node *x);
-Node *createNode(int key);
-void override_child(int key, Node *parent_pointer, char side);
-Node *BST_Search(int key, Node *root);
-Node *BST_Insert(int newkey, Node *root);
-
-int main() {
-  // Initializing a new tree
-  Node *root = createNode(20);
-
-  // Adding values
-  override_child(24, root, 'R');
-  override_child(18, root, 'L');
-  override_child(8, root->left, 'L');
-
-  // Travarsal
-  preorder(root);
-  printf("\n\n");
-
-  // Searching
-  Node *found = BST_Search(18, root);
-  if (found != NULL) {
-    printf("%d\n", found->key);
-  }
-
-  // Inserting
-  root = BST_Insert(15, root);
-  root = BST_Insert(22, root);
-  preorder(root);
-  printf("\n\n");
-  return 0;
+// Utility function to create a new BST node
+Node *createNode(int key) {
+  Node *newNode = (Node *)malloc(sizeof(Node));
+  newNode->key = key;
+  newNode->left = NULL;
+  newNode->right = NULL;
+  newNode->p = NULL;
+  return newNode;
 }
 
+// Search operation
 Node *BST_Search(int key, Node *root) {
   Node *x = root;
 
-  // Fixed logic: must be && to prevent reading from a NULL pointer
+  // Traverse the tree until we reach a NULL leaf or find the key
   while (x != NULL && key != x->key) {
     if (key < x->key) {
       x = x->left;
@@ -53,28 +31,21 @@ Node *BST_Search(int key, Node *root) {
     }
   }
 
-  // Checking if x is valid before checking its key
+  // Check if we found it or hit a dead end
   if (x != NULL && x->key == key) {
-    printf("yippie, found it.\n");
     return x;
   } else {
     return NULL;
   }
 }
 
+// Insert operation
 Node *BST_Insert(int newkey, Node *root) {
-  // initializing the new node: z
-  Node *z = (Node *)malloc(sizeof(Node));
-  z->key = newkey;
-  z->left = NULL;
-  z->right = NULL;
-  z->p = NULL;
-
-  // Other useful pointers
+  Node *z = createNode(newkey);
   Node *y = NULL;
   Node *x = root;
 
-  // Finding the insertion point
+  // Find the correct insertion point
   while (x != NULL) {
     y = x;
     if (z->key < x->key) {
@@ -82,61 +53,82 @@ Node *BST_Insert(int newkey, Node *root) {
     } else {
       x = x->right;
     }
-  } // til its end, y will get to the point
+  }
 
-  // Inserting the new node
-  z->p = y; // child to parent connection
+  // Connect new node to its parent
+  z->p = y; 
   if (y == NULL) {
-    root = z; // empty tree
+    root = z; // The tree was empty
   } else if (z->key < y->key) {
     y->left = z;
   } else {
     y->right = z;
   }
+  
   return root;
 }
 
-void preorder(Node *x) {
-  if (x != NULL) {
-    printf("%d\t", x->key);
-    preorder(x->left);
-    preorder(x->right);
+// Finds the leftmost leaf of a given subtree
+Node *BST_Minimum(Node *x) {
+  while (x->left != NULL) {
+    x = x->left;
   }
-}
-// Utility function to create a new BST node
-Node *createNode(int key) {
-  Node *newNode = (Node *)malloc(sizeof(Node));
-  newNode->key = key;
-  newNode->left = NULL;
-  newNode->right = NULL;
-  newNode->p = NULL;
-  // newNode->height = 1; // No height in BST.
-  return newNode;
+  return x;
 }
 
-void override_child(int key, Node *parent_pointer, char side) {
-  // This function adds/replaces one node forcefully
-
-  Node *n = malloc(sizeof(Node));
-  if (n == NULL) {
-    return;
+// Utility function that replaces one subtree as a child of its parent with another subtree
+void BST_Transplant(Node **root, Node *u, Node *v) {
+  // If u is the root, v becomes the new root
+  if (u->p == NULL) {
+    *root = v;
+  } 
+  // If u is a left child, replace u with v
+  else if (u == u->p->left) {
+    u->p->left = v;
+  } 
+  // If u is a right child, replace u with v
+  else {
+    u->p->right = v;
   }
-  if (side == 'R') {
-    parent_pointer->right = n;
-  } else if (side == 'L') {
-    parent_pointer->left = n;
-  } else {
-    return;
+  
+  // Connect v back to u's parent (if v is not NULL)
+  if (v != NULL) {
+    v->p = u->p;
   }
-  n->p = parent_pointer;
-  n->key = key;
-  n->left = NULL;
-  n->right = NULL;
-  // n->height = 1;
+}
 
-  /* // parent height updater */
-  /* Node *H = parent_pointer; */
-  /* while (H != NULL) { */
-  /*   H->height = 1 + maxint(Height(H->left), Height(H->right)); */
-  /*   H = H->p; */
+// Delete operation
+Node *BST_Delete(Node *root, Node *z) {
+  if (z == NULL) return root;
+
+  // Case 1: No left child
+  if (z->left == NULL) {
+    BST_Transplant(&root, z, z->right);
+  } 
+  // Case 2: No right child
+  else if (z->right == NULL) {
+    BST_Transplant(&root, z, z->left);
+  } 
+  // Case 3: Node has two children
+  else {
+    // Find the successor (minimum of the right subtree)
+    Node *y = BST_Minimum(z->right);
+    
+    // If the successor is not z's immediate right child
+    if (y->p != z) {
+      BST_Transplant(&root, y, y->right);
+      y->right = z->right;
+      y->right->p = y;
+    }
+    
+    // Replace z with y
+    BST_Transplant(&root, z, y);
+    y->left = z->left;
+    y->left->p = y;
+  }
+  
+  // Optional: free the memory of the deleted node
+  free(z);
+  
+  return root;
 }
