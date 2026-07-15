@@ -49,8 +49,11 @@ var __async = (__this, __arguments, generator) => {
 
 // src/main.ts
 __export(exports, {
-  default: () => Doubleshift2,
-  findCommand: () => findCommand
+  default: () => Doubleshift3,
+  findCommand: () => findCommand,
+  formatKeyForDisplay: () => formatKeyForDisplay,
+  formatKeyForDisplayUppercase: () => formatKeyForDisplayUppercase,
+  migrateKeyValue: () => migrateKeyValue
 });
 var import_obsidian4 = __toModule(require("obsidian"));
 
@@ -88,7 +91,7 @@ var ShortcutCreator = class {
     let shortcut = new class {
       constructor() {
         this.command = "";
-        this.key = "Shift";
+        this.key = "ShiftLeft";
         this.lastKeyUpTime = Date.now();
       }
     }();
@@ -115,7 +118,7 @@ var KeySelector = class extends import_obsidian2.Modal {
     instructionEl.style.top = "1";
     instructionEl.style.fontSize = "12px";
     let shiftEl = document.createElement("h1");
-    shiftEl.textContent = this.shortcut.key === " " ? "SPACE" : this.shortcut.key.toUpperCase();
+    shiftEl.textContent = formatKeyForDisplayUppercase(this.shortcut.key);
     shiftEl.style.textAlign = "center";
     shiftEl.style.paddingTop = "50px";
     shiftEl.style.paddingBottom = "50px";
@@ -137,8 +140,8 @@ var KeySelector = class extends import_obsidian2.Modal {
     this.close();
   }
   detectKeypress(event, element) {
-    element.textContent = event.key === " " ? "SPACE" : event.key.toUpperCase();
-    this.key = event.key;
+    element.textContent = formatKeyForDisplayUppercase(event.code);
+    this.key = event.code;
   }
   onClose() {
     let { contentEl } = this;
@@ -171,7 +174,7 @@ var DoubleshiftSettings = class extends import_obsidian3.PluginSettingTab {
     this.plugin.settings.shortcuts.forEach((shortcut) => {
       let available = findCommand(shortcut.command) !== null;
       let s = new import_obsidian3.Setting(containerEl).addButton((component) => {
-        component.setTooltip("change key").setButtonText(shortcut.key === " " ? "Space" : shortcut.key).onClick(() => {
+        component.setTooltip("change key").setButtonText(formatKeyForDisplay(shortcut.key)).onClick(() => {
           let sel = new KeySelector(this.app, this.plugin, shortcut);
           sel.open();
         });
@@ -212,6 +215,29 @@ var DoubleshiftSettings = class extends import_obsidian3.PluginSettingTab {
 };
 
 // src/main.ts
+function formatKeyForDisplay(code) {
+  if (code === " " || code === "Space")
+    return "Space";
+  const modifierPattern = /^(Shift|Control|Meta|Alt)(Left|Right)$/;
+  const match = code.match(modifierPattern);
+  if (match)
+    return `${match[1]} ${match[2]}`;
+  return code;
+}
+function formatKeyForDisplayUppercase(code) {
+  const formatted = formatKeyForDisplay(code);
+  return formatted === "Space" ? "SPACE" : formatted.toUpperCase();
+}
+function migrateKeyValue(oldKey) {
+  var _a;
+  const legacyMapping = {
+    "Shift": "ShiftLeft",
+    "Control": "ControlLeft",
+    "Meta": "MetaLeft",
+    "Alt": "AltLeft"
+  };
+  return (_a = legacyMapping[oldKey]) != null ? _a : oldKey;
+}
 function findCommand(a) {
   let commands = Object.values(this.app.commands.commands);
   for (let i = 0; i < commands.length; i++) {
@@ -224,19 +250,28 @@ function findCommand(a) {
 }
 var DEFAULT_SETTINGS = {
   delay: 500,
-  key: "Shift",
+  key: "ShiftLeft",
   shortcuts: [new class {
     constructor() {
       this.command = "command-palette:open";
-      this.key = "Shift";
+      this.key = "ShiftLeft";
       this.lastKeyUpTime = Date.now();
     }
   }()]
 };
-var Doubleshift2 = class extends import_obsidian4.Plugin {
+var Doubleshift3 = class extends import_obsidian4.Plugin {
   loadSettings() {
     return __async(this, null, function* () {
-      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+      const loadedSettings = yield this.loadData();
+      this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedSettings);
+      if (this.settings.shortcuts) {
+        this.settings.shortcuts.forEach((shortcut) => {
+          shortcut.key = migrateKeyValue(shortcut.key);
+        });
+      }
+      if (loadedSettings) {
+        yield this.saveSettings();
+      }
       this.refreshCommands();
     });
   }
@@ -253,12 +288,12 @@ var Doubleshift2 = class extends import_obsidian4.Plugin {
       yield this.loadSettings();
       this.settingsTab = new DoubleshiftSettings(this.app, this, this.commands);
       this.addSettingTab(this.settingsTab);
-      this.registerDomEvent(window, "keyup", (event) => this.doubleshift(event.key));
+      this.registerDomEvent(window, "keyup", (event) => this.doubleshift(event.code));
     });
   }
-  doubleshift(key) {
+  doubleshift(code) {
     this.settings.shortcuts.forEach((shortcut) => {
-      if (key !== shortcut.key) {
+      if (code !== shortcut.key) {
         shortcut.lastKeyUpTime = 0;
         return;
       }

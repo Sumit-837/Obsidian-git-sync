@@ -8,24 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "859eb2df865b6036",
+            "id": "7428f84e8cad64b4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "0702225v2"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
-            "id": "1e857aa15fc55224",
+            "id": "ece082563af318c8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-07-14 20.48.30.excalidraw"
+            }
+          },
+          {
+            "id": "997d1d97775691ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Rough Things/PH3203-TOC-23ms114-notes.md",
+                "file": "04 Handbook/Opening GUI Apps with X11.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +50,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PH3203-TOC-23ms114-notes"
+              "title": "Opening GUI Apps with X11"
             }
           }
         ],
@@ -76,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:cs50w",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -216,12 +227,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "smart-composer:Open smart composer": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "handwritten-notes:Create empty handwritten note": false,
+      "petrify:Petrify: sync": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -229,46 +235,55 @@
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "markdown-importer:Open format converter": false,
-      "zk-prefixer:Create new unique note": false
+      "zk-prefixer:Create new unique note": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "smart-composer:Open smart composer": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "xournalpp:Create new Xournal++ note": false,
+      "handwritten-notes:Create empty handwritten note": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e857aa15fc55224",
+  "active": "ece082563af318c8",
   "lastOpenFiles": [
-    "01 Rough Things/PH3203-TOC-23ms114-notes.md",
-    "01 Rough Things/PH3101-exam-planner.md",
-    "01 Rough Things/PH3202-TOC.md",
-    "01 Rough Things/PH3203-study-ct2.md",
-    "cm.md",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/topics5.pdf",
-    "Ph3201 prep.md",
-    "PH3205-methods-template-snippets.md",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/0702225v2.pdf",
-    "00 Resources/IISER-K/PH3203/Term Paper Qtm/quantum-computation-and-quantum-information-nielsen-chuang.pdf",
-    "01 Rough Things/Django-CS50W-vid.md",
-    "01 Rough Things/Expt-02-Structure.md",
-    "01 Rough Things/H.Notes-PH3203-Sneha.md",
-    "01 Rough Things/Laptop Recommendations.md",
-    "PH3205-python-toolbox.md",
-    "05 Workbook/PH3205/Tests/ct2.pdf",
-    "00 Resources/IISER-K/CS3201/(10)Hashing.pdf",
-    "05 Workbook/CS3201/workspace/tree/bfs-dfs.c",
-    "05 Workbook/CS3201/workspace/tree/Huff.c",
-    "00 Resources/IISER-K/CS3201/(9)trieAndMore.pdf",
-    "00 Resources/IISER-K/CS3201/(8)moreHeightBalancedTrees.pdf",
-    "00 Resources/IISER-K/CS3201/(12)Huffman Coding.pdf",
-    "01 Rough Things/PH3205-study-plan.md",
-    "03 Permanent Notes/C-Array as Function Output.md",
-    "05 Workbook/PH3203/term paper/IBMQ_QKD/README.md",
-    "01 Rough Things/PH3203-study-plan-after-midsem.md",
-    "01 Rough Things/Types of ODEs.md",
-    "01 Rough Things/Scientific Workout Routeine.md",
-    "00 Resources/Books/Untitled.md",
-    "01 Rough Things/Stat Mech Mid sem prep.md",
+    "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-14 16.57.13.excalidraw.md",
+    "04 Handbook/Linux Terminal Scribbles.md",
+    "04 Handbook/Running VNC Server.md",
+    "04 Handbook/Opening GUI Apps with X11.md",
+    "04 Handbook/Obsidian Markdown Cheatsheet.md",
+    "04 Handbook/Julia vs Python.md",
     "04 Handbook/Latex guide.md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec5-Data Structures.md",
-    "02 Literature Notes/IISER-K-lit/Note-CS3201-Linked-Lists(inc).md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec4-Memory.md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec3-Algorithms.md",
+    "Excalidraw/Drawing 2026-07-14 16.57.12.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-08 12.58.49.excalidraw.md",
+    "Excalidraw/Drawing 2026-07-08 12.58.49.excalidraw.restored.md",
+    "01 Rough Things/Types of ODEs.md",
+    "Excalidraw/Untitled.md",
+    "Excalidraw/undefined.xopp",
+    "01 Rough Things/Untitled.base",
+    "01 Rough Things/rough xournal 1.xopp",
+    "01 Rough Things/Plan 2.md",
+    "01 Rough Things/Master_Study_Plan_Vacation2026.md",
+    "00 Resources/IISER-K/Semester 6/PH3201/laplace-method-integrals.pdf",
+    "Excalidraw",
+    "00 Resources/MIT/TDPT-MIT-Zubach.pdf",
+    "05 Workbook/Sem 6",
+    "00 Resources/IISER-K/Semester 6",
+    "00 Resources/Books/Integrated Electronics Anal_ (Z-Library).pdf",
+    "01 Rough Things/Mythos Plan.md",
+    "00 Resources/Books/Introduction to Quantum Mec_3rdEd_ (Z-Library).pdf",
+    "03 Permanent Notes/C-Array as Function Output.md",
+    "01 Rough Things/Plan.md",
+    "01 Rough Things/Vacation_2026_Study_Plan.md",
+    "01 Rough Things/Scientific Workout Routeine.md",
+    "01 Rough Things/Note-PH3102-Lec3.md",
+    "01 Rough Things/OOP-Python-Indently.yt-vid.md",
+    "00 Resources/IISER-K/PH3203/Term Paper Qtm/Summer Study Plan.md",
+    "cm.md",
+    "02 Literature Notes/CS50W-HTML-CSS.md",
+    "04 Handbook/Git Cheatsheet.md",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
