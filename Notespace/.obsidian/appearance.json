@@ -1,5 +1,9 @@
 {
   "theme": "system",
-  "cssTheme": "Wasp",
-  "accentColor": "#8672ee"
+  "cssTheme": "AnuPpuccin",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "caelestia-accent",
+    "extended-colorschemes"
+  ]
 }

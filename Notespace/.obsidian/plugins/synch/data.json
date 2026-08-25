@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "apiBaseUrl": "https://api.synch.run",
+    "fileRules": {
+      "includeImages": true,
+      "includeAudio": true,
+      "includeVideos": true,
+      "includePdf": true,
+      "includeOtherFiles": false,
+      "excludedFolders": [],
+      "includedHiddenFolders": []
+    },
+    "vaultConfigSync": {
+      "enabled": false,
+      "mainSettings": true,
+      "appearance": true,
+      "themesAndSnippets": true,
+      "hotkeys": true,
+      "corePluginList": true,
+      "corePluginData": true,
+      "communityPluginList": false,
+      "communityPluginFiles": false,
+      "communityPluginData": false
+    },
+    "syncEnabled": false,
+    "syncIntervalMs": 0
+  }
+}
