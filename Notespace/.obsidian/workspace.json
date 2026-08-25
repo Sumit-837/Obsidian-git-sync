@@ -23,12 +23,24 @@
             "id": "59bb91752e17e991",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "00 Resources/IISER-K/Semester 2/STR-Adg-PH2102-2024.pdf"
+                "file": "01 Rough Things/Python-CS50W-vid.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "STR-Adg-PH2102-2024"
+              "icon": "lucide-file",
+              "title": "Python-CS50W-vid"
             }
           }
         ],
@@ -227,6 +239,8 @@
   },
   "active": "59bb91752e17e991",
   "lastOpenFiles": [
+    "01 Rough Things/Scientific Workout Routeine.md",
+    "00 Resources/IISER-K/Semester 2/STR-Adg-PH2102-2024.pdf",
     "01 Rough Things/PH4107_Study_Plan.md",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "01 Rough Things/Mythos Plan.md",
@@ -235,7 +249,6 @@
     "00 Resources/Harvard/CS50/Note-CS50W-Lec3-Django.md",
     "00 Resources/Books/David J. Griffiths-Introduction to Electrodynamics-Addison-Wesley (2012).pdf",
     "00 Resources/IISER-K/Semester 5/PH3101/Note-PH3101-Lec2.pdf",
-    "00 Resources/IISER-K/Semester 2/STR-Adg-PH2102-2024.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
     "00 Resources/IISER-K/Semester 2",
     "04 Handbook/Git Cheatsheet.md",
@@ -256,13 +269,11 @@
     "Excalidraw/Excalidraw Tutorial.md",
     "00 Resources/Vid-Bash Scripting-Learn Linux TV.md",
     "01 Rough Things/Types of ODEs.md",
-    "01 Rough Things/Scientific Workout Routeine.md",
     "01 Rough Things/Stat Mech Mid sem prep.md",
     "01 Rough Things/Note-PH3102-Lec3.md",
     "01 Rough Things/Master_Study_Plan_Vacation2026.md",
     "01 Rough Things/Django-CS50W-vid.md",
     "01 Rough Things/Laptop Recommendations.md",
-    "01 Rough Things/Expt-02-Structure.md",
     "Excalidraw/Pasted Image 20260716170035_245.png",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",

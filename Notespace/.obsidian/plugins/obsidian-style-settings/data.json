@@ -119,5 +119,7 @@
   "anuppuccin-theme-settings@@ctp-custom-subtext0@@dark": "#9F88C9",
   "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-solarized-dark",
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": false,
-  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true
+  "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
+  "zen@@win-translucent-off": true,
+  "zen@@win-window-opacity": 0.46
 }
