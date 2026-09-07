@@ -43,6 +43,10 @@
   color: var(--text-warning);
 }
 
+.synch-storage-needs-more .setting-item-description {
+  color: var(--text-error);
+}
+
 .synch-status-bar {
   align-items: center;
   color: var(--text-muted);
@@ -50,10 +54,6 @@
   display: inline-flex;
   justify-content: center;
   min-width: 1.4em;
-}
-
-.synch-status-bar.synch-status-active .synch-status-bar-icon {
-  animation: synch-spin 0.9s linear infinite;
 }
 
 .synch-status-bar.synch-status-up-to-date {
@@ -68,6 +68,10 @@
 
 .synch-status-bar.synch-status-storage-warning {
   color: var(--text-warning);
+}
+
+.synch-status-bar.synch-status-storage-needs-more {
+  color: var(--text-error);
 }
 
 .synch-status-bar-icon {
@@ -110,6 +114,10 @@
 
 .synch-mobile-status-indicator.synch-status-storage-warning {
   color: var(--text-warning);
+}
+
+.synch-mobile-status-indicator.synch-status-storage-needs-more {
+  color: var(--text-error);
 }
 
 .synch-mobile-status-indicator-icon {
@@ -179,7 +187,6 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .synch-status-bar.synch-status-active .synch-status-bar-icon,
   .synch-sync-spinner {
     animation: none;
   }
@@ -527,4 +534,33 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.synch-presence-caret {
+  border-left: 2px solid currentColor;
+  display: inline-block;
+  height: 1.15em;
+  margin-left: -1px;
+  pointer-events: none;
+  position: relative;
+}
+
+.synch-presence-caret-label {
+  border-radius: 3px;
+  color: var(--text-on-accent);
+  font-size: 10px;
+  left: 0;
+  line-height: 1.3;
+  opacity: 1;
+  padding: 0 0.3rem;
+  pointer-events: none;
+  position: absolute;
+  top: -1.25em;
+  white-space: nowrap;
+}
+
+.synch-presence-selection {
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
