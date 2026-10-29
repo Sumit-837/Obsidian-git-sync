@@ -1,0 +1,4 @@
+- Its not "the shortest path" or "The straight  line distance"
+- Its the straightest path possible/ stable path.
+- Its a path that follows only along the curvature of surface/space.
+- If we flatten the surface into a plane, the geodesic will be straight line.

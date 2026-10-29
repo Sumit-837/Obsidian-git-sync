@@ -4,23 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "fea821443b218bc1",
+        "id": "288372ea054a5643",
         "type": "tabs",
         "children": [
           {
-            "id": "296720c69a4e571d",
+            "id": "e32f6646155c5078",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.md"
+                "file": "01 Rough Things/Django-CS50W-vid.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-07-14 20.48.30.excalidraw"
+              "icon": "lucide-file",
+              "title": "Django-CS50W-vid"
             }
           },
           {
-            "id": "e571397379a7ee70",
+            "id": "cae4ec86da90aa5b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/DielectricConstant_Phase_Transition_BTO.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "DielectricConstant_Phase_Transition_BTO"
+            }
+          },
+          {
+            "id": "435656ac50fcfeb1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -32,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "3e9c52b2ddef3287",
@@ -214,7 +237,6 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
@@ -223,48 +245,50 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "xournalpp:Create new Xournal++ note": false,
       "handwritten-notes:Create empty handwritten note": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "tldraw:Create new tldrawing": false
     }
   },
-  "active": "799f09fcd465da30",
+  "active": "435656ac50fcfeb1",
   "lastOpenFiles": [
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/DielectricConstant_Phase_Transition_BTO.pdf",
+    "01 Rough Things/Geodesics.md",
+    "01 Rough Things/Django-CS50W-vid.md",
+    "Excalidraw/Untitled.md",
     "Excalidraw/GTR Exam Prep.md",
-    "Pasted Image 20260906185915_480.png",
-    "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.md",
-    "00 Resources/IISER-K/Semester 2/STR-Adg-PH2102-2024.pdf",
-    "Excalidraw/cropped_PH3102-Endsem-2024.md",
-    "00 Resources/IISER-K/Semester 7/PH4102 - Astrophysics/overview.pdf",
-    "01 Rough Things/PH4107_Study_Plan.md",
-    "00 Resources/IISER-K/Semester 7/PH4102 - Astrophysics/lecture1.pdf",
-    "00 Resources/IISER-K/Semester 7/PH4102 - Astrophysics/radiative_transfer.pdf",
-    "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.restored.md",
     "Excalidraw/Excalidraw Tutorial.md",
+    "Excalidraw/Drawing 2026-09-08 15.22.15.excalidraw.md",
+    "Excalidraw/cropped_PH3102-Endsem-2024.md",
+    "00 Resources/IISER-K/Semester 7/PH4113 - General Relativity/Notes-PH4113-typed-2025.pdf",
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/ResistivityFourProbe.pdf",
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/quinckes manual_4.pdf",
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/Magnetoesistance_3.pdf",
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/HysteresisLoop_5.pdf",
+    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/Dielectric Constant of Solids and Liquids.pdf",
+    "Untitled.md",
+    "00 Resources/IISER-K/Semester 7/CS4103 - AI for Data Science/Lecture_18.pdf",
+    "00 Resources/IISER-K/Semester 7/CS4103 - AI for Data Science/Lecture_17.pdf",
+    "00 Resources/IISER-K/Semester 7/CS4103 - AI for Data Science/Lecture_16.pdf",
+    "00 Resources/IISER-K/Semester 7/CS4103 - AI for Data Science/Lecture_08.pdf",
+    "05 Workbook/Sem 7/Untitled.md",
+    "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.md",
+    "tldraw/Tldraw 2026-09-08 3.03PM.md",
+    "Pasted Image 20260906185915_480.png",
+    "Excalidraw/Pasted Image 20260716170035_245.png",
+    "01 Rough Things/PH4107_Study_Plan.md",
+    "Excalidraw/Drawing 2026-07-14 20.48.30.excalidraw.restored.md",
     "Excalidraw/Drawing 2026-08-18 08.58.35.excalidraw.md",
     "Excalidraw/Drawing 2026-09-03 14.30.09.excalidraw.md",
-    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/DielectricConstant_Phase_Transition_BTO.pdf",
-    "00 Resources/IISER-K/Semester 7/PH4103 - (Lab) Condensed Matter/PH4103 Manuals/DHE-33 Temperature dependendence of hall effect (New).pdf",
     "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec3-Algorithms.md",
-    "00 Resources/Books/David J. Griffiths-Introduction to Electrodynamics-Addison-Wesley (2012).pdf",
     "01 Rough Things/Plan 2.md",
     "01 Rough Things/Mythos Plan.md",
-    "05 Workbook/Sem 7/PH4107/Assignment1_2026.pdf",
     "00 Resources/Harvard/CS50/Note-CS50W-Lec3-Django.md",
     "01 Rough Things/Python-CS50W-vid.md",
     "01 Rough Things/Scientific Workout Routeine.md",
     "01 Rough Things/OOP-Python-Indently.yt-vid.md",
     "04 Handbook/Create markdown note from any website.md",
-    "00 Resources/IISER-K/Semester 5/PH3101/Note-PH3101-Lec2.pdf",
     "02 Literature Notes/IISER-K-lit/Note-CS3101-Pointers(inc).md",
-    "00 Resources/IISER-K/Semester 2",
     "04 Handbook/Git Cheatsheet.md",
-    "06 Tags/Classical Mechanics.md",
-    "03 Permanent Notes/C-Operator-'&'.md",
-    "03 Permanent Notes/C-Evaluation while returning value in function (inc).md",
-    "00 Resources/Harvard/CS50/Note-CS50W-Lec2-Python.md",
-    "03 Permanent Notes/C-Array of Strings.md",
-    "00 Resources/Harvard/CS50/Note-CS50X-2025-Lec1-C.md",
-    "00 Resources/Vid-Bash Scripting-Learn Linux TV.md",
-    "Excalidraw/Pasted Image 20260716170035_245.png",
     "05 Workbook/PH3101/Tests/PH3101-Midsem-2025.jpg",
     "05 Workbook/PH3105/Expt-3/plot1.png",
     "05 Workbook/PH3105/Expt-3/plot2.png",
